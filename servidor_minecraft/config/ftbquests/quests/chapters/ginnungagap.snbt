@@ -1,0 +1,13 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "ginnungagap"
+	group: "635BA1166DF0AF30"
+	icon: {
+		id: "minecraft:trial_key"
+	}
+	id: "755CD223A917F458"
+	order_index: 6
+	quest_links: [ ]
+	quests: [ ]
+}

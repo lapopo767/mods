@@ -1,0 +1,16 @@
+{
+  "spell.spellbladenext.vaulting_slam_minor.name": "Vaulting Slam",
+  "spell.spellbladenext.vaulting_slam_minor.description": "Use your weapon to vault into the air, slamming at the end of the cast for {damage} physical damage in an area. You are invulnerable while vaulting.",
+  "spell.oathswornpaladins.resonating_shield.description": "Slam your shield with your weapon, dealing {damage} armor based damage in an area. You count as blocking while channeling this ability.",
+  "item.power.level": "♦ Power Level: %s",
+  "difficulty.type.overworld_dungeon": "Dungeon ♦",
+  "difficulty.type.high_level_overworld": "Dungeon ☠",
+  "difficulty.type.nether_dungeon": "Dungeon ♦",
+  "difficulty.type.high_level_nether": "Dungeon ☠",
+  "difficulty.type.end_dungeon": "Dungeon ♦",
+  "difficulty.type.high_level_end": "Dungeon ☠",
+  "difficulty.type.overworld_bosses": "Your tale starts here... ♦",
+  "difficulty.type.nether_bosses": "Cries echo throughout... ♦",
+  "difficulty.type.end_bosses": "The Void stares back at you... ♦",
+  "difficulty.type.eternal_starlight": "Starlight Story ♦"
+}

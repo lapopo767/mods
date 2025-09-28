@@ -1,0 +1,36 @@
+{
+  "dynamicCursor": true,
+  "clickAnimation": false,
+  "cursors": {
+    "hand_grab": {
+      "xHotSpot": 0,
+      "yHotSpot": 0,
+      "link": "textures/gui/cursor.png",
+      "size": 32
+    },
+    "beam": {
+      "xHotSpot": 0,
+      "yHotSpot": 0,
+      "link": "textures/gui/cursor.png",
+      "size": 32
+    },
+    "pointer": {
+      "xHotSpot": 0,
+      "yHotSpot": 0,
+      "link": "textures/gui/cursor.png",
+      "size": 32
+    },
+    "cross": {
+      "xHotSpot": 0,
+      "yHotSpot": 0,
+      "link": "textures/gui/cursor.png",
+      "size": 32
+    },
+    "hand": {
+      "xHotSpot": 0,
+      "yHotSpot": 0,
+      "link": "textures/gui/cursor.png",
+      "size": 32
+    }
+  }
+}

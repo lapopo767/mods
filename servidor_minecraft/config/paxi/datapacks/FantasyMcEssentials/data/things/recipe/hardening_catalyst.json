@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nOS",
+    "DND",
+    "SOn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:dragon_egg"
+    },
+    "O": {
+      "item": "minecraft:nether_star"
+    },
+    "S": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "D": {
+      "item": "mythicmetals:metallurgium_ingot"
+    },
+    "N": {
+      "item": "deeperdarker:heart_of_the_deep"
+    }
+  },
+  "result": {
+    "id": "things:hardening_catalyst"
+  }
+}

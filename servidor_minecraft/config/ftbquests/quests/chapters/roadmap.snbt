@@ -1,0 +1,902 @@
+{
+	autofocus_id: "55D3D1173DB987FA"
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "roadmap"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "mobs_of_mythology:item/gear"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "35BDE13BE2C84DF0"
+	images: [
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/white_concrete"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 13.6d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/white_concrete"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 13.6d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/white_concrete"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 13.6d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/white_concrete"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 13.6d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/white_concrete"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 13.6d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			order: 3
+			rotation: 0.0d
+			width: 1.0d
+			x: 16.15d
+			y: 22.099999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 22.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 24.65d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 24.65d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 24.65d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 24.65d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 24.65d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 22.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/white_concrete"
+			order: 1
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 22.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 22.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 22.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 22.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 22.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 21.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 19.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 14.45d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 16.15d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 17.849999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 16.15d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 15.299999999999999d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 15.299999999999999d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -7
+			rotation: 0.0d
+			width: 2.0d
+			x: 17.0d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -7
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -7
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -7
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -7
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -7
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 12.75d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 2.0d
+			x: 11.9d
+			y: 22.099999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 22.099999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 2.0d
+			x: 13.6d
+			y: 22.099999999999998d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 22.099999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:item/campfire"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 20.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/campfire_fire"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.595238095238152d
+			y: 19.86309523809522d
+		}
+		{
+			click: "https://discord.gg/4A9SEahH4U"
+			height: 2.0d
+			hover: [
+				"Give us suggestions on our Discord!"
+				"Click here to join!"
+			]
+			image: "moonlight:textures/gui/sprites/media/discord.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 12.75d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["55D3D1173DB987FA"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:anvil"
+			}
+			id: "329EDCA1F36E3913"
+			tasks: [
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "handcrafted:item/hammer"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5DCD8EAB45AEADF4"
+					optional_task: true
+					type: "custom"
+				}
+				{
+					advancement: "mobs_of_mythology:mobs_of_mythology"
+					criterion: ""
+					disable_toast: true
+					icon: {
+						id: "minecraft:anvil"
+					}
+					id: "2CA2B3D7C40D26B0"
+					type: "advancement"
+				}
+			]
+			x: 10.2d
+			y: 17.849999999999998d
+		}
+		{
+			disable_toast: true
+			id: "55D3D1173DB987FA"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				disable_toast: true
+				id: "333CC0497BB81AB8"
+				type: "advancement"
+			}]
+			x: 13.6d
+			y: 17.849999999999998d
+		}
+		{
+			dependencies: ["55D3D1173DB987FA"]
+			icon: {
+				id: "ftbquests:book"
+			}
+			id: "0F21315FE11349A0"
+			tasks: [
+				{
+					disable_toast: true
+					id: "23E6C431F39422A5"
+					item: { count: 1, id: "ftbquests:book" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "handcrafted:item/hammer"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "72F3F9D7F431817B"
+					type: "custom"
+				}
+			]
+			x: 11.049999999999999d
+			y: 15.299999999999999d
+		}
+		{
+			dependencies: ["55D3D1173DB987FA"]
+			icon: {
+				id: "minecraft:grass_block"
+			}
+			id: "702708E7B485EE75"
+			tasks: [
+				{
+					disable_toast: true
+					id: "4D6580729E087FD9"
+					item: { count: 1, id: "minecraft:grass_block" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "handcrafted:item/hammer"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "177A2A58C690BE56"
+					type: "custom"
+				}
+			]
+			x: 13.6d
+			y: 14.45d
+		}
+		{
+			dependencies: ["55D3D1173DB987FA"]
+			icon: {
+				id: "mobs_of_mythology:gear"
+			}
+			id: "639190A06E1DAB21"
+			tasks: [
+				{
+					disable_toast: true
+					id: "0BB61CFBA3CE2511"
+					item: { count: 1, id: "mobs_of_mythology:gear" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "handcrafted:item/hammer"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "5D1D41FEAE4315AE"
+					type: "custom"
+				}
+			]
+			x: 16.15d
+			y: 15.299999999999999d
+		}
+		{
+			dependencies: ["55D3D1173DB987FA"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/bug"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "69642581EDAB5561"
+			tasks: [
+				{
+					disable_toast: true
+					icon: {
+						components: {
+							"ftbquests:icon": "ftblibrary:icons/bug"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "2152A8A7C4AFEABE"
+					item: { count: 1, id: "minecraft:bedrock" }
+					type: "item"
+				}
+				{
+					icon: {
+						components: {
+							"ftbquests:icon": "handcrafted:item/hammer"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "3309FC1F45080684"
+					type: "custom"
+				}
+			]
+			x: 17.0d
+			y: 17.849999999999998d
+		}
+	]
+}

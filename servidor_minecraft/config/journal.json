@@ -1,0 +1,25 @@
+{
+  "blacklisted_mobs": [
+    "minecraft:armor_stand",
+    "rpg-minibosses:*",
+    "knightquest:netherman_clone",
+    "druids:totem_trail",
+    "simplyswords:simplybeeentity",
+    "simplyswords:battlestandarddark",
+    "formidulus:bulwark",
+    "the_bumblezone:variant_bee",
+    "hexblade:hexbladeportal",
+    "formidulus:irrlicht",
+    "friendsandfoes:player_illusion",
+    "druids:summon_totem",
+    "adventurez:void_fragment",
+    "examplemod:badmob",
+    "examplenamespace:*"
+  ],
+  "toast_position": "top_right",
+  "record_discovery_timestamp": true,
+  "show_discovery_date": true,
+  "mob_check_interval": 40,
+  "mob_check_radius": 8.0,
+  "current_version": "1.2.9"
+}

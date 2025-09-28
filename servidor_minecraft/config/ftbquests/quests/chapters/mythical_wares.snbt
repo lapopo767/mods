@@ -1,0 +1,149 @@
+{
+	autofocus_id: "0408D25E9D7A4424"
+	default_hide_dependency_lines: true
+	default_quest_shape: ""
+	default_quest_size: 2.0d
+	filename: "mythical_wares"
+	group: "334CA8F70B6DE4C1"
+	icon: {
+		id: "eternal_starlight:starlight_silver_coin"
+	}
+	id: "206ED07CB829ADC3"
+	images: [
+		{
+			height: 2.0d
+			image: "supplementaries:block/pedestal_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "supplementaries:block/pedestal_side"
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["Under renovation!"]
+			image: "biomeswevegone:item/white_mangrove/hanging_sign"
+			order: 6
+			rotation: 0.0d
+			width: 2.0d
+			x: -2.55d
+			y: -3.4d
+		}
+	]
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["48053244F0BE8606"]
+			icon: {
+				id: "eternal_starlight:starlight_silver_coin"
+			}
+			id: "0408D25E9D7A4424"
+			rewards: [{
+				id: "547C641CE6C7D4B3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				id: "3220E6A6394C22D1"
+				type: "checkmark"
+			}]
+			x: -2.6190476190476275d
+			y: -0.057142857142864045d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0408D25E9D7A4424"]
+			id: "470C8099BDEC3699"
+			rewards: [{
+				id: "08408818A9447154"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							yggdrasil: {
+								id: "yggdrasil.generic.treasure.divine_key"
+							}
+						}
+						"minecraft:enchantments": {
+							levels: {
+								"yggdrasil:divine_key": 1
+							}
+							show_in_tooltip: 0b
+						}
+						"minecraft:item_name": "{\"bold\":true,\"color\":\"#FFBB00\",\"fallback\":\"Divine Key\",\"translate\":\"item.yggdrasil.divine_key.key\",\"type\":\"translatable\"}"
+						"minecraft:lore": [
+							"{\"color\":\"#A0A0A0\",\"fallback\":\"This key to the gods allows you to open\",\"translate\":\"item.yggdrasil.divine_key.lore.1\",\"type\":\"translatable\"}"
+							"{\"color\":\"#A0A0A0\",\"fallback\":\"a previously sealed Vault or Ominous Vault\",\"translate\":\"a previously sealed Vault or Ominous Vault\",\"type\":\"translatable\"}"
+							"\"\""
+							"{\"bold\":false,\"color\":\"#707070\",\"fallback\":\"[Left click to use]\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"translate\":\"yggdrasil.game_design.left_click_to_use\",\"type\":\"translatable\",\"underlined\":false}"
+						]
+						"minecraft:max_stack_size": 1
+						"minecraft:rarity": "epic"
+					}
+					count: 1
+					id: "minecraft:trial_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 64L
+				id: "4E6F90D46259C423"
+				item: { count: 64, id: "minecraft:trial_key" }
+				type: "item"
+			}]
+			x: -5.1d
+			y: -5.1d
+		}
+		{
+			can_repeat: true
+			dependencies: ["0408D25E9D7A4424"]
+			id: "56EC13E560A9F69D"
+			rewards: [{
+				id: "564CB12F2D758685"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							yggdrasil: {
+								id: "yggdrasil.generic.treasure.divine_key"
+							}
+						}
+						"minecraft:enchantments": {
+							levels: {
+								"yggdrasil:divine_key": 1
+							}
+							show_in_tooltip: 0b
+						}
+						"minecraft:item_name": "{\"bold\":true,\"color\":\"#FFBB00\",\"fallback\":\"Divine Key\",\"translate\":\"item.yggdrasil.divine_key.key\",\"type\":\"translatable\"}"
+						"minecraft:lore": [
+							"{\"color\":\"#A0A0A0\",\"fallback\":\"This key to the gods allows you to open\",\"translate\":\"item.yggdrasil.divine_key.lore.1\",\"type\":\"translatable\"}"
+							"{\"color\":\"#A0A0A0\",\"fallback\":\"a previously sealed Vault or Ominous Vault\",\"translate\":\"a previously sealed Vault or Ominous Vault\",\"type\":\"translatable\"}"
+							"\"\""
+							"{\"bold\":false,\"color\":\"#707070\",\"fallback\":\"[Left click to use]\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"translate\":\"yggdrasil.game_design.left_click_to_use\",\"type\":\"translatable\",\"underlined\":false}"
+						]
+						"minecraft:max_stack_size": 1
+						"minecraft:rarity": "epic"
+					}
+					count: 1
+					id: "minecraft:trial_key"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				count: 32L
+				id: "239D96BF181DC669"
+				item: { count: 32, id: "minecraft:ominous_trial_key" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -5.1d
+		}
+	]
+}

@@ -1,0 +1,1 @@
+execute as @p at @p run blabber dialogue start kevs:gatekeeper_dialogue @s @e[limit=1,sort=nearest,type=eternal_starlight:the_gatekeeper]

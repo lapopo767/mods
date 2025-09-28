@@ -1,0 +1,11 @@
+{
+	"executeCommand": {
+		"permissionLevel": 2,
+		"showOutput": false
+	},
+	"modifyPlayerSpawnPower": {
+		"radius": 6400,
+		"horizontalBlockCheckInterval": 64,
+		"verticalBlockCheckInterval": 64
+	}
+}

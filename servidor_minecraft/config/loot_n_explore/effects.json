@@ -1,0 +1,16 @@
+{
+  "drinks_haste_t0_boost": 0.05,
+  "drinks_haste_t1_boost": 0.075,
+  "drinks_haste_t2_boost": 0.1,
+  "drinks_crit_rate_t1_boost": 0.075,
+  "drinks_crit_damage_t1_boost": 0.15,
+  "drinks_crit_damage_t2_boost": 0.2,
+  "drinks_speed_t2_boost": 0.2,
+  "drinks_armor_t0_boost": 2.0,
+  "drinks_armor_t1_boost": 4.0,
+  "drinks_armor_t2_boost": 6.0,
+  "drinks_damage_t0_boost": 0.1,
+  "drinks_damage_t1_boost": 0.15,
+  "drinks_damage_t2_boost": 0.2,
+  "drinks_health_t2_boost": 8.0
+}

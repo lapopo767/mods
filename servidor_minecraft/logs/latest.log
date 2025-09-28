@@ -1,0 +1,1313 @@
+[18:50:13] [main/INFO]: Loading Minecraft 1.21.1 with Fabric Loader 0.16.14
+[18:50:14] [ForkJoinPool-1-worker-1/WARN]: The mod "takesapillage" contains invalid entries in its mod json:
+- Unsupported root entry "mc-publish" at line 50 column 14
+[18:50:14] [ForkJoinPool-1-worker-2/WARN]: The mod "immersive_optimization" contains invalid entries in its mod json:
+- Unsupported root entry "modmenu" at line 23 column 12
+[18:50:14] [ForkJoinPool-1-worker-2/WARN]: Mod projectileimmunityfix uses the version {version} which isn't compatible with Loader's extended semantic version format (Could not parse version number component '{version}'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:50:14] [ForkJoinPool-1-worker-2/WARN]: Mod ctov uses the version 3.5.9a which isn't compatible with Loader's extended semantic version format (Could not parse version number component '9a'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:50:14] [ForkJoinPool-1-worker-2/WARN]: Mod totw_modded uses the version fabric-1.21-1.0.8 which isn't compatible with Loader's extended semantic version format (Could not parse version number component 'fabric'!), SemVer is recommended for reliably evaluating dependencies and prioritizing newer version
+[18:50:15] [main/WARN]: Warnings were found!
+ - Mod 'Alloy Forgery' (alloy_forgery) 2.4.1+1.21 recommends version 14.0.0 or later of roughlyenoughitems, which is missing!
+	 - You should install version 14.0.0 or later of roughlyenoughitems for the optimal experience.
+[18:50:15] [main/INFO]: Loading 465 mods:
+	- accessories 1.1.0-beta.43+1.21.1
+	- additional_rpg_jewelry 2.1.0-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- adventuredungeons 1.3.1
+	- adventurez 1.4.24
+	- alloy_forgery 2.4.1+1.21
+	- almanac 1.0.2
+	- amendments 1.21-1.2.24
+	- amplified_nether 1.2.11
+	- ante 1.2.1
+	- archers 2.4.11+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- archers_expansion 1.3.7-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- architectury 13.0.8
+	- arsenal 1.1.2+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- artifacts 13.0.6
+	   \-- expandability 12.0.0
+	- artificers 1.9.12
+	   |-- additionalentityattributes 2.0.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- athena 4.0.2
+	- attributefix 21.1.2
+	- azurelib 3.0.20
+	- azurelibarmor 3.0.12
+	- balm 21.0.46
+	   \-- kuma_api 21.0.5
+	- basic-skill-sets 1.0.7
+	- basicweapons 2.1.1+1.21.1
+	- bcc 21.1.0
+	- beb 4.0.0
+	- berserker-rpg 2.4.6-1.21
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- bettercombat 2.2.4+1.21.1
+	- bettertrims 3.2.8
+	   \-- mixinextras 0.4.1
+	- biomeswevegone 2.4.4
+	- blabber 1.8.0
+	- bookshelf 21.1.67
+	- bosses_of_mass_destruction 1.10.2-1.21.1
+	   \-- multipart_entities 1.7-1.21
+	- bundleapi 1.0.4
+	- c2me 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-base 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-client-uncapvd 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-chunkio-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-general-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-worldgen-threading-issues 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-fixes-worldgen-vanilla-bugs 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-notickvd 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-allocs 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-chunk-access 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-chunkio 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-dfc 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-math 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-scheduling 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-worldgen-general 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-opts-worldgen-vanilla 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunk-serializer 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunk-system 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-rewrites-chunkio 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-server-utils 0.3.0+alpha.0.320+1.21.1
+	   |-- c2me-threading-lighting 0.3.0+alpha.0.320+1.21.1
+	   |-- com_ibm_async_asyncutil 0.1.0
+	   |-- io_reactivex_rxjava3_rxjava 3.1.8
+	   |-- mixinsquared 0.2.0-beta.6
+	   |-- net_objecthunter_exp4j 0.4.8
+	   |-- org_jctools_jctools-core 4.0.5
+	   \-- org_reactivestreams_reactive-streams 1.0.4
+	- cardiac 0.5.3.3
+	- cardinal-components 6.1.2
+	   |-- cardinal-components-base 6.1.2
+	   |-- cardinal-components-block 6.1.2
+	   |-- cardinal-components-chunk 6.1.2
+	   |-- cardinal-components-entity 6.1.2
+	   |-- cardinal-components-item 6.1.2
+	   |-- cardinal-components-level 6.1.2
+	   |-- cardinal-components-scoreboard 6.1.2
+	   \-- cardinal-components-world 6.1.2
+	- carrasconlib 1.21.1-0.1
+	- chatanimation 1.0.6
+	- chefsdelight 1.0.4-fabric-1.21.1
+	   \-- structurized-reborn 1.21-01
+	- chunky 1.4.23
+	- cloth-config 15.0.140
+	   \-- cloth-basic-math 0.6.1
+	- clutter 1.21.1-0.6.5
+	   \-- terraform-wood-api-v1 11.0.0
+	- collective 8.3
+	- combat_roll 2.0.4+1.21.1
+	- commonnetworking 1.0.20-1.21.1
+	- configurable 2.2.3
+	- corgilib 5.0.0.4
+	   |-- com_electronwill_night-config_core 3.8.2
+	   \-- com_electronwill_night-config_toml 3.8.2
+	- crawl 0.14.9
+	- cristellib 1.2.8
+	   \-- blue_endless_jankson 1.2.3
+	- ctov 3.5.9a
+	- cupboard 1.21-2.9
+	- deeperdarker 1.3.3
+	   \-- customportalapi 0.0.1-beta66-1.21
+	- deuf_refabricated 1.1.0
+	- disenchanting_table 5.0.2
+	- druids 1.1.4+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- dummmmmmy 1.21-2.0.8
+	- dungeon_difficulty 3.3.5+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- dungeons_arise_seven_seas 1.0.3
+	- dungeonz 1.2.1
+	- e4mc_minecraft 5.4.1
+	   \-- folk_sisby_kaleido-config 0.3.1+1.3.1
+	- easyanvils 21.1.0
+	- easymagic 21.1.0
+	- eldritch-anomalies 1.0.3
+	- eldritch_mobs 1.16.4
+	   |-- polymer-blocks 0.9.9+1.21
+	   |-- polymer-core 0.9.9+1.21
+	   |    |-- polymer-networking 0.9.9+1.21
+	   |    |    \-- polymer-common 0.9.9+1.21
+	   |    |         \-- packet_tweaker 0.5.5+1.21
+	   |    \-- polymer-registry-sync-manipulator 0.9.9+1.21
+	   \-- server_translations_api 2.3.1+1.21-pre2
+	- elemental_wizards_rpg 2.4.7-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- emi 1.1.22+1.21.1+fabric
+	- emi_enchanting 0.1.2+1.21
+	- emi_loot 0.7.6+1.21+fabric
+	- emi_ores 1.2+1.21.1+fabric
+	- enderscape 1.0.5
+	   \-- mixson 1.3.2
+	- endrem 6.0.2
+	- epicknightsvillagers 1.0.3
+	- eternal_starlight 0.4.3+1.21.1+fabric
+	- exclusive-item 1.1.8
+	- explorerscompass 1.21.1-2.2.5-fabric
+	- explorify 1.6.2
+	- extraspellattributes 1.4.4+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- fabric-api 0.116.4+1.21.1
+	   |-- fabric-api-base 0.4.42+6573ed8c19
+	   |-- fabric-api-lookup-api-v1 1.6.71+b559734419
+	   |-- fabric-biome-api-v1 13.0.31+d527f9fd19
+	   |-- fabric-block-api-v1 1.1.0+0bc3503219
+	   |-- fabric-block-view-api-v2 1.0.11+ebb2264e19
+	   |-- fabric-blockrenderlayer-v1 1.1.52+0af3f5a719
+	   |-- fabric-client-tags-api-v1 1.1.15+6573ed8c19
+	   |-- fabric-command-api-v1 1.2.49+f71b366f19
+	   |-- fabric-command-api-v2 2.2.28+6ced4dd919
+	   |-- fabric-commands-v0 0.2.66+df3654b319
+	   |-- fabric-content-registries-v0 8.0.19+b559734419
+	   |-- fabric-convention-tags-v1 2.1.5+7f945d5b19
+	   |-- fabric-convention-tags-v2 2.11.1+a406e79519
+	   |-- fabric-crash-report-info-v1 0.2.29+0af3f5a719
+	   |-- fabric-data-attachment-api-v1 1.4.5+6116a37819
+	   |-- fabric-data-generation-api-v1 20.2.32+5b9dea2e19
+	   |-- fabric-dimensions-v1 4.0.0+6fc22b9919
+	   |-- fabric-entity-events-v1 1.8.0+2b27e0a419
+	   |-- fabric-events-interaction-v0 0.7.13+ba9dae0619
+	   |-- fabric-game-rule-api-v1 1.0.53+6ced4dd919
+	   |-- fabric-item-api-v1 11.1.1+d5debaed19
+	   |-- fabric-item-group-api-v1 4.1.7+def88e3a19
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a719
+	   |-- fabric-keybindings-v0 0.2.45+df3654b319
+	   |-- fabric-lifecycle-events-v1 2.6.0+0865547519
+	   |-- fabric-loot-api-v2 3.0.15+3f89f5a519
+	   |-- fabric-loot-api-v3 1.0.3+3f89f5a519
+	   |-- fabric-message-api-v1 6.0.14+8aaf3aca19
+	   |-- fabric-model-loading-api-v1 2.0.0+fe474d6b19
+	   |-- fabric-networking-api-v1 4.3.0+c7469b2119
+	   |-- fabric-object-builder-api-v1 15.2.1+40875a9319
+	   |-- fabric-particles-v1 4.0.2+6573ed8c19
+	   |-- fabric-recipe-api-v1 5.0.14+248df81c19
+	   |-- fabric-registry-sync-v0 5.3.1+e3eddc2119
+	   |-- fabric-renderer-api-v1 3.4.0+c705a49c19
+	   |-- fabric-renderer-indigo 1.7.0+c705a49c19
+	   |-- fabric-renderer-registries-v1 3.2.69+df3654b319
+	   |-- fabric-rendering-data-attachment-v1 0.3.49+73761d2e19
+	   |-- fabric-rendering-fluids-v1 3.1.6+1daea21519
+	   |-- fabric-rendering-v0 1.1.72+df3654b319
+	   |-- fabric-rendering-v1 5.1.0+ab4c25a019
+	   |-- fabric-resource-conditions-api-v1 4.3.0+8dc279b119
+	   |-- fabric-resource-loader-v0 1.3.1+5b5275af19
+	   |-- fabric-screen-api-v1 2.0.25+8b68f1c719
+	   |-- fabric-screen-handler-api-v1 1.3.90+b559734419
+	   |-- fabric-sound-api-v1 1.0.23+6573ed8c19
+	   |-- fabric-transfer-api-v1 5.4.3+c24bd99419
+	   \-- fabric-transitive-access-wideners-v1 6.2.0+45b9699719
+	- fabric-language-kotlin 1.13.4+kotlin.2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-reflect 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk7 2.2.0
+	   |-- org_jetbrains_kotlin_kotlin-stdlib-jdk8 2.2.0
+	   |-- org_jetbrains_kotlinx_atomicfu-jvm 0.28.0
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-core-jvm 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-coroutines-jdk8 1.10.2
+	   |-- org_jetbrains_kotlinx_kotlinx-datetime-jvm 0.6.2
+	   |-- org_jetbrains_kotlinx_kotlinx-io-bytestring-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-io-core-jvm 0.7.0
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-cbor-jvm 1.8.1
+	   |-- org_jetbrains_kotlinx_kotlinx-serialization-core-jvm 1.8.1
+	   \-- org_jetbrains_kotlinx_kotlinx-serialization-json-jvm 1.8.1
+	- fabricloader 0.16.14
+	   \-- mixinextras 0.4.1
+	- fabricshieldlib 1.7.2-1.21.1
+	   \-- mm 2.3
+	- fancy_hotbar 1.0.0
+	- farmers_structures 1.0.0
+	- farmersdelight 1.21.1-3.1.2+refabricated
+	   \-- mm 2.3
+	- ferritecore 7.0.2-hotfix
+	- forcemaster_rpg 2.4.6-1.21
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- forgeconfigapiport 21.1.3
+	- formations 1.0.2
+	- formationsnether 1.0.5
+	- formationsoverworld 1.0.4
+	- formidulus 0.1.2-beta
+	   |-- mm 2.3
+	   \-- yayconfig 1.0.3
+	- framework 0.9.6
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+	- friendsandfoes 4.0.6
+	- frostiful 2.2.1+1.21.1
+	- ftbchunks 2101.1.9
+	- ftbessentials 2101.1.6
+	- ftbfiltersystem 21.1.0
+	- ftblibrary 2101.1.16
+	- ftbquests 2101.1.11
+	   \-- team_reborn_energy 4.1.0
+	- ftbranks 2101.1.3
+	- ftbteams 2101.1.2
+	- ftbxmodcompat 21.1.3
+	- fullstackwatchdog 1.0.1+1.19.2-fabric
+	- fzzy_config 0.7.0+1.21
+	   |-- blue_endless_jankson 1.2.3
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- net_peanuuutz_tomlkt_tomlkt-jvm 0.3.7
+	- gazebo 2.0.3+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- gears_of_valor 1.21.1-1.0.6
+	- geckolib 4.7.6
+	- goblintraders 1.11.2
+	- guardvillagers 1.0.8+1.21.1
+	- handcrafted 4.0.3
+	- hangglider 21.1.0
+	- happy_ghast_legacy 1.8
+	- healight 1.0.1
+	- hexblade 1.5.1+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- hopobettermineshaft 1.3.0
+	- hopobetterruinedportal 1.4.4
+	- hopobetterunderwaterruins 1.2.1
+	- hyrule_terrors 1.1.7-1.21.1
+	- icarus 4.5.1
+	- iceberg 1.3.2
+	- illagerinvasion 21.1.6
+	   \-- extensibleenums 21.1.1
+	- immersive_optimization 0.0.5
+	- immersivelanterns 1.0.6
+	- immersiveui 0.3.0
+	- impillagers 1.5.0
+	- inventorysorter 1.9.0-1.21
+	   \-- kyrptconfig 1.6.0-1.20.4
+	- invoke 1.1.1+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- item_obliterator 3.1.1
+	- jade 15.10.1+fabric
+	- java 21
+	- jewelry 2.0.10+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- journal 1.2.9
+	- kevs-attributes-panel 1.1.3
+	- kevs-tieredz-modifiers 1.0.7
+	- kevslibrary 1.5.4
+	- knightlib 1.2.0
+	- knightquest 1.8.7
+	- konkrete 1.9.9
+	- krypton 0.2.8
+	   \-- com_velocitypowered_velocity-native 3.3.0-SNAPSHOT
+	- lavender 0.1.15+1.21
+	   |-- lavender-md 0.1.2+1.21
+	   \-- lavender-md-owo-ui 0.1.2+1.21
+	- legacies_and_legends 1.21.1-v1.4.9
+	- letmedespawn 1.5.0
+	- libz 1.0.3
+	- lithium 0.15.0+mc1.21.1
+	- lithostitched 1.4.2
+	- lmft 1.0.4+1.21
+	- lne_archers 1.0.4-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- lne_paladins 1.0.4-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- lne_rogues 1.0.1-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- lne_wizards 1.0.2-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- loadingscreentips 1.3.6
+	- logbegone 1.0.3
+	- loot_n_explore 1.0.11-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- lootbeams 3.2.5
+	- lootr 1.21-1.10.35.91
+	- lunar 0.2.4
+	- magistuarmory 9.22
+	- magnumtorch 21.1.0
+	- medievalorigins 7.0.3-alpha-4
+	   \-- additionalentityattributes 2.0.0+1.21.1
+	- melody 1.0.10
+	- mes 1.3.5-1.21-fabric
+	- midnightlib 1.6.9
+	- minecraft 1.21.1
+	- minerally 1.21-1.21
+	- mixintrace 1.1.1+1.17
+	- mns 1.0.8-1.21-fabric
+	- mob-ai-tweaks 1.7.7
+	- mobs_of_mythology 2.2.2
+	- modernfix 5.24.0+mc1.21.1
+	- monolib 2.1.0
+	- moonlight 1.21-2.19.5
+	- more_rpg_classes 2.2.5-1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- moremobvariants 1.3.1.1
+	- mostructures 1.5.0+1.21
+	   \-- omegaconfig 1.5.1
+	- mr_dungeons_andtaverns 1-v4.4.4
+	- mr_neoenchant 5.10
+	- mr_qraftyfied 9.0.1
+	- mr_tidal_towns 1.3.4
+	- mr_towers_ofthewildmoddedextratowers 1.0.6
+	- mr_yggdrasil_structure 5.2.0
+	- mru 1.0.17+1.21.1+fabric
+	   \-- org_commonmark_commonmark 0.21.0
+	- mss 1.3.5-1.21-fabric
+	- mutantmonsters 21.1.0
+	- mvs 4.2.9-1.21-fabric
+	- mythicmetals 0.24.0+1.21
+	   \-- common-protection-api 1.0.0
+	- mythicmetals_decorations 0.9.0+1.21
+	- naturescompass 1.21.1-2.2.7-fabric
+	- nbtedit 5.2.11
+	- necronomicon 1.6.0
+	- nerb 0.4.2
+	- neruina 2.2.11
+	   |-- com_fasterxml_jackson_core_jackson-annotations 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-core 2.17.0
+	   |-- com_fasterxml_jackson_core_jackson-databind 2.17.0
+	   |-- org_apache_httpcomponents_core5_httpcore5 5.3.1
+	   |-- org_apache_maven_maven-artifact 3.8.1
+	   \-- org_kohsuke_github-api 1.318
+	- nirvana_lib 2.0.13
+	- nochatreports 1.21.1-v2.9.1
+	- noisium 2.3.0+mc1.21-1.21.1
+	- oathswornpaladins 1.1.3+1.21.1
+	   |-- additionalentityattributes 2.0.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- oblivion 1.0.3
+	- octolib 0.5.0.1
+	   \-- org_yaml_snakeyaml 2.2
+	- ohthetreesyoullgrow 5.0.14
+	- oracle_index 0.3.0
+	   |-- ai_djl_api 0.31.1
+	   |-- ai_djl_huggingface_tokenizers 0.31.1
+	   |-- com_microsoft_onnxruntime_onnxruntime 1.20.0
+	   |-- dev_langchain4j_langchain4j 1.0.0
+	   |-- dev_langchain4j_langchain4j-core 1.0.0
+	   |-- dev_langchain4j_langchain4j-embeddings 1.0.0-beta5
+	   |-- dev_langchain4j_langchain4j-embeddings-all-minilm-l6-v2-q 1.0.0-beta5
+	   |-- org_apache_opennlp_opennlp-tools 2.5.4
+	   \-- org_jsoup_jsoup 1.17.2
+	- origins 1.13.0-alpha.12+mc.1.21.1
+	   \-- apoli 2.12.0-alpha.15+mc.1.21.1
+	        |-- calio 1.14.0-alpha.9+mc.1.21.x
+	        |    |-- org_quiltmc_parsers_gson 0.2.1
+	        |    \-- org_quiltmc_parsers_json 0.2.1
+	        |-- modmenu 11.0.1
+	        \-- playerabilitylib 1.10.0
+	- owo 0.12.15.4+1.21
+	   |-- io_wispforest_endec 0.1.5.1
+	   |-- io_wispforest_endec_gson 0.1.3.1
+	   |-- io_wispforest_endec_jankson 0.1.3.1
+	   \-- io_wispforest_endec_netty 0.1.2
+	- paladins 2.4.14+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- paxi 1.21.1-Fabric-5.1.3
+	   \-- org_reflections_reflections 0.10.2
+	- philipsruins 1.21.1
+	- placeholder-api 2.4.2+1.21
+	- platform 1.2.10.2
+	- playeranimator 2.0.1+1.21.1
+	- polymorph 1.0.10+1.21.1
+	- prickle 21.1.8
+	- projectileimmunityfix {version}
+	- puffish_attributes 0.7.3
+	   \-- mixinextras 0.4.1
+	- puffish_skills 0.16.3
+	- puzzleslib 21.1.36
+	- questkilltask 0.3.1+1.21.1
+	- ranged_weapon_api 2.1.1+1.21.1
+	- redirected 1.0.0
+	- regions_unexplored 0.5.6.1
+	- relics_rpgs 1.0.6+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- repurposed_structures 7.5.16+1.21.1-fabric
+	- resourcefulconfig 3.0.11
+	- resourcefullib 3.0.12
+	   |-- com_teamresourceful_bytecodecs 1.1.2
+	   \-- com_teamresourceful_yabn 1.0.3
+	- rogues 2.4.10+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- rottencreatures 1.1.2
+	- rpg-minibosses 1.3.1+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- rpg_battle_gear 2.0.2-1.21.x
+	- rpgdifficulty 1.3.14
+	- runes 1.1.3+1.21.1
+	- runiclib 4.2.2
+	- scalablelux 0.1.0+fabric.26c6e72
+	- servercore 1.5.5+1.21.1
+	   |-- fabric-permissions-api-v0 0.3.1
+	   |-- org_yaml_snakeyaml 2.2
+	   |-- space_arim_dazzleconf_dazzleconf-core 1.3.0-M2
+	   \-- space_arim_dazzleconf_dazzleconf-ext-snakeyaml 1.3.0-M2
+	- shield_api 2.0.2+1.21.1
+	- shyvvtrials 1.0.1-1.21.1
+	- simplyswords 1.60.11-1.21.1
+	- skinlayers3d 1.8.0
+	   |-- transition 1.0.2
+	   \-- trender 1.0.4
+	- smartbrainlib 1.16.9
+	- smoothchunk 1.21-4.1
+	- snuffles 1.3.0+1.21.1
+	- sound_physics_remastered 1.21.1-1.4.10
+	- spark 1.10.109
+	   \-- fabric-permissions-api-v0 0.3.1
+	- sparkweave 0.509.3
+	   |-- net_harawata_appdirs 1.2.1
+	   \-- sparkweave_renderdoc_loader 0.509.3
+	- spell_engine 1.6.12+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- spell_power 1.3.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- spellbladenext 2.3.4+1.21.1
+	   |-- additionalentityattributes 2.0.0+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- stackdeobfuscator 1.4.3+08e71cc
+	   |-- net_fabricmc_mapping-io 0.6.1
+	   \-- stackdeobfuscator-common 1.4.3+08e71cc
+	- starterkit 7.4
+	- structure_pool_api 1.1.3+1.21.1
+	- structurecredits 1.21.1-3.0
+	- structureessentials 1.21-4.7
+	- structurify 1.0.17
+	- subtle_effects 1.11.0
+	- supplementaries 1.21-3.3.3
+	- t_and_t 1.13.2
+	- takesapillage 1.0.8
+	- tclayer 3.10.0+beta.28
+	- terrablender 4.1.0.8
+	- the_bumblezone 7.10.0+1.21.1-fabric
+	- thermoo 4.5.4
+	- thermoo-patches 3.6.1
+	   |-- thermoo-patches-base 3.6.1
+	   |-- thermoo-patches-colorfulhearts-patch 3.6.1
+	   |-- thermoo-patches-fabric-seasons-patch 3.6.1
+	   |-- thermoo-patches-friendsandfoes-patch 3.6.1
+	   |-- thermoo-patches-origins-patch 3.6.1
+	   |-- thermoo-patches-overflowing-bars-patch 3.6.1
+	   |-- thermoo-patches-simple-seasons-patch 3.6.1
+	   \-- thermoo-patches-stellaris-patch 3.6.1
+	- thiccpackets 1.17-1.19+
+	- tiered_more 1.0.8.2
+	- tlib 1.3.0-1.21.1
+	- toffys_hooks 2.0.1
+	- toms_storage 2.2.1
+	- too_many_bows 1.21-2.2.0
+	- totw_modded fabric-1.21-1.0.8
+	- trade_cycling 1.21.1-1.0.18
+	   |-- fabric-key-binding-api-v1 1.0.47+0af3f5a76a
+	   \-- fabric-screen-api-v1 2.0.24+b55973446a
+	- transmog 1.6.0
+	- travelersbackpack 10.1.23
+	- txnilib 1.0.24
+	- unionlib 12.0.17
+	   |-- com_google_code_findbugs_jsr305 3.0.2
+	   |-- org_antlr_antlr4-runtime 4.11.1
+	   |-- org_checkerframework_checker-qual 3.21.2
+	   \-- org_tomlj_tomlj 1.1.1
+	- universal_shops 1.7.1+1.21
+	   |-- common-economy-api 1.1.1
+	   |-- common-protection-api 1.0.0
+	   |-- polymer-resource-pack 0.9.4+1.21
+	   |-- polymer-virtual-entity 0.9.4+1.21
+	   |-- server_translations_api 2.3.1+1.21-pre2
+	   \-- sgui 1.6.0+1.21
+	- variantsandventures 1.0.14
+	- village_taverns 1.0.6+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- villagespawnpoint 4.6
+	- visualworkbench 21.1.0
+	- wabi_sabi_structures 3.0.2
+	- wands 2.9
+	- waveycapes 1.6.0
+	   |-- transition 1.0.2
+	   \-- trender 1.0.4
+	- waystones 21.1.19
+	- weaponmaster_ydm 4.2.3
+	- witcher_medallions 3.1.2
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- witcher_rpg 2.4.8-1.21
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- wizards 2.4.12+1.21.1
+	   \-- com_github_zsoltmolnarrr_tinyconfig 2.3.2
+	- xaerominimap 25.2.6
+	- xaeroworldmap 1.39.9
+	- xtraarrows 3.4.3
+	- yeetusexperimentus 87.0.0
+	- yet_another_config_lib_v3 3.7.1+1.21.1-fabric
+	   |-- com_twelvemonkeys_common_common-image 3.12.0
+	   |-- com_twelvemonkeys_common_common-io 3.12.0
+	   |-- com_twelvemonkeys_common_common-lang 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-core 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-metadata 3.12.0
+	   |-- com_twelvemonkeys_imageio_imageio-webp 3.12.0
+	   |-- org_quiltmc_parsers_gson 0.2.1
+	   \-- org_quiltmc_parsers_json 0.2.1
+	- yigd 2.4.18
+	   |-- fabric-permissions-api-v0 0.3.1
+	   \-- libgui 11.1.0+1.21
+	        |-- jankson 8.0.0+j1.2.3
+	        |    \-- blue_endless_jankson 1.2.3
+	        \-- libninepatch 1.2.0
+	- yungsapi 1.21.1-Fabric-5.1.6
+	   |-- org_javassist_javassist 3.29.2-GA
+	   \-- org_reflections_reflections 0.10.2
+[18:50:15] [main/WARN]: Found 1 non-fabric mod:
+	- Redirectionor-1.8 for NilLoader.jar
+[18:50:16] [main/INFO]: SpongePowered MIXIN Subsystem Version=0.8.7 Source=file:/workspaces/mods/servidor_minecraft/libraries/net/fabricmc/sponge-mixin/0.15.5+mixin.0.8.7/sponge-mixin-0.15.5+mixin.0.8.7.jar Service=Knot/Fabric Env=SERVER
+[18:50:16] [main/INFO]: Compatibility level set to JAVA_17
+[18:50:16] [main/INFO]: Compatibility level set to JAVA_21
+[18:50:16] [main/INFO]: Initializing com.ishland.c2me.base.mixin
+[18:50:17] [main/INFO]: Global Executor Parallelism: 1 configured, 1 evaluated, 1 default evaluated
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.fixes.chunkio.threading_issues.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.fixes.general.threading_issues.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.threading_issues.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.fixes.worldgen.vanilla_bugs.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.notickvd.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.allocs.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.chunk_access.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.chunkio.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.dfc.mixin
+[18:50:17] [main/INFO]: Disabling com.ishland.c2me.opts.dfc.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.math.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.scheduling.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.general.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.opts.worldgen.vanilla.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:50:17] [main/INFO]: Disabling config ioSystem.gcFreeChunkSerializer: Incompatible with architectury@13.0.8 (*) (defined in c2me)
+[18:50:17] [main/INFO]: Disabling com.ishland.c2me.rewrites.chunk_serializer.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunksystem.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.rewrites.chunkio.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.server.utils.mixin
+[18:50:17] [main/INFO]: Initializing com.ishland.c2me.threading.lighting.mixin
+[18:50:17] [main/WARN]: Reference map 'carrasconlib-common-common-refmap.json' for carrasconlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map '[common]ctov-common-refmap.json' for ctov-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'extensibleenums.common.refmap.json' for extensibleenums.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'extensibleenums.fabric.refmap.json' for extensibleenums.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'forgeconfigapiport.common.refmap.json' for forgeconfigapiport.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'formationsnether.mixins.refmap.json' for formationsnether.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'formationsoverworld.mixins.refmap.json' for formationsoverworld.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'gears_of_valor-common-common-refmap.json' for gears_of_valor.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'hangglider.fabric.refmap.json' for hangglider.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'Hyrule_Terrors-common-common-refmap.json' for hyrule_terrors.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'illagerinvasion.fabric.refmap.json' for illagerinvasion.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/INFO]: File exists, reading config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries.
+[18:50:17] [main/INFO]: Config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries read successfully.
+[18:50:17] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'knightlib.refmap.json' for knightlib.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Mod 'apoli' attempted to override option 'mixin.entity.collisions.suffocation', which doesn't exist, ignoring
+[18:50:17] [main/WARN]: Mod 'ferritecore' attempted to override option 'mixin.alloc.blockstate', which doesn't exist, ignoring
+[18:50:17] [main/WARN]: Mod 'mutantmonsters' attempted to override option 'mixin.ai.nearby_entity_tracking.goals', which doesn't exist, ignoring
+[18:50:17] [main/WARN]: Mod 'supplementaries' attempted to override option 'mixins.block.moving_block_shapes', which doesn't exist, ignoring
+[18:50:17] [main/INFO]: Option 'mixin.entity.collisions.fluid' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.entity.collisions.fluid=false'.
+[18:50:17] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_support' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_support=false'.
+[18:50:17] [main/INFO]: Option 'mixin.experimental.entity.block_caching.fluid_pushing' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.fluid_pushing=false'.
+[18:50:17] [main/INFO]: Option 'mixin.experimental.entity.block_caching.block_touching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.block_touching=false'.
+[18:50:17] [main/INFO]: Option 'mixin.experimental.entity.block_caching.suffocation' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching.suffocation=false'.
+[18:50:17] [main/INFO]: Option 'mixin.experimental.entity.block_caching' requires 'mixin.util.block_tracking=true' but found 'false'. Setting 'mixin.experimental.entity.block_caching=false'.
+[18:50:17] [main/INFO]: Loaded configuration file for Lithium: 149 options available, 3 override(s) found
+[18:50:17] [main/WARN]: Reference map 'magnumtorch.common.refmap.json' for magnumtorch.common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/INFO]: Loaded configuration file for ModernFix 5.24.0+mc1.21.1: 63 options available, 3 override(s) found
+[18:50:17] [main/WARN]: Option 'mixin.bugfix.paper_chunk_patches' overriden (by mods [c2me]) to 'false'
+[18:50:17] [main/WARN]: Option 'mixin.perf.cache_strongholds' overriden (by mods [c2me]) to 'false'
+[18:50:17] [main/WARN]: Option 'mixin.bugfix.chunk_deadlock' overriden (by mods [c2me]) to 'false'
+[18:50:17] [main/INFO]: Applying Nashorn fix
+[18:50:17] [main/WARN]: Reference map 'mutantmonsters.fabric.refmap.json' for mutantmonsters.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'nirvana_lib.refmap.json' for nirvana_lib.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'OctoLib-COMMON-common-refmap.json' for octolib-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'prickle.refmap.json' for prickle.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:17] [main/WARN]: Reference map 'rpg_battle_gear-common-common-refmap.json' for rpg_battle_gear.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:18] [main/WARN]: Reference map 'structurecredits-common-refmap.json' for structurecredits-common.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:18] [main/WARN]: Reference map 'visualworkbench.fabric.refmap.json' for visualworkbench.fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:18] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:18] [main/WARN]: Reference map 'yet_another_config_lib_v3.refmap.json' for yacl-fabric.mixins.json could not be read. If this is a development environment you can ignore this message
+[18:50:20] [main/INFO]: Force-disabling mixin 'ai.task.memory_change_counting.BehaviorMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[18:50:20] [main/INFO]: Force-disabling mixin 'ai.task.memory_change_counting.BrainMixin' as rule 'mixin.ai.task.memory_change_counting' (added by mods [smartbrainlib]) disables it and children
+[18:50:20] [main/INFO]: Force-disabling mixin 'block.moving_block_shapes.PistonMovingBlockEntityMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[18:50:20] [main/INFO]: Force-disabling mixin 'block.moving_block_shapes.VoxelShapeMixin' as rule 'mixin.block.moving_block_shapes' (added by mods [supplementaries]) disables it and children
+[18:50:20] [main/INFO]: Skipping compat mixin dev.muon.medievalorigins.mixin.compat.iceandfire.PixieAIStealMixin because mod 'iceandfire' is not loaded.
+[18:50:20] [main/INFO]: Skipping compat mixin dev.muon.medievalorigins.mixin.compat.iceandfire.PlayerMixin because mod 'iceandfire' is not loaded.
+[18:50:20] [main/INFO]: Skipping compat mixin dev.muon.medievalorigins.mixin.compat.iceandfire.SirenDataMixin because mod 'iceandfire' is not loaded.
+[18:50:20] [main/WARN]: Error loading class: net/minecraft/class_310 (java.lang.ClassNotFoundException: net/minecraft/class_310)
+[18:50:20] [main/WARN]: @Mixin target net.minecraft.class_310 was not found omega-config.mixins.json:ClientMixin from mod omegaconfig
+[18:50:20] [main/WARN]: Error loading class: net/minecraft/class_287 (java.lang.ClassNotFoundException: net/minecraft/class_287)
+[18:50:20] [main/WARN]: @Mixin target net.minecraft.class_287 was not found owo.mixins.json:BufferBuilderAccessor from mod owo
+[18:50:20] [main/WARN]: Error loading class: net/minecraft/class_437 (java.lang.ClassNotFoundException: net/minecraft/class_437)
+[18:50:20] [main/WARN]: @Mixin target net.minecraft.class_437 was not found owo.mixins.json:ScreenAccessor from mod owo
+[18:50:20] [main/WARN]: Error loading class: me/jellysquid/mods/lithium/common/world/chunk/LithiumHashPalette (java.lang.ClassNotFoundException: me/jellysquid/mods/lithium/common/world/chunk/LithiumHashPalette)
+[18:50:20] [main/WARN]: Error loading class: net/minecraft/class_922 (java.lang.ClassNotFoundException: net/minecraft/class_922)
+[18:50:20] [main/WARN]: @Mixin target net.minecraft.class_922 was not found spellbladenext.mixins.json:LivingEntityRendererMixin from mod spellbladenext
+[18:50:21] [main/INFO]: Loaded config for: structureessentials.json
+[18:50:21] [main/WARN]: Error loading class: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer (java.lang.ClassNotFoundException: me/jellysquid/mods/sodium/client/render/chunk/compile/pipeline/FluidRenderer)
+[18:50:22] [main/INFO]: Initializing MixinExtras via com.llamalad7.mixinextras.service.MixinExtrasServiceImpl(version=0.4.1).
+[18:50:29] [main/INFO]: Injecting BlockStateBase cache population hook into getOpacityIfCached from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[18:50:29] [main/INFO]: Injecting BlockStateBase cache population hook into isConditionallyFullOpaque from ca.spottedleaf.starlight.mixin.common.blockstate.BlockStateBaseMixin
+[18:50:30] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.21.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin from mod lithium->@Redirect::removeAllocation1()[Lnet/minecraft/class_2350; with priority 1000
+[18:50:30] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.21.1.json:net.minecraft.world.level.block.RedStoneWireBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.redstone_wire.RedStoneWireBlockMixin from mod lithium->@Redirect::removeAllocation2()[Lnet/minecraft/class_2350; with priority 1000
+[18:50:31] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.21.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBaseBlockMixin from mod lithium->@Redirect::removeAllocation()[Lnet/minecraft/class_2350; with priority 1000
+[18:50:31] [main/WARN]: @Redirect conflict. Skipping mixins.redirected_fabric_1.21.1.json:net.minecraft.world.level.block.piston.PistonBaseBlockMixin from mod redirected->@Redirect::redirectDirections()[Lnet/minecraft/class_2350; with priority 10, already redirected by lithium.mixins.json:alloc.enum_values.piston_block.PistonBaseBlockMixin from mod lithium->@Redirect::removeAllocation()[Lnet/minecraft/class_2350; with priority 1000
+[18:50:33] [main/WARN]: Method overwrite conflict for method_21740 in modernfix-common.mixins.json:perf.remove_biome_temperature_cache.BiomeMixin from mod modernfix, previously written by net.caffeinemc.mods.lithium.mixin.world.temperature_cache.BiomeMixin. Skipping method.
+[18:50:33] [main/WARN]: @ModifyConstant conflict. Skipping rpgdifficulty.mixins.json:entity.WitherEntityMixin from mod rpgdifficulty->@ModifyConstant::mobTickMixin(F)F with priority 1000, already redirected by mob-ai-tweaks.mixins.json:WitherEntityMixin from mod mob-ai-tweaks->@ModifyConstant::fixSpawnHealingValue(F)F with priority 1000
+[18:50:35] [main/WARN]: Method overwrite conflict for scheduleRandomTick in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[18:50:35] [main/WARN]: Method overwrite conflict for getScheduledRandomTicks in ohthetreesyoullgrow.mixins.json:chunk.MixinChunkAccess from mod ohthetreesyoullgrow, previously written by corgitaco.corgilib.mixin.chunk.MixinChunkAccess. Skipping method.
+[18:50:35] [main/WARN]: Method overwrite conflict for method_5679 in mob-ai-tweaks.mixins.json:IllusionerEntityMixin from mod mob-ai-tweaks, previously written by fuzs.illagerinvasion.mixin.IllusionerMixin. Skipping method.
+[18:50:37] [main/WARN]: Method overwrite conflict for method_5652 in supplementaries-common.mixins.json:ZombieHorseMixin from mod supplementaries, previously written by com.notunanancyowen.mixin.ZombieHorseEntityMixin. Skipping method.
+[18:50:37] [main/WARN]: Method overwrite conflict for method_5749 in supplementaries-common.mixins.json:ZombieHorseMixin from mod supplementaries, previously written by com.notunanancyowen.mixin.ZombieHorseEntityMixin. Skipping method.
+[18:50:39] [main/ERROR]: No data fixer registered for ancient_skeleton
+[18:50:39] [main/WARN]: @Final field field_13360:Lnet/minecraft/class_2347; in unionlib.mixins.json:BoatDispenseItemBehaviorMixin from mod unionlib should be final
+[18:50:41] [main/INFO]: Vanilla bootstrap took 17745 milliseconds
+[18:50:42] [main/INFO]: Registered Trinkets Reloaded Listeners
+[18:50:42] [main/INFO]: Adventure Dungeons Fabric Made by AlexMega
+[18:50:42] [main/INFO]: Hello from Common init on Fabric! we are currently in a production environment!
+[18:50:42] [main/INFO]: The ID for diamonds is minecraft:diamond
+[18:50:42] [main/INFO]: Hello to adventuredungeons
+[18:50:43] [main/INFO]: Loaded config amendments-common.json
+[18:50:43] [main/INFO]: Apoli 2.12.0 has initialized. Ready to power up your game!
+[18:50:44] [main/INFO]: Registering Mod Items for archers_expansion
+[18:50:44] [main/INFO]: Registering Item Groups for archers_expansion
+[18:50:44] [main/ERROR]: No data fixer registered for artifacts:mimic
+[18:50:44] [main/INFO]: Hello Fabric world!
+[18:50:44] [main/INFO]: Registered azurelib config for auto-sync function
+[18:50:45] [main/INFO]: Hello Fabric world!
+[18:50:45] [main/ERROR]: Failed to clean resource pack target folder. Please report this on the Basic Weapons issue tracker
+[18:50:45] [main/ERROR]: Failed to clean datapack target folder. Please report this on the Basic Weapons issue tracker
+[18:50:45] [main/INFO]: No material packs found in basicweapons_materialpacks
+[18:50:45] [main/INFO]: - Basic Weapons Loaded -
+[18:50:45] [main/INFO]: Better Compatibility Checker starting
+[18:50:45] [main/INFO]: Loading config file
+[18:50:45] [main/INFO]: Config file loaded
+[18:50:45] [main/INFO]: Registering Mod Items for berserker_rpg
+[18:50:45] [main/INFO]: Registering Item Groups for berserker_rpg
+[18:50:46] [main/INFO]: Initializing network...
+[18:50:46] [main/INFO]: Initialized network!
+[18:50:46] [main/INFO]: Registering Oh The Biomes We've Gone data components
+[18:50:46] [main/ERROR]: No data fixer registered for man_o_war
+[18:50:46] [main/ERROR]: No data fixer registered for pumpkin_warden
+[18:50:46] [main/ERROR]: No data fixer registered for oddion
+[18:50:46] [main/ERROR]: No data fixer registered for wreath
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone items
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Blocks
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Wood
+[18:50:47] [main/ERROR]: No data fixer registered for biomeswevegone:sign
+[18:50:47] [main/ERROR]: No data fixer registered for biomeswevegone:hanging_sign
+[18:50:47] [main/ERROR]: No data fixer registered for biomeswevegone:pumpkin_burrow
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Block Entities
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Entities
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Creative Tabs
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Sounds
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Block Predicate
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone State Providers
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Tree Decorators
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Custom Features
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Structure Pieces
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Types
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Configured Features
+[18:50:47] [main/INFO]: Creating and Registering Overworld Vegetation Configured Features
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Tree Configured Features
+[18:50:47] [main/INFO]: Creating and Registering Vanilla Configured Features
+[18:50:47] [main/INFO]: Registering Oh The Biomes You'll Go Overworld Configured Features
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Placed Features
+[18:50:47] [main/INFO]: Creating and Registering Overworld Tree Placed Features
+[18:50:47] [main/INFO]: Creating and Registering Overworld Vegetation Placed Features
+[18:50:47] [main/INFO]: Creating and Registering Vanilla Placed Features
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Custom Surface Rules
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Template Pools
+[18:50:47] [main/INFO]: Registering Oh The Biome's We've Gone Village Template Pools
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Poi Types
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Villager Professions
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Custom Structure Processors
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone villager types
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Schedules
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Memory Module Types
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Sensor Types
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Map Decoration Types
+[18:50:47] [main/INFO]: Registering Oh The Biomes We've Gone Entity SubPredicates
+[18:50:47] [main/INFO]: Creating and Registering BWG Biome Modifiers for Vanilla Biomes
+[18:50:48] [main/INFO]: Customized Bundles!
+[18:50:48] [main/ERROR]: No data fixer registered for life_orb
+[18:50:48] [main/ERROR]: No data fixer registered for thrown_life_bottle
+[18:50:48] [main/INFO]: ChatAnimation initialized!
+[18:50:48] [main/INFO]: [STDOUT]: All 6 have been set properly
+[18:50:48] [main/INFO]: Registering Villagers for chefsdelight
+[18:50:49] [main/INFO]: [Clutter] Finished initializing.
+[18:50:49] [main/INFO]: Loading Collective version 8.3.
+[18:50:49] [main/INFO]: Successfully loaded config "bettertrims"
+[18:50:49] [main/INFO]: Loaded config for: cupboard.json
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:angler_fish
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:sculk_centipede
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:sculk_leech
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:sculk_snapper
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:shattered
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:shriek_worm
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:sludge
+[18:50:49] [main/ERROR]: No data fixer registered for deeperdarker:stalker
+[18:50:49] [main/ERROR]: No data fixer registered for crystallized_amber
+[18:50:49] [main/ERROR]: No data fixer registered for sculk_jaw
+[18:50:49] [main/INFO]: Loaded DEUF Refabricated Config
+[18:50:49] [main/INFO]: Loaded config dummmmmmy-common.json
+[18:50:49] [main/WARN]: Lithium detected. MmmMmmMmmMmm scarecrow mode might not work well due to a lithium bug (the mod doesnt have a way to add goals to new entities)
+[18:50:49] [main/INFO]: YAaargh!
+[18:50:50] [main/INFO]: Constructing common components for easyanvils:main
+[18:50:50] [main/INFO]: Dispatching loading event for config easyanvils-common.toml
+[18:50:50] [main/INFO]: Constructing common components for easymagic:main
+[18:50:50] [main/INFO]: Dispatching loading event for config easymagic-common.toml
+[18:50:50] [main/INFO]: Hello from eldritch-anomalies!
+[18:50:50] [main/INFO]: Loading Eldritch data pack for eldritch-anomalies
+[18:50:50] [main/INFO]: Channelling eldritch energies...
+[18:50:50] [main/INFO]: Registering Item Groups for elemental_wizards_rpg
+[18:50:51] [main/INFO]: Loaded config :emi_loot_config in 970ms
+[18:50:51] [main/INFO]: Deserializing EnderscapeConfig from './config/enderscape.json5'
+[18:50:51] [main/ERROR]: No data fixer registered for magnia_sprout
+[18:50:51] [main/INFO]: Enderscape initialized!
+[18:50:51] [main/INFO]: End Remastered config loaded with success
+[18:50:51] [main/INFO]: End Remastered eyes loaded with success
+[18:50:51] [main/INFO]: Hello from epicknightsvillagers!
+[18:50:51] [main/INFO]: Loading EpicKnightsVillagers data pack for epicknightsvillagers
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:aethersent_meteor
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:aetherstrike_rocket
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:boarwarf
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:astral_golem
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:gleech
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:gleech_egg
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:lonestar_skeleton
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:nightfall_spider
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:thirst_walker
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:creteor
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tiny_creteor
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:stranghoul
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:ent
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:ratlin
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:zombified_ratlin
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:shadow_snail
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:yeti
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:aurora_deer
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:crystallized_moth
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:shimmer_lacewing
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:grimstone_golem
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:aethersent_golem
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tower_squid
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:luminofish
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:luminaris
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:twilight_gaze
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:eye_of_seeking
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:crest
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:the_gatekeeper
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:gatekeeper_fireball
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:starlight_golem
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:golem_laser_beam
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:energized_flame
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:freeze
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:frozen_tube
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:lunar_monstrosity
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:lunar_monstrosity_breath
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:lunar_spore
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:lunar_thorn
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tangled
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tangled_skull
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tangled_hatred
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tangled_hatred_part
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:shattered_blade
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:malarite_spear
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tear_bomb
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:tear_bomb_minecart
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:pungency_fruit_spear
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:thioquartz_arrow
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:thioquartz_shard
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:aethersent_arrow
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:glacite_arrow
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:malarite_arrow
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:amaramber_arrow
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:voracious_arrow
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:air_sac_arrow
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:sonar_bomb
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:ashen_snowball
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:frozen_bomb
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:wilted_petal
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:shot_seeds
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:soulit_spectator
+[18:50:52] [main/ERROR]: No data fixer registered for eternal_starlight:chain_of_souls
+[18:50:53] [main/INFO]: Exclusive Item mod initialized.
+[18:50:53] [main/INFO]: ExpandAbility here, who dis?
+[18:50:53] [main/INFO]: Hello Fabric world!
+[18:50:53] [main/INFO]: Fabric Shield Lib Initialized!
+[18:50:53] [main/INFO]: File exists, reading config for elocindev.fancy_hotbar.config.FancyHotbarConfig.
+[18:50:53] [main/INFO]: Config for elocindev.fancy_hotbar.config.FancyHotbarConfig read successfully.
+[18:50:53] [main/INFO]: Loaded config farmersdelight-common.json
+[18:50:53] [main/INFO]: Registering Mod Items for forcemaster_rpg
+[18:50:53] [main/INFO]: Registering Item Groups for forcemaster_rpg
+[18:50:53] [main/ERROR]: No data fixer registered for deer_god
+[18:50:53] [main/ERROR]: No data fixer registered for irrlicht
+[18:50:53] [main/ERROR]: No data fixer registered for pumpkin
+[18:50:53] [main/ERROR]: No data fixer registered for deer_follower
+[18:50:53] [main/ERROR]: No data fixer registered for bulwark
+[18:50:53] [main/INFO]: Updating Timed Event State; These are basically realtime holidays:
+[18:50:53] [main/INFO]: formidulus:ween is in 33 days.
+[18:50:53] [main/INFO]: formidulus:solstice_feast is in 87 days.
+[18:50:53] [main/INFO]: Reflections took 102 ms to scan 1 urls, producing 2 keys and 9 values
+[18:50:54] [main/ERROR]: No data fixer registered for goblin_trader
+[18:50:54] [main/ERROR]: No data fixer registered for vein_goblin_trader
+[18:50:54] [main/INFO]: Deserializing FriendsAndFoesConfig from 'config/friendsandfoes.json'
+[18:50:54] [main/INFO]: Initialized Frostiful!
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbchunks:request_chunk_change_packet
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbchunks:request_map_data_packet
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbchunks:teleport_from_map_packet
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbchunks:update_force_load_expiry_packet
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbchunks:sync_tx_packet
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbchunks:share_waypoint_packet
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbfiltersystem:sync_filter
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftblibrary:edit_nbt_response
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftblibrary:sync_config_to_server_packet
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbquests:change_chapter_group_message
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbquests:change_progress_message
+[18:50:54] [main/INFO]: Registering C2S receiver with id ftbquests:claim_all_rewards_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:claim_choice_reward_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:claim_reward_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:copy_chapter_image_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:copy_quest_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:create_object_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:create_task_at_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:delete_object_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:edit_object_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:force_save_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:give_item_to_player
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:get_emergency_items_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:move_chapter_group_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:move_chapter_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:move_movable_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:request_team_data_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:request_translation_table
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:set_custom_image_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:submit_task_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:sync_structures_request_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:sync_translation_to_server
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:task_screen_config_response_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:toggle_editing_mode_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbquests:toggle_pinned_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbteams:open_gui
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbteams:update_propeties_request
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbteams:send_message
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbteams:create_party
+[18:50:55] [main/INFO]: Registering C2S receiver with id ftbteams:player_gui_operation
+[18:50:55] [main/INFO]: [FTB Chunks] Common Protection API integration activated
+[18:50:55] [main/ERROR]: No data fixer registered for handcrafted
+[18:50:55] [main/INFO]: Constructing common components for hangglider:main
+[18:50:55] [main/ERROR]: No data fixer registered for happy_ghast
+[18:50:55] [main/INFO]: Hello Fabric world!
+[18:50:55] [main/ERROR]: No data fixer registered for hyrule_terrors:lizalfos
+[18:50:55] [main/ERROR]: No data fixer registered for hyrule_terrors:chuchu
+[18:50:55] [main/ERROR]: No data fixer registered for hyrule_terrors:keese
+[18:50:55] [main/ERROR]: No data fixer registered for hyrule_terrors:bokoblin
+[18:50:55] [main/INFO]: Constructing common components for illagerinvasion:main
+[18:50:55] [main/ERROR]: No data fixer registered for provoker
+[18:50:55] [main/ERROR]: No data fixer registered for invoker
+[18:50:55] [main/ERROR]: No data fixer registered for necromancer
+[18:50:55] [main/ERROR]: No data fixer registered for basher
+[18:50:55] [main/ERROR]: No data fixer registered for sorcerer
+[18:50:55] [main/ERROR]: No data fixer registered for archivist
+[18:50:55] [main/ERROR]: No data fixer registered for inquisitor
+[18:50:55] [main/ERROR]: No data fixer registered for marauder
+[18:50:55] [main/ERROR]: No data fixer registered for alchemist
+[18:50:55] [main/ERROR]: No data fixer registered for firecaller
+[18:50:55] [main/ERROR]: No data fixer registered for surrendered
+[18:50:55] [main/ERROR]: No data fixer registered for skull_bolt
+[18:50:55] [main/ERROR]: No data fixer registered for hatchet
+[18:50:55] [main/ERROR]: No data fixer registered for invoker_fangs
+[18:50:55] [main/ERROR]: No data fixer registered for flying_magma
+[18:50:55] [main/ERROR]: No data fixer registered for burned
+[18:50:55] [main/ERROR]: No data fixer registered for frostbitten
+[18:50:55] [main/ERROR]: No data fixer registered for swampy
+[18:50:55] [main/ERROR]: No data fixer registered for undead_miner
+[18:50:55] [main/ERROR]: No data fixer registered for mummy
+[18:50:55] [main/ERROR]: No data fixer registered for glacial_hunter
+[18:50:55] [main/ERROR]: No data fixer registered for hunter_wolf
+[18:50:55] [main/ERROR]: No data fixer registered for scarab
+[18:50:55] [main/ERROR]: No data fixer registered for dead_beard
+[18:50:55] [main/ERROR]: No data fixer registered for zombie_lackey
+[18:50:55] [main/ERROR]: No data fixer registered for skeleton_lackey
+[18:50:56] [main/ERROR]: No data fixer registered for immortal
+[18:50:56] [main/ERROR]: No data fixer registered for zap
+[18:50:56] [main/ERROR]: No data fixer registered for primed_tnt_barrel
+[18:50:56] [main/INFO]: Initializing imp mischief.
+[18:50:56] [main/INFO]: Registering mod professions for impillagers
+[18:50:56] [main/INFO]: Registered effect handler for key: distribution_enchantment
+[18:50:56] [main/INFO]: Hello Fabric world!
+[18:50:56] [main/INFO]: File exists, reading config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries.
+[18:50:56] [main/INFO]: Config for elocindev.item_obliterator.fabric_quilt.config.ConfigEntries read successfully.
+[18:50:56] [main/INFO]: Item Obliterator Config Loaded
+[18:50:56] [main/ERROR]: No data fixer registered for gremlin
+[18:50:56] [main/ERROR]: No data fixer registered for eldbomb
+[18:50:56] [main/ERROR]: No data fixer registered for eldknight
+[18:50:56] [main/ERROR]: No data fixer registered for samhain
+[18:50:56] [main/ERROR]: No data fixer registered for swampman
+[18:50:56] [main/ERROR]: No data fixer registered for fallen_knight
+[18:50:56] [main/ERROR]: No data fixer registered for ratman
+[18:50:56] [main/ERROR]: No data fixer registered for lizzy
+[18:50:56] [main/ERROR]: No data fixer registered for bad_patch
+[18:50:56] [main/ERROR]: No data fixer registered for ghastling
+[18:50:56] [main/ERROR]: No data fixer registered for ghosty
+[18:50:56] [main/ERROR]: No data fixer registered for netherman
+[18:50:56] [main/ERROR]: No data fixer registered for netherman_clone
+[18:50:56] [main/ERROR]: No data fixer registered for netherman_projectile_charge
+[18:50:56] [main/ERROR]: No data fixer registered for swampman_axe
+[18:50:56] [main/INFO]: [Knight Quest] The mod 'forgeconfigapiport' was detected, reading config file `knightquest.toml` for Knight Quest.
+[18:50:56] [main/INFO]: [KONKRETE] Loading v1.9.9 in server-side mode on FABRIC!
+[18:50:56] [main/INFO]: ---------------------------
+[18:50:56] [main/INFO]: KONKRETE SHIPS AND USES THE FOLLOWING LIBRARIES:
+[18:50:56] [main/INFO]:  
+[18:50:56] [main/INFO]: Open Imaging Copyright © 2014 Dhyan Blum.
+[18:50:56] [main/INFO]: Open Imaging is licensed under Apache-2.0.
+[18:50:56] [main/INFO]:  
+[18:50:56] [main/INFO]: JsonPath Copyright © 2017 Jayway.
+[18:50:56] [main/INFO]: JsonPath is licensed under Apache-2.0.
+[18:50:56] [main/INFO]:  
+[18:50:56] [main/INFO]: Json-smart Copyright © netplex.
+[18:50:56] [main/INFO]: Json-smart is licensed under Apache-2.0.
+[18:50:56] [main/INFO]:  
+[18:50:56] [main/INFO]: Exp4j Copyright © Frank Asseg.
+[18:50:56] [main/INFO]: Exp4j is licensed under Apache-2.0. https://github.com/fasseg/exp4j
+[18:50:56] [main/INFO]: ---------------------------
+[18:50:56] [main/INFO]: [KONKRETE] Server-side modules initialized and ready to use!
+[18:50:56] [main/INFO]: Compression will use libdeflate (Linux x86_64), encryption will use OpenSSL 3.0.x (Linux x86_64)
+[18:50:56] [main/INFO]: [LMFT]: Loaded Config File!
+[18:50:56] [main/INFO]: Registering Status Effects for loot_n_explore
+[18:50:56] [main/INFO]: Registering Potions for loot_n_explore
+[18:50:56] [main/INFO]: Registering Item Groups for loot_n_explore
+[18:50:57] [main/INFO]: Registering Spell Power Compat Effects for loot_n_explore
+[18:50:57] [main/INFO]: Registering More RPG Library Compat Effects for loot_n_explore
+[18:50:57] [main/INFO]: Registering Ranged Weapon API Compat Effects for loot_n_explore
+[18:50:57] [main/INFO]: Registering Witcher Compat Effects for loot_n_explore
+[18:50:57] [main/INFO]: Registering C2S receiver with id magistuarmory:packet_lance_collision
+[18:50:58] [main/INFO]: Constructing common components for magnumtorch:main
+[18:50:58] [main/INFO]: Loading Medieval Origins
+[18:50:58] [main/ERROR]: No data fixer registered for medievalorigins:summon_skeleton
+[18:50:58] [main/ERROR]: No data fixer registered for medievalorigins:summon_zombie
+[18:50:58] [main/ERROR]: No data fixer registered for medievalorigins:summon_wither_skeleton
+[18:50:58] [main/ERROR]: No data fixer registered for medievalorigins:summoned_arrow
+[18:50:58] [main/INFO]: Registering Sounds for medievalorigins
+[18:50:58] [main/WARN]: [MELODY] Disabling Melody since it's loaded server-side.
+[18:50:58] [main/INFO]: Definitely not up to no good
+[18:50:58] [main/INFO]: Registered mobs_of_mythology config for auto-sync function
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:automaton
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:chupacabra
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:kobold
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:kobold_warrior
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:drake
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:sporeling
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:basilisk
+[18:50:58] [main/ERROR]: No data fixer registered for mobs_of_mythology:pegasus
+[18:50:58] [main/INFO]: [STDOUT]: No matching files were found.
+[18:50:58] [main/INFO]: Registering Mod Items for more_rpg_classes
+[18:50:58] [main/INFO]: Giving mobs a fresh coat of paint...
+[18:50:59] [main/ERROR]: No data fixer registered for skull_spirit
+[18:50:59] [main/INFO]: Constructing common components for mutantmonsters:main
+[18:50:59] [main/INFO]: Dispatching loading event for config mutantmonsters-common.toml
+[18:50:59] [main/ERROR]: No data fixer registered for creeper_minion
+[18:50:59] [main/ERROR]: No data fixer registered for mutant_creeper
+[18:50:59] [main/ERROR]: No data fixer registered for mutant_enderman
+[18:50:59] [main/ERROR]: No data fixer registered for mutant_skeleton
+[18:50:59] [main/ERROR]: No data fixer registered for mutant_snow_golem
+[18:50:59] [main/ERROR]: No data fixer registered for mutant_zombie
+[18:50:59] [main/ERROR]: No data fixer registered for spider_pig
+[18:50:59] [main/ERROR]: No data fixer registered for body_part
+[18:50:59] [main/ERROR]: No data fixer registered for creeper_minion_egg
+[18:50:59] [main/ERROR]: No data fixer registered for endersoul_clone
+[18:50:59] [main/ERROR]: No data fixer registered for endersoul_fragment
+[18:50:59] [main/ERROR]: No data fixer registered for throwable_block
+[18:50:59] [main/WARN]: [Mythic Metals] Your config is outdated. Please update it manually in the file, or delete it so it can be re-generated.
+[18:50:59] [main/WARN]: [Mythic Metals] Your config is outdated. Please update it manually in the file, or delete it so it can be re-generated.
+[18:50:59] [main/WARN]: [Mythic Metals] Your config is outdated. Please update it manually in the file, or delete it so it can be re-generated.
+[18:50:59] [main/WARN]: [Mythic Metals] Your config is outdated. Please update it manually in the file, or delete it so it can be re-generated.
+[18:50:59] [main/WARN]: [Mythic Metals] Your config is outdated. Please update it manually in the file, or delete it so it can be re-generated.
+[18:50:59] [main/INFO]: [Mythic Metals] Have fun using Origins!
+[18:50:59] [main/INFO]: [Mythic Metals] Mythic Metals is now initialized.
+[18:50:59] [main/INFO]: Loading NBTEdit ver: 5.2.11 on mc 1.21.1, build at 2025-01-26T11:13:35.418553700+08:00
+[18:50:59] [main/INFO]: Necronomicon Initialized
+[18:50:59] [main/INFO]: File exists, reading config for elocindev.necronomicon.NecronomiconConfig.
+[18:50:59] [main/INFO]: Config for elocindev.necronomicon.NecronomiconConfig read successfully.
+[18:50:59] [main/INFO]: Loading Noisium.
+[18:50:59] [main/INFO]: By my oath, there is no rest for the wicked.
+[18:50:59] [main/INFO]: Hello from the Oracle Wiki Mod!
+[18:50:59] [main/INFO]: Origins 1.13.0 is initializing. Have fun!
+[18:50:59] [main/INFO]: chyzman: No sound or Ender Dragon leakage. Although Ender Dragon sound leakage is still a thing
+[18:51:00] [main/INFO]: Loading config from: /workspaces/mods/servidor_minecraft/./config/projectileimmunityfix.json
+[18:51:00] [main/INFO]: Loading config from: /workspaces/mods/servidor_minecraft/./config/projectileimmunityfix.json
+[18:51:00] [main/INFO]: Projectile Immunity Fix initialized!
+[18:51:00] [main/INFO]: Constructing common components for puzzleslib:main
+[18:51:00] [main/INFO]: Registering Spell Engine Heal event listener.
+[18:51:00] [main/INFO]: [Regions Unexplored] generating and loading config
+[18:51:00] [main/INFO]: Initializing Regions Unexplored from Fabric Mod Initializer entrypoint.
+[18:51:01] [main/INFO]: Hello Fabric world!
+[18:51:01] [main/INFO]: [ServerCore] Loaded V1.5.5+1.21.1!
+[18:51:01] [main/INFO]: Shield API initialized!
+[18:51:01] [main/ERROR]: No data fixer registered for chamber_fire_charge
+[18:51:01] [main/ERROR]: No data fixer registered for chamber_wind_charge
+[18:51:01] [main/INFO]: Loaded config simplyswords:general in 17ms
+[18:51:01] [main/INFO]: Loaded config simplyswords:gem_powers in 298ms
+[18:51:01] [main/INFO]: Loaded config simplyswords:status_effects in 11ms
+[18:51:01] [main/INFO]: Loaded config simplyswords:weapon_attributes in 153ms
+[18:51:02] [main/INFO]: Loaded config simplyswords:unique_effects in 378ms
+[18:51:02] [main/ERROR]: No data fixer registered for battlestandard
+[18:51:02] [main/ERROR]: No data fixer registered for battlestandarddark
+[18:51:02] [main/ERROR]: No data fixer registered for simplyswords:simplybeeentity
+[18:51:02] [main/ERROR]: No data fixer registered for simplyswords:thrown_sword
+[18:51:02] [main/ERROR]: No data fixer registered for simplyswords:frostfall_entity
+[18:51:02] [main/ERROR]: No data fixer registered for simplyswords:livyatan_entity
+[18:51:02] [main/ERROR]: No data fixer registered for simplyswords:spear_entity
+[18:51:02] [main/ERROR]: No data fixer registered for simplyswords:runic_entity
+[18:51:02] [main/INFO]: [STDOUT]: /workspaces/mods/servidor_minecraft/config
+[18:51:02] [main/INFO]: Deserializing SnufflesConfig from './config/snuffles.json'
+[18:51:03] [main/INFO]: Hello Fabric world!
+[18:51:03] [main/INFO]: Creating asynchronous mapping cache executor...
+[18:51:03] [Mappings Cache Thread #1/INFO]: Verifying cache of yarn mappings...
+[18:51:03] [Mappings Cache Thread #1/INFO]: Latest build for yarn is already cached (0 hour(s) ago, refresh in 48 hour(s))
+[18:51:03] [Mappings Cache Thread #1/INFO]: Mappings for yarn build 1.21.1+build.3 are already downloaded
+[18:51:03] [Mappings Cache Thread #1/INFO]: Verified cache of yarn mappings (took 9ms)
+[18:51:03] [Mappings Cache Thread #1/INFO]: Parsing yarn mappings...
+[18:51:03] [main/INFO]: structureessentials mod initialized
+[18:51:03] [main/INFO]: Loaded config supplementaries-common.json
+[18:51:03] [Mappings Cache Thread #1/INFO]: Parsed yarn mappings (took 449ms)
+[18:51:03] [Mappings Cache Thread #1/INFO]: Caching yarn mappings...
+[18:51:03] [Mappings Cache Thread #1/INFO]: Cached yarn mappings (took 141ms)
+[18:51:03] [Mappings Cache Thread #1/INFO]: Cached mappings have been built (took 627ms)
+[18:51:03] [Mappings Cache Thread #1/INFO]:   Classes: 7535
+[18:51:03] [Mappings Cache Thread #1/INFO]:   Methods: 27638
+[18:51:03] [Mappings Cache Thread #1/INFO]:   Fields: 32194
+[18:51:03] [Thread-9/INFO]: Shutting down asynchronous mapping cache executor...
+[18:51:03] [Thread-9/INFO]: Injecting into root logger...
+[18:51:04] [main/INFO]: Deserializing ItTakesPillageConfig from 'config/takesapillage.json'
+[18:51:04] [main/INFO]: Registered region minecraft:overworld to index 0 for type OVERWORLD
+[18:51:04] [main/INFO]: Registered region minecraft:nether to index 0 for type NETHER
+[18:51:04] [main/INFO]: Registered region biomeswevegone:region_0 to index 1 for type OVERWORLD
+[18:51:04] [main/INFO]: Registered region biomeswevegone:region_1 to index 2 for type OVERWORLD
+[18:51:04] [main/INFO]: Registered region biomeswevegone:region_2 to index 3 for type OVERWORLD
+[18:51:04] [main/INFO]: Registered region clutter:overworld to index 4 for type OVERWORLD
+[18:51:04] [main/INFO]: Already initialized Regions Unexplored from Fabric Mod Initializer entrypoint.
+[18:51:04] [main/INFO]: Registered region regions_unexplored:primary to index 5 for type OVERWORLD
+[18:51:04] [main/INFO]: Registered region regions_unexplored:secondary to index 6 for type OVERWORLD
+[18:51:04] [main/INFO]: Registered region regions_unexplored:nether to index 1 for type NETHER
+[18:51:05] [main/INFO]: Creating environment manager EnvironmentManager{controller=com.github.thedeathlycow.thermoo.api.temperature.EmptyEnvironmentController}
+[18:51:05] [main/INFO]: Thermoo initialized
+[18:51:05] [main/INFO]: Initialized Thermoo Patches for the following mods: 
+ - origins: Origins
+ - friendsandfoes: Friends&Foes
+[18:51:05] [main/INFO]: Tom's Storage Setup starting
+[18:51:05] [main/ERROR]: No data fixer registered for frostbite_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:dragons_breath_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:sonic_boom_projectile
+[18:51:05] [main/ERROR]: No data fixer registered for venom_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for flame_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for solar_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for tidal_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for cursed_flame_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:lightning_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:wind_projectile
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:icicle_javelin
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:hunter_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:astral_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:hunter_xp_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:ancient_sage_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:sentinel_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:vitality_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:ethereal_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:shulker_blast_projectile
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:spectral_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:aurora_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:aurora_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:radiant_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:dusk_reaper_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:ironclad_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:webstring_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:torchbearer_arrow
+[18:51:05] [main/ERROR]: No data fixer registered for too_many_bows:light_orb
+[18:51:05] [main/INFO]: Hello Fabric world!
+[18:51:05] [main/ERROR]: No data fixer registered for 
+[18:51:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:water for Water (Fluid Amount Required: 81000) with the ID 0
+[18:51:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:lava for Lava (Fluid Amount Required: 81000) with the ID 1
+[18:51:05] [main/INFO]: Registered the FluidEffect with Unique ID of travelersbackpack:potion for block.travelersbackpack.potion_still (Fluid Amount Required: 27000) with the ID 2
+[18:51:05] [main/INFO]: Registered the FluidEffect with Unique ID of minecraft:milk for Air (Fluid Amount Required: 81000) with the ID 3
+[18:51:05] [main/INFO]: [STDOUT]: TxniLib onInitialize!
+[18:51:05] [main/INFO]: Watching directory: ./config
+[18:51:05] [main/INFO]: Watching file: unionlib-client.toml
+[18:51:05] [main/INFO]: Watching file: unionlib-common.toml
+[18:51:05] [main/INFO]: Watching file: unionlib-server.toml
+[18:51:05] [main/INFO]: Starting up: unionlib
+[18:51:05] [main/INFO]: unionlib's Serverbound & Clientbound packets registered
+[18:51:05] [main/INFO]: Deserializing ModMobsConfig from 'config/variantsandventures/mod_mobs.json'
+[18:51:05] [main/INFO]: Deserializing VanillaMobsConfig from 'config/variantsandventures/vanilla_mobs.json'
+[18:51:05] [main/INFO]: Constructing common components for visualworkbench:main
+[18:51:05] [main/INFO]: Dispatching loading event for config visualworkbench-common.toml
+[18:51:06] [main/INFO]: [STDOUT]: Config updated!
+[18:51:06] [main/INFO]: [STDOUT]: Config loaded!
+[18:51:06] [main/INFO]: Has opac!! false
+[18:51:06] [main/INFO]: Has ftbchunks!! true
+[18:51:06] [main/INFO]: Has flan!! false
+[18:51:06] [main/INFO]: Has goml!! false
+[18:51:06] [main/INFO]: Registering C2S receiver with id wands:key_packet
+[18:51:06] [main/INFO]: Registering C2S receiver with id wands:palette_packet
+[18:51:06] [main/INFO]: Registering C2S receiver with id wands:wand_packet
+[18:51:06] [main/INFO]: Registering C2S receiver with id wands:sync_rock_packet
+[18:51:06] [main/INFO]: Registering C2S receiver with id wands:pos_packet
+[18:51:06] [main/INFO]: Registering C2S receiver with id wands:global_settings_packet
+[18:51:06] [main/INFO]: [STDOUT]: Initialize WeaponMaster
+[18:51:06] [main/INFO]: Registering Mod Items for witcher_rpg
+[18:51:06] [main/INFO]: Registering Item Groups for witcher_rpg
+[18:51:06] [main/INFO]: Reflections took 5 ms to scan 1 urls, producing 1 keys and 3 values
+[18:51:06] [main/INFO]: Reflections took 7 ms to scan 1 urls, producing 1 keys and 3 values
+[18:51:06] [main/INFO]: Chose [Entity Tags] as the active game stages implementation
+[18:51:06] [main/INFO]: Setting permissions provider implementation to: FTB Ranks
+[18:51:06] [main/INFO]: Chose [FTB Ranks] as the active permissions implementation
+[18:51:06] [main/INFO]: [FTB Quests] recipe helper provider is [NO-OP]
+[18:51:06] [main/INFO]: [FTB Quests] Enabled FTB Filter System integration
+[18:51:06] [main/INFO]: [FTB Chunks] FTB Ranks detected, listening for ranks events
+[18:51:06] [main/INFO]: [FTB Chunks] Enabled Waystones integration
+[18:51:06] [main/INFO]: Download MuseSwipr on Steam!
+[18:51:06] [main/INFO]: Krypton is now accelerating your Minecraft server's networking stack 🚀
+[18:51:07] [main/INFO]: Initialized block sets in 273ms
+[18:51:07] [main/ERROR]: No data fixer registered for falling_lantern
+[18:51:07] [main/ERROR]: No data fixer registered for target_dummy
+[18:51:07] [main/ERROR]: No data fixer registered for dispenser_minecart
+[18:51:07] [main/ERROR]: No data fixer registered for falling_urn
+[18:51:07] [main/ERROR]: No data fixer registered for falling_ash
+[18:51:07] [main/ERROR]: No data fixer registered for falling_sack
+[18:51:07] [main/ERROR]: No data fixer registered for brick_projectile
+[18:51:07] [main/ERROR]: No data fixer registered for slimeball_projectile
+[18:51:07] [main/ERROR]: No data fixer registered for bomb
+[18:51:07] [main/ERROR]: No data fixer registered for cannonball
+[18:51:08] [main/ERROR]: No data fixer registered for rope_arrow
+[18:51:08] [main/ERROR]: No data fixer registered for slingshot_projectile
+[18:51:08] [main/ERROR]: No data fixer registered for cannon_boat
+[18:51:08] [main/INFO]: Loaded config moonlight-common.json
+[18:51:08] [main/INFO]: Initialized color sets in 97ms
+[18:51:08] [main/INFO]: Finished mod setup in: [0, 0, 1, 0, 0, 23, 8, 0] ms
+[18:51:08] [main/INFO]: Loading Xaero's Minimap - Stage 1/2 (Server)
+[18:51:08] [main/INFO]: Loading Xaero's World Map - Stage 1/2 (Server)
+[18:51:09] [main/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[18:51:09] [main/WARN]: Missing data pack affinity
+[18:51:09] [main/WARN]: Missing data pack things
+[18:51:09] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./config/paxi/datapacks/TSBC.zip, ignoring
+[18:51:09] [main/WARN]: Non [a-z0-9_.-] character in namespace .DS_Store in pack ./config/paxi/datapacks/TSBC.zip, ignoring
+[18:51:09] [pool-3-thread-1/INFO]: Generated runtime SERVER_DATA for pack supplementaries:generated_pack (supplementaries) in: 54 ms (multithreaded)
+[18:51:09] [main/INFO]: Generated runtime resources for 1 packs in a total of: 62 ms
+[18:51:13] [main/ERROR]: Unbound values in registry ResourceKey[minecraft:root / minecraft:enchantment]: [affinity:affine, minecraft:exclusive_set/exclusive]
+[18:51:13] [main/ERROR]: Registry loading errors:
+> Errors in registry minecraft:enchantment:
+>> Errors in element affinity:bastion:
+java.lang.IllegalStateException: Failed to parse affinity:enchantment/bastion.json from pack FantasyMcEssentials
+	at knot//net.minecraft.class_7655.method_45122(class_7655.java:251)
+	at knot//net.minecraft.class_7655$class_9158.method_56520(class_7655.java:96)
+	at knot//net.minecraft.class_7655.method_56514(class_7655.java:151)
+	at knot//net.minecraft.class_7655.method_45120(class_7655.java:164)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at knot//net.minecraft.class_7655.method_45121(class_7655.java:164)
+	at knot//net.minecraft.class_7655.mixinextras$bridge$method_45121$37(class_7655.java)
+	at knot//net.minecraft.class_7655.wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall(class_7655.java:1056)
+	at knot//net.minecraft.class_7655.mixinextras$bridge$wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall$40(class_7655.java)
+	at knot//net.minecraft.class_7655.wrapOperation$dfn000$fabric-resource-conditions-api-v1$captureRegistries(class_7655.java:1557)
+	at knot//net.minecraft.class_7655.method_56515(class_7655.java:151)
+	at knot//net.minecraft.class_7237.method_45142(class_7237.java:62)
+	at knot//net.minecraft.class_7237.method_45143(class_7237.java:66)
+	at knot//net.minecraft.class_7237.method_42098(class_7237.java:32)
+	at knot//net.minecraft.server.Main.method_43612(Main.java:184)
+	at knot//net.minecraft.class_156.method_43498(class_156.java:1018)
+	at knot//net.minecraft.class_156.method_43499(class_156.java:1012)
+	at knot//net.minecraft.server.Main.main(Main.java:182)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: java.lang.IllegalStateException: Unknown registry key in ResourceKey[minecraft:root / minecraft:enchantment_effect_component_type]: affinity:absolute_name_hue; Unknown registry key in ResourceKey[minecraft:root / minecraft:enchantment_effect_component_type]: affinity:absolute_name_hue missed input: {"affinity:absolute_name_hue":160}
+	at knot//com.mojang.serialization.DataResult$Error.mdacc883$owo$lambda$addStackTraceToException$0$0(DataResult.java:565)
+	at knot//com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at knot//com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at knot//net.minecraft.class_7655.method_56915(class_7655.java:231)
+	at knot//net.minecraft.class_7655.method_45122(class_7655.java:249)
+	... 22 more
+>> Errors in element affinity:berserker:
+java.lang.IllegalStateException: Failed to parse affinity:enchantment/berserker.json from pack FantasyMcEssentials
+	at knot//net.minecraft.class_7655.method_45122(class_7655.java:251)
+	at knot//net.minecraft.class_7655$class_9158.method_56520(class_7655.java:96)
+	at knot//net.minecraft.class_7655.method_56514(class_7655.java:151)
+	at knot//net.minecraft.class_7655.method_45120(class_7655.java:164)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at knot//net.minecraft.class_7655.method_45121(class_7655.java:164)
+	at knot//net.minecraft.class_7655.mixinextras$bridge$method_45121$37(class_7655.java)
+	at knot//net.minecraft.class_7655.wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall(class_7655.java:1056)
+	at knot//net.minecraft.class_7655.mixinextras$bridge$wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall$40(class_7655.java)
+	at knot//net.minecraft.class_7655.wrapOperation$dfn000$fabric-resource-conditions-api-v1$captureRegistries(class_7655.java:1557)
+	at knot//net.minecraft.class_7655.method_56515(class_7655.java:151)
+	at knot//net.minecraft.class_7237.method_45142(class_7237.java:62)
+	at knot//net.minecraft.class_7237.method_45143(class_7237.java:66)
+	at knot//net.minecraft.class_7237.method_42098(class_7237.java:32)
+	at knot//net.minecraft.server.Main.method_43612(Main.java:184)
+	at knot//net.minecraft.class_156.method_43498(class_156.java:1018)
+	at knot//net.minecraft.class_156.method_43499(class_156.java:1012)
+	at knot//net.minecraft.server.Main.main(Main.java:182)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: java.lang.IllegalStateException: Unknown registry key in ResourceKey[minecraft:root / minecraft:enchantment_effect_component_type]: affinity:absolute_name_hue; Unknown registry key in ResourceKey[minecraft:root / minecraft:enchantment_effect_component_type]: affinity:absolute_name_hue missed input: {"affinity:absolute_name_hue":343}
+	at knot//com.mojang.serialization.DataResult$Error.mdacc883$owo$lambda$addStackTraceToException$0$0(DataResult.java:565)
+	at knot//com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at knot//com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at knot//net.minecraft.class_7655.method_56915(class_7655.java:231)
+	at knot//net.minecraft.class_7655.method_45122(class_7655.java:249)
+	... 22 more
+>> Errors in element affinity:critical_gamble:
+java.lang.IllegalStateException: Failed to parse affinity:enchantment/critical_gamble.json from pack FantasyMcEssentials
+	at knot//net.minecraft.class_7655.method_45122(class_7655.java:251)
+	at knot//net.minecraft.class_7655$class_9158.method_56520(class_7655.java:96)
+	at knot//net.minecraft.class_7655.method_56514(class_7655.java:151)
+	at knot//net.minecraft.class_7655.method_45120(class_7655.java:164)
+	at java.base/java.lang.Iterable.forEach(Iterable.java:75)
+	at knot//net.minecraft.class_7655.method_45121(class_7655.java:164)
+	at knot//net.minecraft.class_7655.mixinextras$bridge$method_45121$37(class_7655.java)
+	at knot//net.minecraft.class_7655.wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall(class_7655.java:1056)
+	at knot//net.minecraft.class_7655.mixinextras$bridge$wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall$40(class_7655.java)
+	at knot//net.minecraft.class_7655.wrapOperation$dfn000$fabric-resource-conditions-api-v1$captureRegistries(class_7655.java:1557)
+	at knot//net.minecraft.class_7655.method_56515(class_7655.java:151)
+	at knot//net.minecraft.class_7237.method_45142(class_7237.java:62)
+	at knot//net.minecraft.class_7237.method_45143(class_7237.java:66)
+	at knot//net.minecraft.class_7237.method_42098(class_7237.java:32)
+	at knot//net.minecraft.server.Main.method_43612(Main.java:184)
+	at knot//net.minecraft.class_156.method_43498(class_156.java:1018)
+	at knot//net.minecraft.class_156.method_43499(class_156.java:1012)
+	at knot//net.minecraft.server.Main.main(Main.java:182)
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480)
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74)
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23)
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69)
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69)
+Caused by: java.lang.IllegalStateException: Unknown registry key in ResourceKey[minecraft:root / minecraft:enchantment_effect_component_type]: affinity:instant_kill_chance; Unknown registry key in ResourceKey[minecraft:root / minecraft:enchantment_effect_component_type]: affinity:instant_kill_chance missed input: {"affinity:instant_kill_chance":{"type":"minecraft:linear","base":1e-11,"per_level_above_first":0}}
+	at knot//com.mojang.serialization.DataResult$Error.mdacc883$owo$lambda$addStackTraceToException$0$0(DataResult.java:565)
+	at knot//com.mojang.serialization.DataResult$Error.getOrThrow(DataResult.java:287)
+	at knot//com.mojang.serialization.DataResult.getOrThrow(DataResult.java:81)
+	at knot//net.minecraft.class_7655.method_56915(class_7655.java:231)
+	at knot//net.minecraft.class_7655.method_45122(class_7655.java:249)
+	... 22 more
+
+[18:51:13] [main/WARN]: Initial datapack load took 3.703 s
+[18:51:13] [main/WARN]: Failed to load datapacks, can't proceed with server load. You can either fix your datapacks or reset to vanilla with --safeMode
+java.util.concurrent.ExecutionException: java.lang.IllegalStateException: Failed to load registries due to above errors
+	at java.base/java.util.concurrent.CompletableFuture.reportGet(CompletableFuture.java:396) ~[?:?]
+	at java.base/java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2073) ~[?:?]
+	at knot/net.minecraft.server.Main.main(Main.java:229) [server-intermediary.jar:?]
+	at net.fabricmc.loader.impl.game.minecraft.MinecraftGameProvider.launch(MinecraftGameProvider.java:480) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.Knot.launch(Knot.java:74) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.knot.KnotServer.main(KnotServer.java:23) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.loader.impl.launch.server.FabricServerLauncher.main(FabricServerLauncher.java:69) [fabric-loader-0.16.14.jar:?]
+	at net.fabricmc.installer.ServerLauncher.main(ServerLauncher.java:69) [fabric-server-launch.jar:1.0.1]
+Caused by: java.lang.IllegalStateException: Failed to load registries due to above errors
+	at knot//MC/net.minecraft.registry.RegistryLoader.load(RegistryLoader.java:181) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.registry.RegistryLoader.mixinextras$bridge$method_45121$37(RegistryLoader.java) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.registry.RegistryLoader.wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall(RegistryLoader.java:1056) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.registry.RegistryLoader.mixinextras$bridge$wrapOperation$dfh000$fabric-registry-sync-v0$wrapIsServerCall$40(RegistryLoader.java) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.registry.RegistryLoader.wrapOperation$dfn000$fabric-resource-conditions-api-v1$captureRegistries(RegistryLoader.java:1557) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.registry.RegistryLoader.loadFromResource(RegistryLoader.java:151) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.server.SaveLoading.loadDynamicRegistryManager(SaveLoading.java:62) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.server.SaveLoading.withRegistriesLoaded(SaveLoading.java:66) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.server.SaveLoading.load(SaveLoading.java:32) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.method_43612(Main.java:184) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.util.Util.waitAndApply(Util.java:1018) ~[server-intermediary.jar:?]
+	at knot//MC/net.minecraft.util.Util.waitAndApply(Util.java:1012) ~[server-intermediary.jar:?]
+	at knot/net.minecraft.server.Main.main(Main.java:182) ~[server-intermediary.jar:?]
+	... 5 more

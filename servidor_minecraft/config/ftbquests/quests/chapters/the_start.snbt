@@ -1,0 +1,4873 @@
+{
+	autofocus_id: "1984A6883ECAA5DD"
+	default_hide_dependency_lines: false
+	default_quest_shape: "rsquare"
+	disable_toast: true
+	filename: "the_start"
+	group: ""
+	icon: {
+		components: {
+			"ftbquests:icon": "eternal_starlight:item/seeking_eye"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "16FC97D719E0D4AC"
+	images: [
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 0.75d
+			image: "eternal_starlight:block/abyssal_fire_0"
+			order: 1
+			rotation: 0.0d
+			width: 0.25d
+			x: 4.240136054421754d
+			y: -11.481632653061226d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 0.75d
+			image: "eternal_starlight:block/amaramber_fire_0"
+			order: 2
+			rotation: 0.0d
+			width: 0.25d
+			x: -1.6840136054421606d
+			y: -8.923469387755091d
+		}
+		{
+			height: 1.0d
+			image: "eternal_starlight:block/dusk_light"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/smooth_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/smooth_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/smooth_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/smooth_stone"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/smooth_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -15.299999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/smooth_stone"
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "eternal_starlight:block/doomed_redstone_torch_off"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "eternal_starlight:block/doomed_redstone_torch_off"
+			rotation: 90.0d
+			width: 1.0d
+			x: 7.177891156462593d
+			y: -9.874829931972783d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 2.0d
+			image: "fantasy_mc:textures/newquestimg/crack1.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.95d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 9.35d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 2.5816326530611917d
+			y: -9.352380952380912d
+		}
+		{
+			click: "#23E3047D8B7496A9"
+			dependency: "2855DE4BEB572119"
+			height: 3.2d
+			hover: ["Welcome to FantasyMC"]
+			image: "fantasy_mc:textures/newquestimg/crack2.png"
+			rotation: 0.0d
+			width: 3.2d
+			x: 5.95d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "biomeswevegone:block/blooming_witch_hazel_leaves"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95680272108843d
+			y: -9.818707482993197d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 0.75d
+			image: "eternal_starlight:block/abyssal_fire_0"
+			order: 1
+			rotation: 90.0d
+			width: 0.25d
+			x: 7.607482993197266d
+			y: -9.86938775510204d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 5.5d
+			hover: ["Welcome to the world of FantasyMC"]
+			image: "fantasy_mc:textures/fantasymc.png"
+			order: 55
+			rotation: 0.0d
+			width: 12.0d
+			x: 5.95d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 2.55d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 9.35d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -13.6d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 6.8d
+			y: -15.299999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 3.4d
+			y: -14.45d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 5.1d
+			y: -15.299999999999999d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4159863945578763d
+			y: -12.955612244897935d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.27312925170073d
+			y: -12.955612244897935d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1302721088435845d
+			y: -12.955612244897935d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.967006802721144d
+			y: -12.955612244897935d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.824149659863991d
+			y: -12.955612244897935d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.681292517006845d
+			y: -12.955612244897935d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.538435374149707d
+			y: -12.955612244897935d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -12.75d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -11.049999999999999d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -10.2d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.4d
+			y: -10.2d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.4d
+			y: -11.049999999999999d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.4d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.4d
+			y: -12.75d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 2.0d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 10.771428571428565d
+			y: -10.618027210884335d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -9.35d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -11.049999999999999d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -11.9d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -12.75d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.75d
+			y: -9.35d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.75d
+			y: -10.2d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.75d
+			y: -11.049999999999999d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.75d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.85d
+			y: -9.35d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.85d
+			y: -10.2d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.85d
+			y: -11.049999999999999d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.85d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -11.9d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 2.0d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: 1
+			rotation: 0.0d
+			width: 4.0d
+			x: 1.1404761904762069d
+			y: -10.621428571428567d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: -1.7d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 13.6d
+			y: -12.75d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -9.35d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -10.2d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -12.75d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -11.049999999999999d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -12.75d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -10.2d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -9.35d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -10.2d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -11.9d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -10.2d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -11.9d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -11.9d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -11.049999999999999d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -12.75d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -12.75d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -12.75d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -9.35d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -12.75d
+		}
+		{
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -12.75d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 1.9489795918367108d
+			y: -8.94421768707479d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 1.3163265306122156d
+			y: -8.515646258503352d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 0.6904761904761543d
+			y: -8.087074829931936d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -180.0d
+			width: 1.0d
+			x: 0.05782312925166622d
+			y: -7.63809523809519d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.85d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.85d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.4d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 3.4d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 8.5d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.75d
+			y: -8.5d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.75d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -11.9d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.85d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.7d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.4d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.5d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.35d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.049999999999999d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.9d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.75d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 9.979591836734663d
+			y: -8.879591836734647d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 10.612244897959151d
+			y: -8.471428571428518d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.244897959183639d
+			y: -8.042857142857095d
+		}
+		{
+			height: 1.0d
+			image: "minerally:block/deepslate_geode"
+			rotation: -90.0d
+			width: 1.0d
+			x: 11.877551020408127d
+			y: -7.634693877550966d
+		}
+		{
+			height: 1.0d
+			image: "eternal_starlight:block/doomed_redstone_torch_off"
+			order: 1
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.7d
+			y: -8.5d
+		}
+		{
+			height: 1.0d
+			image: "eternal_starlight:block/doomed_redstone_torch_off"
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.6d
+			y: -10.2d
+		}
+		{
+			dependency: "11FCA6910FA4CB46"
+			height: 0.75d
+			image: "eternal_starlight:block/amaramber_fire_0"
+			order: 2
+			rotation: 0.0d
+			width: 0.25d
+			x: 13.601700680272131d
+			y: -10.617346938775498d
+		}
+		{
+			click: "#6D70B4B5F3029705"
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			hover: [
+				"Paths"
+				" - Interact? -"
+			]
+			image: "rpg_battle_gear:item/ancient_core"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.33095238095238244d
+			y: -10.621428571428567d
+		}
+		{
+			click: "#11FCA6910FA4CB46"
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			hover: [
+				"Skills"
+				" - Interact? -"
+			]
+			image: "knightquest:item/paladin_sword"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.914285714285718d
+			y: -10.597619047619048d
+		}
+		{
+			click: "#678F9FDE5D08E7A9"
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			hover: [
+				"Your story"
+				" - Interact? -"
+			]
+			image: "knightquest:item/chaotic_essence"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.86666666666666d
+			y: -10.618027210884335d
+		}
+		{
+			click: "#684531CE8B978F17"
+			dependency: "2855DE4BEB572119"
+			height: 1.2d
+			hover: [
+				"Allies"
+				" - Interact? -"
+			]
+			image: "ftbteams:textures/teams.png"
+			order: 2
+			rotation: 0.0d
+			width: 1.2d
+			x: 11.614965986394566d
+			y: -10.579761904761902d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: -0.85d
+			y: -12.75d
+		}
+		{
+			height: 0.5d
+			image: "regions_unexplored:block/blackwood_planks"
+			order: 1
+			rotation: 90.0d
+			width: 1.0d
+			x: 12.75d
+			y: -12.75d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.25d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 11.830952380952375d
+			y: -8.777040816326533d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.25d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: 1
+			rotation: 0.0d
+			width: 1.5d
+			x: 0.09625850340135855d
+			y: -8.797448979591842d
+		}
+		{
+			click: "#2855DE4BEB572119"
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			hover: [
+				"End Remastered"
+				"  - Interact? -"
+			]
+			image: "endrem:item/magical_eye"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.810544217687081d
+			y: -8.797448979591842d
+		}
+		{
+			click: "#1D1C1C4DA2858B9C"
+			dependency: "2855DE4BEB572119"
+			height: 0.75d
+			hover: [
+				"Mob AI Tweaks"
+				" - Interact? -"
+			]
+			image: "emi_loot:textures/gui/spawns_with.png"
+			order: 2
+			rotation: 0.0d
+			width: 0.75d
+			x: 0.08877551020410124d
+			y: -8.862244897959187d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.55d
+			y: -7.6499999999999995d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -8.5d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.95d
+			y: -7.6499999999999995d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -8.5d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.2d
+			y: -7.6499999999999995d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.1d
+			y: -13.6d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.8d
+			y: -14.45d
+		}
+		{
+			dependency: "2855DE4BEB572119"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -12.75d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 13.597959183673476d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.747959183673476d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.897959183673477d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.047959183673475d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.197959183673476d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.347959183673476d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 8.497959183673476d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.647959183673477d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 6.797959183673477d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.947959183673477d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 5.097959183673477d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.247959183673477d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.3979591836734766d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.547959183673477d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.6979591836734769d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.8479591836734768d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.002040816326523087d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.8520408163265231d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: -1.702040816326523d
+			y: -7.186394557823121d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.696938775510179d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.003061224489820824d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.8469387755101792d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.546938775510179d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.85d
+			y: -12.75d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.8469387755101792d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.696938775510179d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 2.546938775510179d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.8530612244898208d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: -0.8530612244898208d
+			y: -13.168707482993184d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.359183673469325d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.209183673469324d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.059183673469324d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.909183673469325d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "minecraft:block/stone_bricks"
+			order: -2
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.759183673469325d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 9.359183673469325d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 10.209183673469324d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.059183673469324d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 11.909183673469325d
+			y: -13.172789115646246d
+		}
+		{
+			color: 11184810
+			dependency: "684531CE8B978F17"
+			height: 1.0d
+			image: "minecraft:block/cracked_stone_bricks"
+			order: -1
+			rotation: 0.0d
+			width: 1.0d
+			x: 12.759183673469325d
+			y: -13.172789115646246d
+		}
+		{
+			click: "#6893A5479B4C2B16"
+			height: 1.0d
+			hover: ["Click here to head to Debug Chapter!"]
+			image: "supplementaries:item/wrench"
+			order: 5
+			rotation: 0.0d
+			width: 1.0d
+			x: 7.6499999999999995d
+			y: -9.35d
+		}
+		{
+			click: "#6893A5479B4C2B16"
+			height: 1.0d
+			hover: ["Click here to head to Debug Chapter!"]
+			image: "supplementaries:item/wrench"
+			order: 5
+			rotation: 0.0d
+			width: 1.0d
+			x: 4.25d
+			y: -9.35d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"7A24F7AF9896FB50"
+				"63C20D45C02CCC46"
+			]
+			hide_dependency_lines: true
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:blade_pottery_sherd"
+			}
+			id: "2C3352144E4F04A9"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute as @p at @p run tag @p add Exiled_Knight"
+					icon: {
+						id: "magistuarmory:copper_claymore"
+					}
+					id: "45465526569A0703"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: {
+						components: {
+							"spell_engine:spell_container": {
+								content: "ARCHERY"
+								max_spell_count: 1
+								spell_ids: ["archers:power_shot"]
+							}
+						}
+						id: "spell_engine:scroll"
+					}
+					id: "6CB904B4159E4F46"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 6FFFCF5A65423CA9"
+					id: "6E805C468CB3D800"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests open_book 568B28E0E7AB8FA3"
+					id: "164A082BF4298358"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run function kevs:remove_tags"
+					id: "7E6F2E0F79DE362A"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "3098186819C87F33"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": [ "\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\"", "\"    \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "minecraft:blade_pottery_sherd" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:oak_hanging_sign"
+					}
+					id: "76D71430EEFCCFC7"
+					optional_task: true
+					type: "custom"
+				}
+			]
+			x: 3.4d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"5E75FFD089877F35"
+				"63C20D45C02CCC46"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:skull_pottery_sherd"
+			}
+			id: "1F3C50F9922D5A3C"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute as @p at @p run tag @p add Shadow_Assassin"
+					icon: {
+						components: {
+							"ftbquests:icon": "more_rpg_classes:textures/particle/blood_drop_particle.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "6E7329C2DEF6DDC3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: {
+						components: {
+							"spell_engine:spell_container": {
+								content: "ARCHERY"
+								max_spell_count: 1
+								spell_ids: ["archers:power_shot"]
+							}
+						}
+						id: "spell_engine:scroll"
+					}
+					id: "3215594BB3F94452"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 2F59916017E69AA6"
+					id: "2D914342D12760AB"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests open_book 41C39F5F36EA9939"
+					id: "62F2141C98D982F1"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run function kevs:remove_tags"
+					id: "11852649BCA1DF5B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "0E2D652F821308FA"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Skull Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A contract left unfinished. A name erased from history.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "minecraft:skull_pottery_sherd" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:oak_hanging_sign"
+					}
+					id: "16AC8D0410335D46"
+					optional_task: true
+					type: "custom"
+				}
+			]
+			x: 5.1d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"3E4016870EEE37A3"
+				"63C20D45C02CCC46"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:heartbreak_pottery_sherd"
+			}
+			id: "01EAE609A98F99D0"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute as @p at @p run tag @p add Forsaken_Prophet"
+					icon: {
+						id: "jewelry:citrine_necklace"
+					}
+					id: "36D57CC94EB89189"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 75685D4E8CAF1B2E"
+					id: "0173B799B0405D54"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests open_book 7D81F98DB4725B7D"
+					id: "6F81D636EC9885E9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						components: {
+							"minecraft:rarity": "rare"
+							"spell_engine:spell_container": {
+								max_spell_count: 1
+								spell_ids: ["witcher_rpg:aard_sweep"]
+							}
+						}
+						id: "spell_engine:scroll"
+					}
+					id: "09220490FC2287EF"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run function kevs:remove_tags"
+					id: "7C296A4FB1374948"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "5A61027DAFA18C2F"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Heartbreak Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"The temple is gone, but this remains. A piece of the past that refuses to let go.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1, "minecraft:unbreakable": { } }, count: 1, id: "minecraft:heartbreak_pottery_sherd" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:oak_hanging_sign"
+					}
+					id: "5F9FFD9FD79668CB"
+					optional_task: true
+					type: "custom"
+				}
+			]
+			x: 6.8d
+			y: -8.5d
+		}
+		{
+			dependencies: [
+				"7AE3C1D738E29DD5"
+				"63C20D45C02CCC46"
+			]
+			hide_until_deps_visible: true
+			icon: {
+				id: "minecraft:flow_pottery_sherd"
+			}
+			id: "0CF0B6EFB77D1306"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute as @p at @p run tag @p add Elementalist"
+					icon: {
+						components: {
+							"ftbquests:icon": "elemental_wizards_rpg:item/misc/elemental_essence"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "02EC11F049CB8F4E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "no_toast"
+					icon: {
+						components: {
+							"spell_engine:spell_container": {
+								content: "ARCHERY"
+								max_spell_count: 1
+								spell_ids: ["archers:power_shot"]
+							}
+						}
+						id: "spell_engine:scroll"
+					}
+					id: "1EB8B575AF4E66D0"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 4B5C61993A065105"
+					id: "1FFBCAED46827EAC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests open_book 1091F8F96436E7B0"
+					id: "504C22225FB83E3C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "enabled"
+					icon: {
+						components: {
+							"spell_engine:spell_container": {
+								content: "ARCHERY"
+								max_spell_count: 1
+								spell_ids: ["archers:power_shot"]
+							}
+						}
+						id: "spell_engine:scroll"
+					}
+					id: "56B87A57776A3834"
+					type: "custom"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run function kevs:remove_tags"
+					id: "2AA3D2C575331AB9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					id: "0DD6126A0B1E8F94"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Flow Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A fragment of ancient ceramic, smooth to the touch yet unnaturally cold. Unlike the ruins of other lost civilizations, this sherd is flawless—unweathered, untouched by time.\"", "\"' \"", "{\"extra\":[{\"italic\":false,\"text\":\"- \",\"type\":\"text\"},{\"italic\":false,\"text\":\"Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1 }, count: 1, id: "minecraft:flow_pottery_sherd" }
+					match_components: "fuzzy"
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						id: "minecraft:oak_hanging_sign"
+					}
+					id: "7E88C89111C944FC"
+					optional_task: true
+					type: "custom"
+				}
+			]
+			x: 8.5d
+			y: -8.5d
+		}
+		{
+			dependencies: ["63C20D45C02CCC46"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbfiltersystem:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "41BB15304834514F"
+			rewards: [
+				{
+					id: "6708716E031382F1"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								ExclusiveItem: 1b
+								exclusiveID: [I;
+									1698750687
+									-1766308966
+									-1708930635
+									-333450391
+								]
+								requiredTag: "Shadow_Assassin"
+								showRequiredTag: 0b
+							}
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Bloodied Iron Dagger\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:mending": 1
+									"minecraft:unbreaking": 2
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": [
+								"\"A new recruit's dagger. A mentor's gift.\""
+								"\"   \""
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+							"spell_engine:spell_container": {
+								is_proxy: 1b
+								spell_ids: ["rogues:throw"]
+							}
+						}
+						count: 1
+						id: "rogues:iron_dagger"
+					}
+					type: "item"
+				}
+				{
+					id: "69CAD83726778D5E"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Skull Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:enchantments": {
+								levels: {
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": [
+								"\"A contract left unfinished. A name erased from history.\""
+								"{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Operative's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+						}
+						count: 1
+						id: "minecraft:skull_pottery_sherd"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "44F55CD8DDCD1D38"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "7E8508893D4F1539"
+					item: {
+						count: 1
+						id: "rogues:rogue_armor_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "4E83CDB56BF87CBD"
+					item: {
+						count: 1
+						id: "rogues:rogue_armor_head"
+					}
+					type: "item"
+				}
+				{
+					id: "53D12F03E9FE5857"
+					item: {
+						count: 1
+						id: "rogues:rogue_armor_feet"
+					}
+					type: "item"
+				}
+				{
+					id: "11EFC9A1443B69A4"
+					item: {
+						components: {
+							"accessories:attributes": {
+								modifiers: [{
+									amount: 0.05d
+									id: "relics_rpgs:jewel_figurine_ruby"
+									is_stackable: 1b
+									operation: "add_value"
+									slot_name: "trinket_group_spell-trinket"
+									type: "kevslibrary:crit_chance"
+								}]
+								show_in_tooltip: 1b
+							}
+							"minecraft:custom_data": {
+								ExclusiveItem: 1b
+								exclusiveID: [I;
+									2009671568
+									-1611905135
+									-1907000134
+									-314697373
+								]
+								requiredTag: "Shadow_Assassin"
+								showRequiredTag: 0b
+							}
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Ruby Serpent Figurine\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:enchantments": {
+								levels: {
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": ["\"A symbol of rank. A sign of trust. A death sentence disguised as a gift.\""]
+							"minecraft:rarity": "epic"
+							"minecraft:repair_cost": 1
+						}
+						count: 1
+						id: "relics_rpgs:jewel_figurine_ruby"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 0.5d
+			tasks: [{
+				custom_name: "KevzCz"
+				entity: "minecraft:player"
+				icon: {
+					components: {
+						"minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"italic\":false,\"text\":\"KevzCz\",\"type\":\"text\",\"underlined\":true}"
+						"minecraft:lore": [
+							"{\"color\":\"gray\",\"italic\":false,\"text\":\"Custom Head ID: ---\",\"type\":\"text\"}"
+							"{\"color\":\"blue\",\"italic\":false,\"text\":\"www.minecraft-heads.com\",\"type\":\"text\"}"
+						]
+						"minecraft:profile": {
+							id: [I;
+								172566157
+								670911197
+								-2089478878
+								-1849966314
+							]
+							properties: [{
+								name: "textures"
+								value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWUxNWY3ZmE4MDYxZDlhYTVjZDg4ZGJkM2FkOWVhYWVmMjA1Y2RkYzU0MTY0ODIxNDEyMTQ1MWJlMDFjNWJhYiJ9fX0="
+							}]
+						}
+					}
+					id: "minecraft:player_head"
+				}
+				id: "4AB68D63EE00017B"
+				type: "kill"
+				value: 9999L
+			}]
+			x: 5.1d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["63C20D45C02CCC46"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbfiltersystem:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "7EEDCA06A3E96923"
+			rewards: [
+				{
+					id: "5D18D60E780D1D07"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								ExclusiveItem: 1b
+								exclusiveID: [I;
+									-1306460509
+									-521909864
+									-1957425949
+									-1348026783
+								]
+								requiredTag: "Elementalist"
+								showRequiredTag: 0b
+							}
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Di\",\"type\":\"text\"},{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"v\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"er\",\"type\":\"text\"},{\"bold\":true,\"color\":\"#663300\",\"italic\":false,\"text\":\"g\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_blue\",\"italic\":false,\"text\":\"en\",\"type\":\"text\"},{\"bold\":true,\"italic\":false,\"text\":\"ce\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:lore": [
+								"\"An orb full of Elemental Power\""
+								"\"   \""
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+							"spell_engine:spell_container": {
+								is_proxy: 1b
+								spell_ids: [
+									"elemental_wizards_rpg:aqua_springwater"
+									"elemental_wizards_rpg:terra_stone_flesh"
+									"elemental_wizards_rpg:wind_aeroblast"
+									"wizards:arcane_missile"
+									"wizards:fire_breath"
+									"wizards:frost_nova"
+								]
+							}
+						}
+						count: 1
+						id: "elemental_wizards_rpg:elemental_essence"
+					}
+					type: "item"
+				}
+				{
+					id: "2445979D35C14EA9"
+					item: {
+						components: {
+							"minecraft:damage": 1
+							"transmog:appearance_item": {
+								itemStack: {
+									id: "elemental_wizards_rpg:elemental_chest"
+								}
+							}
+						}
+						count: 1
+						id: "wizards:wizard_robe_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "713F79F7FDC2DF8E"
+					item: {
+						count: 1
+						id: "elemental_wizards_rpg:elemental_head"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "05E90D580E9BF511"
+					item: {
+						components: {
+							"bundleapi:custom_bundle_contents": {
+								content: [
+									{
+										count: 5
+										id: "runes:arcane_stone"
+									}
+									{
+										count: 5
+										id: "runes:fire_stone"
+									}
+									{
+										count: 5
+										id: "runes:frost_stone"
+									}
+								]
+								size_multiplier: 4
+							}
+						}
+						count: 1
+						id: "runes:small_rune_pouch"
+					}
+					type: "item"
+				}
+				{
+					id: "754DD0E59F64F138"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Flow Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:enchantments": {
+								levels: {
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": [
+								"\"A fragment of ancient ceramic, smooth to the touch yet unnaturally cold. Unlike the ruins of other lost civilizations, this sherd is flawless—unweathered, untouched by time.\""
+								"\"' \""
+								"{\"extra\":[{\"italic\":false,\"text\":\"- \",\"type\":\"text\"},{\"italic\":false,\"text\":\"Arcane Researcher's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+							"minecraft:repair_cost": 1
+						}
+						count: 1
+						id: "minecraft:flow_pottery_sherd"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "1A5510F33E619BF2"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 0.5d
+			tasks: [{
+				custom_name: "???"
+				entity: "minecraft:player"
+				icon: {
+					components: {
+						"minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"italic\":false,\"text\":\"Question Mark\",\"type\":\"text\",\"underlined\":true}"
+						"minecraft:lore": [
+							"{\"color\":\"gray\",\"italic\":false,\"text\":\"Custom Head ID: 2765\",\"type\":\"text\"}"
+							"{\"color\":\"blue\",\"italic\":false,\"text\":\"www.minecraft-heads.com\",\"type\":\"text\"}"
+						]
+						"minecraft:profile": {
+							id: [I;
+								1396691993
+								-1543420904
+								-1416691953
+								1376942555
+							]
+							properties: [{
+								name: "textures"
+								value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDM0ZTA2M2NhZmI0NjdhNWM4ZGU0M2VjNzg2MTkzOTlmMzY5ZjRhNTI0MzRkYTgwMTdhOTgzY2RkOTI1MTZhMCJ9fX0="
+							}]
+						}
+					}
+					id: "minecraft:player_head"
+				}
+				id: "31B02E6B56C2B21E"
+				type: "kill"
+				value: 9999L
+			}]
+			x: 8.5d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["63C20D45C02CCC46"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbfiltersystem:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "1C902562995D99EE"
+			rewards: [
+				{
+					id: "16EF9407948837FF"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								ExclusiveItem: 1b
+								exclusiveID: [I;
+									27865818
+									-1973337736
+									-1201800467
+									-1379900504
+								]
+								requiredTag: "Exiled_Knight"
+								showRequiredTag: 0b
+							}
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Sword\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:unbreaking": 1
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": [
+								"\"A dull blade.\""
+								"\"  \""
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+						}
+						count: 1
+						id: "magistuarmory:copper_shortsword"
+					}
+					type: "item"
+				}
+				{
+					id: "2A9833271577D075"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:enchantments": {
+								levels: {
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:lore": [
+								"\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\""
+								"\"    \""
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+						}
+						count: 1
+						id: "minecraft:blade_pottery_sherd"
+					}
+					type: "item"
+				}
+				{
+					id: "3D65C1AAE577BF5B"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								ExclusiveItem: 1b
+								requiredTag: "Exiled_Knight"
+								showRequiredTag: 0b
+							}
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Medal of Valor\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:lore": ["\"Once bestowed upon the bravest warriors, this medal should have been proof of loyalty. Instead, it became a token of disgrace.\""]
+							"minecraft:rarity": "epic"
+						}
+						count: 1
+						id: "relics_rpgs:lesser_use_dex"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "0081FC6AB4CABE6D"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "0C37121172DD63C5"
+					item: {
+						count: 1
+						id: "frostiful:fur_chestplate"
+					}
+					type: "item"
+				}
+				{
+					id: "0ACB0A844D76B85C"
+					item: {
+						count: 1
+						id: "magistuarmory:rustedchainmail_boots"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 0.5d
+			tasks: [{
+				custom_name: "Thrasos"
+				entity: "minecraft:player"
+				icon: {
+					components: {
+						"minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"italic\":false,\"text\":\"Thrasos\",\"type\":\"text\",\"underlined\":true}"
+						"minecraft:lore": [
+							"{\"color\":\"gray\",\"italic\":false,\"text\":\"Custom Head ID: ---\",\"type\":\"text\"}"
+							"{\"color\":\"blue\",\"italic\":false,\"text\":\"www.minecraft-heads.com\",\"type\":\"text\"}"
+						]
+						"minecraft:profile": {
+							id: [I;
+								413260799
+								-94223655
+								-1514892184
+								1483032395
+							]
+							properties: [{
+								name: "textures"
+								value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmY0YWNmMWIyMDFmMTkzNTlkNjcxMWI5ZjM2YjQ4MzZkMTQ1N2VjMzZiNTMyNzljNWUzMDQzYWQwOWNhNjZjZSJ9fX0="
+							}]
+						}
+					}
+					id: "minecraft:player_head"
+				}
+				id: "5884A480979E4A52"
+				type: "kill"
+				value: 9999L
+			}]
+			x: 3.4d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["63C20D45C02CCC46"]
+			icon: {
+				components: {
+					"ftbquests:icon": "ftbfiltersystem:textures/gui/sprites/info.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "739DF04D7400CCF6"
+			rewards: [
+				{
+					id: "3E9BECCA1D637C47"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								ExclusiveItem: 1b
+								exclusiveID: [I;
+									-1661377046
+									-458535570
+									-1962008092
+									1180467913
+								]
+								requiredTag: "Forsaken_Prophet"
+								showRequiredTag: 0b
+							}
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Holy Necklace\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:enchantments": {
+								levels: {
+									"minecraft:unbreaking": 1
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": [
+								"\"A necklace of divinity.\""
+								"{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+							"minecraft:repair_cost": 1
+							"spell_engine:spell_container": {
+								is_proxy: 1b
+								spell_ids: [
+									"paladins:flash_heal"
+									"paladins:holy_shock"
+								]
+							}
+							"transmog:appearance_item": {
+								itemStack: {
+									id: "jewelry:citrine_necklace"
+								}
+							}
+						}
+						count: 1
+						id: "paladins:acolyte_wand"
+					}
+					type: "item"
+				}
+				{
+					id: "3B4B94DBB7DF453E"
+					item: {
+						components: {
+							"minecraft:custom_data": {
+								ExclusiveItem: 1b
+								requiredTag: "Forsaken_Prophet"
+								showRequiredTag: 0b
+							}
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Everflowing Vial\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantments": {
+								levels: {
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": [
+								"\"A sacred relic… or a curse? The liquid inside should have dried centuries ago. Instead, it pulses—like something alive.\""
+								"{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+						}
+						count: 1
+						id: "relics_rpgs:lesser_use_health"
+					}
+					type: "item"
+				}
+				{
+					id: "526047A53B99E690"
+					item: {
+						components: {
+							"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Heartbreak Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"minecraft:enchantment_glint_override": 1b
+							"minecraft:enchantments": {
+								levels: {
+									"yigd:soulbound": 1
+								}
+							}
+							"minecraft:lore": [
+								"\"The temple is gone, but this remains. A piece of the past that refuses to let go.\""
+								"{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+								"{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							]
+							"minecraft:rarity": "epic"
+							"minecraft:repair_cost": 1
+							"minecraft:unbreakable": { }
+						}
+						count: 1
+						id: "minecraft:heartbreak_pottery_sherd"
+					}
+					type: "item"
+				}
+				{
+					count: 10
+					id: "2BDDB95A2C192E33"
+					item: {
+						count: 1
+						id: "runes:healing_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 8
+					id: "4EAEAF5382781C41"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "3909CE2EA4CCB1ED"
+					item: {
+						count: 1
+						id: "paladins:priest_robe_chest"
+					}
+					type: "item"
+				}
+				{
+					id: "723A81FA429E5D90"
+					item: {
+						count: 1
+						id: "paladins:priest_robe_head"
+					}
+					type: "item"
+				}
+			]
+			shape: "circle"
+			size: 0.5d
+			tasks: [{
+				custom_name: "Stef"
+				entity: "minecraft:player"
+				icon: {
+					components: {
+						"minecraft:custom_name": "{\"bold\":true,\"color\":\"gold\",\"italic\":false,\"text\":\"Stef\",\"type\":\"text\",\"underlined\":true}"
+						"minecraft:lore": [
+							"{\"color\":\"gray\",\"italic\":false,\"text\":\"Custom Head ID: ---\",\"type\":\"text\"}"
+							"{\"color\":\"blue\",\"italic\":false,\"text\":\"www.minecraft-heads.com\",\"type\":\"text\"}"
+						]
+						"minecraft:profile": {
+							id: [I;
+								-590628363
+								-332641340
+								-2077468395
+								516144591
+							]
+							properties: [{
+								name: "textures"
+								value: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJlMDhmYzA2OWMyODYzZWVjZDliZWE2YzI1ZjM3MzIzNmViNzU2MDY5ZjNlNmVhNTJjYWFkNTRjNTJlOWZjMCJ9fX0="
+							}]
+						}
+					}
+					id: "minecraft:player_head"
+				}
+				id: "5BE0693C321522E3"
+				type: "kill"
+				value: 9999L
+			}]
+			x: 6.8d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["21B59771DF32AAA0"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:textures/gui/sprites/widget/page_forward.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "40A8771C6D0E3F7E"
+			rewards: [{
+				exclude_from_claim_all: true
+				icon: {
+					components: {
+						"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "78AE73478BEFD586"
+				table_id: 7691829401322090361L
+				type: "choice"
+			}]
+			tasks: [{
+				id: "63AEA86A90F2D27F"
+				type: "checkmark"
+			}]
+			x: 3.4d
+			y: -11.049999999999999d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"24A65AE5229E7704"
+				"1B343175B777C9F3"
+				"3A5E8388C32CA0FD"
+				"3DF9D3C3CE22CCE0"
+				"442AD4E407A11FD0"
+				"08BEE63295E2F228"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fancymenu:textures/back_icon.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "03268147BABAD026"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "2F5703708F3F7EAE"
+					table_id: 7849954031291038785L
+					type: "choice"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add kit_chosen_v2"
+					id: "6E1B07E15B284A8E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 38E1BA4F36925DF1"
+					id: "0F826ED7974A4CA8"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 71FB67E68FD54735"
+					id: "1007D115827C5FE8"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 6C0F6529CB307496"
+					id: "55C3F300A940F64D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove lockedPath"
+					id: "21A424A7A0D95ED3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 2908088F91C94588"
+					id: "0F5A2FC6B93A4FBB"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 3FD7C6F1AACF34DA"
+					id: "5BE8B85F63EEB467"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 3F062EA503332CBF"
+					id: "5E62EFCCB198250E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [
+				{
+					id: "3314206E9509AE7A"
+					type: "checkmark"
+				}
+				{
+					consume_items: true
+					count: 99L
+					disable_toast: true
+					id: "5EF35A1C432558B7"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": [ "\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\"", "\"    \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 99, id: "minecraft:blade_pottery_sherd" }
+					match_components: "fuzzy"
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 99L
+					disable_toast: true
+					id: "09996BAA263043B1"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Skull Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A contract left unfinished. A name erased from history.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Operative's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "minecraft:skull_pottery_sherd" }
+					match_components: "fuzzy"
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 99L
+					disable_toast: true
+					id: "5875EDE642A0609E"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Heartbreak Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"The temple is gone, but this remains. A piece of the past that refuses to let go.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1, "minecraft:unbreakable": { } }, count: 1, id: "minecraft:heartbreak_pottery_sherd" }
+					match_components: "fuzzy"
+					optional_task: true
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 99L
+					disable_toast: true
+					id: "71FA51D661477DC7"
+					item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Flow Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"Equations that do not balance. Runes that do not match any known script. It should not make sense. And yet, it does.\"", "\"   \"", "{\"extra\":[{\"italic\":false,\"text\":\"- \",\"type\":\"text\"},{\"italic\":false,\"text\":\"Arcane Researcher's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1 }, count: 1, id: "minecraft:flow_pottery_sherd" }
+					match_components: "fuzzy"
+					optional_task: true
+					type: "item"
+				}
+				{
+					disable_toast: true
+					icon: {
+						components: {
+							"ftbquests:icon": "minecraft:textures/gui/sprites/icon/unseen_notification.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "618FB8B9DD407E9F"
+					optional_task: true
+					type: "custom"
+				}
+			]
+			x: 8.5d
+			y: -11.049999999999999d
+		}
+		{
+			id: "1984A6883ECAA5DD"
+			invisible: true
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				id: "2E8510B31E0A2CE4"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 5.95d
+			y: -11.049999999999999d
+		}
+		{
+			dependencies: [
+				"7AE3C1D738E29DD5"
+				"5E75FFD089877F35"
+				"3E4016870EEE37A3"
+				"7A24F7AF9896FB50"
+			]
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/icon32x32.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "0155B01A1805346A"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove start1"
+					id: "32CBE1DE0784302E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove start2"
+					id: "2A434AF2E7DEC209"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove start3"
+					id: "567B97F8CA740D07"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests open_book"
+					id: "7839F7402A841CA2"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove time_reset"
+					id: "0AAC2D27B973977B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "none"
+			size: 1.0d
+			tasks: [{
+				disable_toast: true
+				id: "54044866CF0F2A60"
+				type: "checkmark"
+			}]
+			x: 5.95d
+			y: -9.35d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:block/aethersent_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "11FCA6910FA4CB46"
+			invisible: true
+			min_width: 250
+			rewards: [
+				{
+					command: "/execute as @p at @p run puffish_skills points add @p cleanntree:cleann 1"
+					feedback_message: "+1 Skill Point to Combat Skill Tree"
+					icon: {
+						components: {
+							"ftbquests:icon": "fantasy_mc:textures/newquestimg/scroll.png"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "4182ACD695907FE4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					id: "18D416EBF67372B2"
+					item: {
+						count: 1
+						id: "book-of-unlearning:book_of_unlearning"
+					}
+					type: "item"
+				}
+			]
+			size: 1.0d
+			tasks: [{
+				consume_items: true
+				icon: {
+					components: {
+						"ftbquests:icon": "knightquest:item/paladin_sword"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3C3608AEA56E4262"
+				item: { components: { "minecraft:max_stack_size": 1 }, count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -13.6d
+		}
+		{
+			dependencies: ["11FCA6910FA4CB46"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:block/aethersent_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "6D70B4B5F3029705"
+			rewards: [{
+				id: "0638CE408C801BE3"
+				type: "xp_levels"
+				xp_levels: 1
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				disable_toast: true
+				icon: {
+					components: {
+						"ftbquests:icon": "rpg_battle_gear:item/ancient_core"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0A96DE7D90CEE586"
+				type: "advancement"
+			}]
+			x: -0.85d
+			y: -13.6d
+		}
+		{
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:block/aethersent_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "684531CE8B978F17"
+			invisible: true
+			rewards: [{
+				id: "5E5C0BCF64F132E0"
+				type: "xp_levels"
+				xp_levels: 2
+			}]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				icon: {
+					components: {
+						"ftbquests:icon": "ftbteams:textures/teams.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "0E0C3F33AF215AEB"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 14.45d
+			y: -11.9d
+		}
+		{
+			dependencies: ["684531CE8B978F17"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:block/aethersent_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "1D1C1C4DA2858B9C"
+			rewards: [{
+				id: "1778C40FC445C362"
+				item: {
+					count: 1
+					id: "minecraft:golden_apple"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				disable_toast: true
+				icon: {
+					components: {
+						"ftbquests:icon": "emi_loot:textures/gui/spawns_with.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "3CD836C5265AB5D2"
+				type: "advancement"
+			}]
+			x: -2.55d
+			y: -11.9d
+		}
+		{
+			disable_toast: true
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:block/aethersent_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "2855DE4BEB572119"
+			invisible: true
+			rewards: [
+				{
+					id: "772F787B1B45F7A4"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 4482EAAC37AA6E5D"
+					id: "7802DCB355505A03"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				icon: {
+					components: {
+						"ftbquests:icon": "endrem:item/magical_eye"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "780EDAE903E6AB26"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 14.45d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["2855DE4BEB572119"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			hide_until_deps_visible: true
+			icon: {
+				components: {
+					"ftbquests:icon": "eternal_starlight:block/aethersent_block"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.5d
+			id: "678F9FDE5D08E7A9"
+			rewards: [
+				{
+					id: "6D6412A4417B7D64"
+					item: {
+						count: 1
+						id: "origins:orb_of_origin"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 48C8BC5F4A5E0138"
+					id: "191C429C5FBDB693"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "knightquest:item/chaotic_essence"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "7871DA93B59EC5EE"
+				type: "advancement"
+			}]
+			x: -2.55d
+			y: -7.6499999999999995d
+		}
+		{
+			dependencies: ["611DF0D90B726476"]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/steve.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "3A7C2A2D47668790"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run ftbquests change_progress @p complete 3C3608AEA56E4262"
+					id: "7C8A2D8182FEAAC5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run playsound minecraft:item.firecharge.use ambient @p"
+					id: "3B91A62DE2A9DD25"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "76C5F9913B24E498"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -0.85d
+			y: -5.95d
+		}
+		{
+			dependencies: ["3A7C2A2D47668790"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:chest"
+			}
+			id: "0092102B1ADE9BB8"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run ftbquests change_progress @p complete 2301FD1769FE17CA"
+					id: "1334649362366D9D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run ftbquests change_progress @p complete 0E0C3F33AF215AEB"
+					id: "75BA1E91D3774E1D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run playsound minecraft:block.ender_chest.open ambient @p"
+					id: "764258F0EF01D404"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "30C5146547D5C439"
+				optional_task: true
+				type: "dimension"
+			}]
+			x: 5.95d
+			y: -3.4d
+		}
+		{
+			dependencies: ["0092102B1ADE9BB8"]
+			disable_toast: true
+			icon: {
+				id: "minecraft:diamond_sword"
+			}
+			id: "2301FD1769FE17CA"
+			invisible: true
+			shape: "none"
+			tasks: [{
+				consume_items: true
+				disable_toast: true
+				id: "48897BB982D76C56"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 12.75d
+			y: -5.95d
+		}
+		{
+			dependencies: [
+				"2301FD1769FE17CA"
+				"26FCA8D810AFB054"
+			]
+			disable_toast: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/bug"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4AA0665B0FA137A4"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run ftbquests change_progress @p complete 780EDAE903E6AB26"
+					id: "6F6BE85110E33810"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run playsound minecraft:block.note_block.imitate.ender_dragon ambient @p"
+					id: "7802E16BC671CEB1"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "5E4DBFA49695C2C3"
+				optional_task: true
+				type: "dimension"
+			}]
+			x: 5.95d
+			y: -5.1d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"0CF0B6EFB77D1306"
+				"0155B01A1805346A"
+			]
+			hide_until_deps_complete: true
+			id: "2D2AB271A35E04CE"
+			rewards: [{
+				count: 6
+				id: "4381A4265BF610A1"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							ExclusiveItem: 1b
+							exclusiveID: [I;
+								863970311
+								1816347970
+								-1348267386
+								-1812982903
+							]
+						}
+						"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Flow Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						"minecraft:enchantment_glint_override": 1b
+						"minecraft:enchantments": {
+							levels: {
+								"yigd:soulbound": 1
+							}
+						}
+						"minecraft:lore": [
+							"\"A fragment of ancient ceramic, smooth to the touch yet unnaturally cold. Unlike the ruins of other lost civilizations, this sherd is flawless—unweathered, untouched by time.\""
+							"\"' \""
+							"{\"extra\":[{\"italic\":false,\"text\":\"- \",\"type\":\"text\"},{\"italic\":false,\"text\":\"Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						]
+						"minecraft:rarity": "epic"
+						"minecraft:repair_cost": 1
+					}
+					count: 1
+					id: "minecraft:flow_pottery_sherd"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "6736DB08519EAC71"
+				type: "advancement"
+			}]
+			x: 8.5d
+			y: -5.95d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"2C3352144E4F04A9"
+				"0155B01A1805346A"
+			]
+			hide_until_deps_complete: true
+			id: "31752C1DCD1EB50C"
+			rewards: [{
+				count: 6
+				id: "49883DE705F18DC7"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							ExclusiveItem: 1b
+							exclusiveID: [I;
+								-1442030711
+								-309179577
+								-1566681523
+								427023948
+							]
+						}
+						"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						"minecraft:enchantment_glint_override": 1b
+						"minecraft:enchantments": {
+							levels: {
+								"yigd:soulbound": 1
+							}
+						}
+						"minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						"minecraft:lore": [
+							"\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\""
+							"\"    \""
+							"{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						]
+						"minecraft:rarity": "epic"
+					}
+					count: 1
+					id: "minecraft:blade_pottery_sherd"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "1272AA41C84893CC"
+				type: "advancement"
+			}]
+			x: 3.4d
+			y: -5.95d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"01EAE609A98F99D0"
+				"0155B01A1805346A"
+			]
+			hide_until_deps_complete: true
+			id: "47B4686F865911F0"
+			rewards: [{
+				count: 6
+				id: "022908E784BA75E0"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							ExclusiveItem: 1b
+							exclusiveID: [I;
+								648002019
+								840912652
+								-1973289841
+								-1561038163
+							]
+						}
+						"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Heartbreak Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						"minecraft:enchantment_glint_override": 1b
+						"minecraft:enchantments": {
+							levels: {
+								"yigd:soulbound": 1
+							}
+						}
+						"minecraft:lore": [
+							"\"The temple is gone, but this remains. A piece of the past that refuses to let go.\""
+							"{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						]
+						"minecraft:rarity": "epic"
+						"minecraft:repair_cost": 1
+						"minecraft:unbreakable": { }
+					}
+					count: 1
+					id: "minecraft:heartbreak_pottery_sherd"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "20A021C733CE71D8"
+				type: "advancement"
+			}]
+			x: 6.8d
+			y: -5.95d
+		}
+		{
+			can_repeat: false
+			dependencies: [
+				"1F3C50F9922D5A3C"
+				"0155B01A1805346A"
+			]
+			hide_until_deps_complete: true
+			id: "22D75BDF6E58DFEB"
+			rewards: [{
+				count: 6
+				id: "728D04340EB9713B"
+				item: {
+					components: {
+						"minecraft:custom_data": {
+							ExclusiveItem: 1b
+							exclusiveID: [I;
+								293785479
+								-807123949
+								-1138728824
+								-1822276257
+							]
+						}
+						"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Skull Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						"minecraft:enchantment_glint_override": 1b
+						"minecraft:enchantments": {
+							levels: {
+								"yigd:soulbound": 1
+							}
+						}
+						"minecraft:lore": [
+							"\"A contract left unfinished. A name erased from history.\""
+							"{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						]
+						"minecraft:rarity": "epic"
+					}
+					count: 1
+					id: "minecraft:skull_pottery_sherd"
+				}
+				type: "item"
+			}]
+			shape: "gear"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "06796A9A667EB50D"
+				type: "advancement"
+			}]
+			x: 5.1d
+			y: -5.95d
+		}
+		{
+			can_repeat: true
+			id: "6F62A1DF0CCAAD46"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run tag @p list"
+				id: "747C4090A32F18F1"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [{
+				id: "5A76300C769FF83A"
+				type: "checkmark"
+			}]
+			x: 1.7d
+			y: -2.55d
+		}
+	]
+}

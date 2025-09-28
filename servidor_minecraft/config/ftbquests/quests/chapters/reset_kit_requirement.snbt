@@ -1,0 +1,96 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "reset_kit_requirement"
+	group: "1C1C39EB0029A774"
+	id: "32C9658055AA7F06"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			id: "6FFFCF5A65423CA9"
+			tasks: [{
+				id: "49B6989580FF47F4"
+				type: "checkmark"
+			}]
+			x: -5.1d
+			y: -1.7d
+		}
+		{
+			dependencies: ["6FFFCF5A65423CA9"]
+			id: "3A5E8388C32CA0FD"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "490051AC8DE5274D"
+				type: "advancement"
+			}]
+			x: -5.1d
+			y: 2.220446049250313E-16d
+		}
+		{
+			id: "2F59916017E69AA6"
+			tasks: [{
+				id: "7CBF7B1360B8A62A"
+				type: "checkmark"
+			}]
+			x: -2.55d
+			y: -1.7d
+		}
+		{
+			dependencies: ["2F59916017E69AA6"]
+			id: "3DF9D3C3CE22CCE0"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "44841C5061590D46"
+				type: "advancement"
+			}]
+			x: -2.55d
+			y: 2.220446049250313E-16d
+		}
+		{
+			id: "75685D4E8CAF1B2E"
+			tasks: [{
+				id: "0FEE152BB2A9D0C7"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.7d
+		}
+		{
+			dependencies: ["75685D4E8CAF1B2E"]
+			id: "442AD4E407A11FD0"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "252E36EA1D81682F"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 2.220446049250313E-16d
+		}
+		{
+			id: "4B5C61993A065105"
+			tasks: [{
+				id: "1EBFEDDE1A6E115E"
+				type: "checkmark"
+			}]
+			x: 2.5500000000000007d
+			y: -1.7d
+		}
+		{
+			dependencies: ["4B5C61993A065105"]
+			id: "1B343175B777C9F3"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "4130EB2B527992EF"
+				type: "advancement"
+			}]
+			x: 2.55d
+			y: 2.220446049250313E-16d
+		}
+	]
+}

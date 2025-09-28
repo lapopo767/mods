@@ -1,0 +1,652 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "starting_commands"
+	group: "1C1C39EB0029A774"
+	id: "6DF8850AE27C352C"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4B3F9A3DA5273BE2"]
+			id: "1A6F78126FE3642B"
+			min_required_dependencies: 1
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1B87A5A287E1B236"
+				type: "dimension"
+			}]
+			x: -2.55d
+			y: 2.55d
+		}
+		{
+			id: "1469F007012C7999"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"Dagger remains unsuable until it is in its true form\",\"color\":\"yellow\"}]"
+				id: "26CB55B3D28B7FF9"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "0B50588FD4523984"
+				item: { count: 1, id: "formidulus:sacrificial_dagger" }
+				type: "item"
+			}]
+			x: 0.85d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4FC9FE1CA24F20"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5B85B0C59825A225"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Exiled_Knight"
+					id: "7AE8EC8E4B22D386"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Elementalist"
+					id: "68A5819DA505D8BF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Shadow_Assassin"
+					id: "19392D71F672E99E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Forsaken_Prophet"
+					id: "61804FDC6E6F8E18"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "69B128F5F05330C7"
+				type: "advancement"
+			}]
+			x: -0.85d
+			y: 1.7d
+		}
+		{
+			dependencies: [
+				"7AE3C1D738E29DD5"
+				"5E75FFD089877F35"
+				"3E4016870EEE37A3"
+				"7A24F7AF9896FB50"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4B3F9A3DA5273BE2"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbteams party create"
+					id: "1D6E6EC8A034AA11"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add createdParty"
+					id: "7FBF7F08EC729C12"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "0755D74D429F3881"
+				type: "dimension"
+			}]
+			x: -0.85d
+			y: 2.55d
+		}
+		{
+			dependencies: ["2855DE4BEB572119"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "63C20D45C02CCC46"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				disable_toast: true
+				id: "63CB0973D54D7293"
+				type: "advancement"
+			}]
+			x: 0.8500000000000002d
+			y: 1.7d
+		}
+		{
+			dependencies: [
+				"7AE3C1D738E29DD5"
+				"7A24F7AF9896FB50"
+				"5E75FFD089877F35"
+				"3E4016870EEE37A3"
+				"21B59771DF32AAA0"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5BE0A65BE47517E1"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbranks node add member command.ftbteams.party.invite false"
+					id: "723A6039C562E6E7"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add member command.ftbteams.party.invite.player false"
+					id: "2C9BC038EB1BD4B5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add member command.ftbteams.party.transfer_ownership false"
+					id: "27340EFD596749A5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add member command.ftbteams.party.transfer_ownership_for false"
+					id: "43A6F222CBA633D2"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add member command.ftbteams.party.join false"
+					id: "17BB6E0A8CF0865E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add disabledMemberTeams"
+					id: "7E067B123198A6DA"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "13972532410A2A80"
+				type: "dimension"
+			}]
+			x: 0.8500000000000002d
+			y: 2.55d
+		}
+		{
+			id: "4ACE480052F50375"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 3E36B29697D0E896"
+					id: "6ADF51CED7EB0199"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 0A3BB03FDE3F6C25"
+					id: "5F4F28C038CBD31D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 21B59771DF32AAA0"
+					id: "152A88834C28B549"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 13220BB99E37C603"
+					id: "1DD5D722F5FD8990"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 2958FF9EA66CDF56"
+					id: "6E2AE4624C9F26E3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "62650160DD53D4DE"
+				type: "advancement"
+			}]
+			x: 2.5499999999999994d
+			y: 1.7d
+		}
+		{
+			dependencies: [
+				"7AE3C1D738E29DD5"
+				"7A24F7AF9896FB50"
+				"5E75FFD089877F35"
+				"3E4016870EEE37A3"
+				"21B59771DF32AAA0"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "2944974643F134AB"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/ftbranks node add admin command.ftbteams.party.invite false"
+					id: "5C164BB6734654D4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add admin command.ftbteams.party.invite.player false"
+					id: "1E4D732979F32C34"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add admin command.ftbteams.party.transfer_ownership false"
+					id: "375841EE611DE997"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add admin command.ftbteams.party.transfer_ownership_for false"
+					id: "055D114394DCACBD"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks node add admin command.ftbteams.party.join false"
+					id: "2968DECF51951656"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbranks delete vip"
+					id: "305A28ACCCFFED2B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add disabledAdminTeams"
+					id: "5F1298E1E928FF17"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "1B6F57DFE946D775"
+				type: "dimension"
+			}]
+			x: 2.5499999999999994d
+			y: 2.55d
+		}
+		{
+			dependencies: ["2301FD1769FE17CA"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "26FCA8D810AFB054"
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "7F6BE741D8CCC09A"
+				type: "advancement"
+			}]
+			x: -0.85d
+			y: 4.250000000000001d
+		}
+		{
+			dependencies: ["3525A53872ED44BB"]
+			id: "4482EAAC37AA6E5D"
+			invisible: true
+			tasks: [{
+				consume_items: true
+				id: "4188A95A30903905"
+				item: { count: 1, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 0.8500000000000002d
+			y: 4.25d
+		}
+		{
+			id: "3525A53872ED44BB"
+			rewards: [{
+				auto: "invisible"
+				command: "execute as @p at @p run ftbquests change_progress @p complete 4482EAAC37AA6E5D"
+				id: "4E8B0230B502EBC3"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "0290F8EB52D8406F"
+				type: "advancement"
+			}]
+			x: 2.55d
+			y: 4.25d
+		}
+		{
+			dependencies: ["0155B01A1805346A"]
+			id: "13D19633A36ACCCE"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run scoreboard objectives add start1 dummy"
+					id: "5E02B0F7E6D203CB"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run scoreboard objectives add start2 dummy"
+					id: "62B86A562BDEA828"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run scoreboard objectives add start3 dummy"
+					id: "2977B44D28C23DB9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run scoreboard players set @p start1 30"
+					id: "7C56E0048920DCAF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run scoreboard players set @p start2 60"
+					id: "226A23B2CA863D25"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run scoreboard players set @p start3 90"
+					id: "49772D47A895E63F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run scoreboard objectives add timer_dummy dummy"
+					id: "7C087951D5AA0B7D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=time_reset] run scoreboard players reset @p timer_dummy"
+					id: "372363C6BD13FCFF"
+					ignore_reward_blocking: true
+					permission_level: 4
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=time_reset] run tag @p add time_reset"
+					id: "347036C8AA0515D3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run ftbquests change_progress @p complete 06056883CDD22F66"
+					id: "38CC74927DB7551E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run ftbquests change_progress @p complete 48C8BC5F4A5E0138"
+					id: "01AFD682641F6146"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "582D27DF46BAA9AF"
+				type: "advancement"
+			}]
+			x: 6.799999999999999d
+			y: 3.4000000000000012d
+		}
+		{
+			dependencies: ["13D19633A36ACCCE"]
+			id: "06056883CDD22F66"
+			tasks: [{
+				id: "10ED14DE53E50AC7"
+				type: "checkmark"
+			}]
+			x: 5.1d
+			y: 1.7d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13D19633A36ACCCE"
+				"06056883CDD22F66"
+			]
+			disable_toast: true
+			id: "50104DB694089FD3"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start1] if score @p timer_dummy >= @p start1 run ftbquests change_progress @p complete 3C3608AEA56E4262"
+					id: "662A20AE523823C4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start1] if score @p timer_dummy >= @p start1 run playsound minecraft:item.firecharge.use ambient @p"
+					id: "08F21840C1204E28"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start1] if score @p timer_dummy >= @p start1 run tag @p add start1"
+					id: "2EE004C88311097C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start2] if score @p timer_dummy >= @p start2 run ftbquests change_progress @p complete 0E0C3F33AF215AEB"
+					id: "659E955D0E94C39B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start2] if score @p timer_dummy >= @p start2 run playsound minecraft:block.ender_chest.open ambient @p"
+					id: "10842BA9EB2E58B0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start2] if score @p timer_dummy >= @p start2 run tag @p add start2"
+					id: "6791F701BC72AD46"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start3] if score @p timer_dummy >= @p start3 run ftbquests change_progress @p complete 780EDAE903E6AB26"
+					id: "4FFE256487D374AF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start3] if score @p timer_dummy >= @p start3 run ftbquests change_progress @p reset 06056883CDD22F66"
+					id: "14D0EA4B748F5660"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start3] if score @p timer_dummy >= @p start3 run playsound minecraft:block.note_block.imitate.ender_dragon ambient @p"
+					id: "0D11D9F2FF81A4D2"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=start3] if score @p timer_dummy >= @p start3 run tag @p add start3"
+					id: "12A51CAB38CC3397"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				disable_toast: true
+				id: "55AE51A277DCD888"
+				type: "advancement"
+			}]
+			x: 6.8d
+			y: 1.7d
+		}
+		{
+			id: "27340C2525254F21"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"FTBTeams' party system is disabled due to quest limitations\",\"color\":\"yellow\"}]"
+				id: "5B0CDB560FCCBA5B"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "78EE95CC108CD12D"
+				type: "dimension"
+			}]
+			x: 2.55d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"13D19633A36ACCCE"
+				"48C8BC5F4A5E0138"
+			]
+			id: "7C6FE7578D4982DE"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run scoreboard players add @p timer_dummy 3"
+				id: "38C4E5B21A00C366"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "4BF3ACE19ABB3B02"
+				type: "advancement"
+			}]
+			x: 5.1d
+			y: 3.4d
+		}
+		{
+			id: "48C8BC5F4A5E0138"
+			tasks: [{
+				id: "26896E8B2EE49069"
+				type: "checkmark"
+			}]
+			x: 5.1d
+			y: 5.1d
+		}
+	]
+}

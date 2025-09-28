@@ -1,0 +1,19 @@
+{
+    "dimension": "yggdrasil:ginnungagap",
+    "increasingDistance": 10000,
+    "distanceFactor": 0.15,
+    "increasingTime": 0,
+    "timeFactor": 0,
+    "heightDistance": 30,
+    "heightFactor": 0.1,
+	"maxFactorHealth": 15.0,
+	"maxFactorDamage": 10.0,
+    "maxFactorProtection": 3.7,
+    "maxFactorSpeed": 2.0,
+    "startingFactor": 2,
+    "startingDistance": 20000,
+    "startingTime": 0,
+    "startingHeight": 62,
+    "positiveHeightIncreasion": true,
+    "negativeHeightIncreasion": true
+}

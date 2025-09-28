@@ -1,0 +1,95 @@
+{
+  "injectors": {
+    "loot_n_explore:chests/dungeons/glacial_tomb/common": {
+      "rolls": 0.2,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "spell_engine:scroll",
+          "filters_lenient": true,
+          "weight": 1,
+          "spell_bind": {
+            "pool": "spell_engine:treasure",
+            "tier_min": 2,
+            "tier_max": 3,
+            "count_min": 1,
+            "count_max": 1
+          }
+        }
+      ]
+    },
+    "loot_n_explore:spawners/frozen/normal/reward": {
+      "rolls": 0.2,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "spell_engine:scroll",
+          "filters_lenient": true,
+          "weight": 1,
+          "spell_bind": {
+            "pool": "spell_engine:treasure",
+            "tier_min": 2,
+            "tier_max": 3,
+            "count_min": 1,
+            "count_max": 1
+          }
+        }
+      ]
+    },
+    "loot_n_explore:spawners/frozen/ominous/reward": {
+      "rolls": 0.2,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "spell_engine:scroll",
+          "filters_lenient": true,
+          "weight": 1,
+          "spell_bind": {
+            "pool": "spell_engine:treasure",
+            "tier_min": 2,
+            "tier_max": 3,
+            "count_min": 1,
+            "count_max": 1
+          }
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/reward_ominous_common": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "spell_engine:scroll",
+          "filters_lenient": true,
+          "weight": 1,
+          "spell_bind": {
+            "pool": "spell_engine:treasure",
+            "tier_min": 1,
+            "tier_max": 2,
+            "count_min": 1,
+            "count_max": 1
+          }
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/trial_chambers/reward_common": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "spell_engine:scroll",
+          "filters_lenient": true,
+          "weight": 1,
+          "spell_bind": {
+            "pool": "spell_engine:treasure",
+            "tier_min": 1,
+            "tier_max": 2,
+            "count_min": 1,
+            "count_max": 1
+          }
+        }
+      ]
+    }
+  },
+  "regex_injectors": {}
+}

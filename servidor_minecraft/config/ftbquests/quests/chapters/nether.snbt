@@ -1,0 +1,677 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "nether"
+	group: "635BA1166DF0AF30"
+	icon: {
+		components: {
+			"ftbquests:icon": "fantasy_mc:textures/nether.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "78754D582B7AE343"
+	images: [
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -3.4d
+		}
+		{
+			click: "#0C64E88CDEB85EB5"
+			height: 6.0d
+			hover: ["To the Overworld!"]
+			image: "minecraft:block/nether_portal"
+			order: 4
+			rotation: 0.0d
+			width: 4.0d
+			x: 0.85d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/netherrack"
+			order: -10
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.3999999999999995d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -1.6999999999999997d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -4.440892098500626E-16d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 1.6999999999999988d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.3999999999999995d
+			y: -4.440892098500626E-16d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 3.399999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.399999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 3.399999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.3999999999999995d
+			y: 3.399999999999998d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.3999999999999995d
+			y: 1.6999999999999988d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/obsidian"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.3999999999999995d
+			y: -1.6999999999999997d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.049999999999999d
+			y: 9.35d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			order: -11
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/soul_sand"
+			order: -12
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -5.1d
+		}
+	]
+	order_index: 1
+	quest_links: [ ]
+	quests: [ ]
+}

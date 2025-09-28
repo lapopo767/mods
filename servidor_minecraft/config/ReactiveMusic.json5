@@ -1,0 +1,15 @@
+{
+	musicDelayLength2: "SONGPACK_DEFAULT",
+	musicSwitchSpeed2: "SONGPACK_DEFAULT",
+	debugModeEnabled: false,
+	loadedUserSongpack: "Skyrim Songpack",
+	blacklistedDimensions: [],
+	savedHomePositions: {
+		saved: {
+			field_1352: -221.5865823141693,
+			field_1351: 99.5625,
+			field_1350: -0.44651334265637105
+		}
+	},
+	hasForcedInitialVolume: true
+}

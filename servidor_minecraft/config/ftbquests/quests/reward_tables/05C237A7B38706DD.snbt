@@ -1,0 +1,12 @@
+{
+	id: "05C237A7B38706DD"
+	loot_size: 1
+	order_index: 4
+	rewards: [
+		{ id: "7AB17EBE7DDEA19E", item: { count: 1, id: "relics_rpgs:medium_proc_fire_power" } }
+		{ id: "4F6FD8AC3A5E19AD", item: { count: 1, id: "relics_rpgs:medium_proc_attack_damage" } }
+		{ id: "10A4AF78BCE30C3D", item: { count: 1, id: "relics_rpgs:medium_proc_defense" } }
+		{ id: "489A03D5575C01A5", item: { count: 1, id: "relics_rpgs:medium_proc_healing_power" } }
+		{ id: "3CC4C9311D5361E9", item: { count: 1, id: "relics_rpgs:medium_proc_attack_speed" } }
+	]
+}

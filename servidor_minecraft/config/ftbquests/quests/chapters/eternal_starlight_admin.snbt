@@ -1,0 +1,90 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "eternal_starlight_admin"
+	group: "60C0BF4F820CF4F2"
+	id: "47A9BDED943B6692"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["4D1F95A95841FA06"]
+			hide_until_deps_visible: true
+			id: "707C03E041D507EA"
+			invisible: true
+			tasks: [{
+				id: "295BB164032C8120"
+				type: "checkmark"
+			}]
+			x: 0.85d
+			y: 0.0d
+		}
+		{
+			id: "4D1F95A95841FA06"
+			invisible: true
+			tasks: [{
+				id: "3BEDDAE8469F5254"
+				type: "checkmark"
+			}]
+			x: -1.7d
+			y: 0.0d
+		}
+		{
+			id: "4A0E9BCE18E1A1DE"
+			rewards: [{
+				auto: "invisible"
+				command: "execute as @p at @p run ftbquests change_progress @p reset 4A0E9BCE18E1A1DE"
+				id: "38DFF87F1261E0FE"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "kevs:is_gatekeeper"
+				criterion: ""
+				id: "7F294881676D9702"
+				type: "advancement"
+			}]
+			x: -0.85d
+			y: 2.55d
+		}
+		{
+			can_repeat: true
+			id: "05C037827AC581C7"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run advancement revoke @p only kevs:is_gatekeeper"
+				id: "33935398FE3B7AAB"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "1EFCAF8296901361"
+				type: "checkmark"
+			}]
+			x: 0.85d
+			y: 2.55d
+		}
+		{
+			id: "79472FE4F412C5DA"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p complete 4D1F95A95841FA06"
+				id: "4D00725E38EE5FE9"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "03D8263B61C7D926"
+				type: "advancement"
+			}]
+			x: -3.4d
+			y: 0.0d
+		}
+	]
+}

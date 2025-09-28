@@ -1,0 +1,296 @@
+{
+	"306bg2whq6jdy1jg": {
+		"definition": "aspirant",
+		"x": -295.60333782508843,
+		"y": -64,
+		"root": true
+	},
+	"g83ug7ix5ntrjot5": {
+		"definition": "physique",
+		"x": -240.17771198288432,
+		"y": -96,
+		"root": false
+	},
+	"nw4f1qhypcmxo06h": {
+		"definition": "aspirant",
+		"x": -295.60333782508843,
+		"y": 64,
+		"root": true
+	},
+	"kcdrp2mayxpuvgcw": {
+		"definition": "attunement",
+		"x": -240.17771198288432,
+		"y": 96,
+		"root": false
+	},
+	"50numdjcax717sry": {
+		"definition": "aspirant",
+		"x": -295.60333782508843,
+		"y": 0,
+		"root": true
+	},
+	"chdfgvfaypz7tj22": {
+		"definition": "discipline",
+		"x": -184.75208614068026,
+		"y": 128,
+		"root": false
+	},
+	"umqzapb5bi0u3rye": {
+		"definition": "imbalanced_guard",
+		"x": -184.75208614068026,
+		"y": -128,
+		"root": false
+	},
+	"glbby04y8z7yu79c": {
+		"definition": "physique_big",
+		"x": -184.75208614068026,
+		"y": -64,
+		"root": false
+	},
+	"5j7rwlfnngtmpsuy": {
+		"definition": "attunement_big",
+		"x": -184.75208614068026,
+		"y": 64,
+		"root": false
+	},
+	"jdn282fakmvsotex": {
+		"definition": "empiresgrasp",
+		"x": -36.950417228136075,
+		"y": -128,
+		"root": false
+	},
+	"6o84bvxtwvofd157": {
+		"definition": "physique_big",
+		"x": -36.950417228136075,
+		"y": -64,
+		"root": false
+	},
+	"v4azkongauhltstu": {
+		"definition": "physique_big",
+		"x": 110.85125168440808,
+		"y": -64,
+		"root": false
+	},
+	"hc2xxzd50wu5cf0f": {
+		"definition": "attunement_big",
+		"x": 110.85125168440811,
+		"y": 64,
+		"root": false
+	},
+	"x9wcbgobt087l46p": {
+		"definition": "cull",
+		"x": 110.85125168440811,
+		"y": -128,
+		"root": false
+	},
+	"4fs9o7vzoxzkp0g0": {
+		"definition": "attunement_big",
+		"x": -36.950417228136075,
+		"y": 64,
+		"root": false
+	},
+	"agqujuea6nkrqh93": {
+		"definition": "blessed_armor",
+		"x": -36.950417228136075,
+		"y": 128,
+		"root": false
+	},
+	"koue6xcda48dksql": {
+		"definition": "loaded_dice",
+		"x": 110.85125168440811,
+		"y": 128,
+		"root": false
+	},
+	"uk1h6tjs3gh4cs5k": {
+		"definition": "finesse",
+		"x": -147.80166891254422,
+		"y": 0,
+		"root": false
+	},
+	"1y4qao2hxtbmz0qj": {
+		"definition": "attunement",
+		"x": -147.80166891254422,
+		"y": 64,
+		"root": false
+	},
+	"ieohofkw8li0f6ll": {
+		"definition": "attunement",
+		"x": -73.90083445627212,
+		"y": 64,
+		"root": false
+	},
+	"bxly85i02pvcaty0": {
+		"definition": "physique",
+		"x": -147.80166891254422,
+		"y": -64,
+		"root": false
+	},
+	"0leyl07u8s80rx6k": {
+		"definition": "physique",
+		"x": -73.90083445627212,
+		"y": -64,
+		"root": false
+	},
+	"nah8wa8pn0k5serq": {
+		"definition": "physique",
+		"x": 73.90083445627207,
+		"y": -64,
+		"root": false
+	},
+	"0eywvu0uh06xjfwu": {
+		"definition": "physique",
+		"x": -2.842170943040401e-14,
+		"y": -64,
+		"root": false
+	},
+	"t7p5gcq0ovqm3i8g": {
+		"definition": "attunement",
+		"x": -2.842170943040401e-14,
+		"y": 64,
+		"root": false
+	},
+	"tfvcbci1inhrz1o6": {
+		"definition": "attunement",
+		"x": 73.90083445627207,
+		"y": 64,
+		"root": false
+	},
+	"75ho6r1gafiyoh4y": {
+		"definition": "throatseeker",
+		"x": 166.27687752661217,
+		"y": -32,
+		"root": false
+	},
+	"lucrfl1iyo823nwm": {
+		"definition": "finesse",
+		"x": -73.90083445627212,
+		"y": 0,
+		"root": false
+	},
+	"qf8potn4pxv21k8t": {
+		"definition": "finesse",
+		"x": 73.90083445627207,
+		"y": 0,
+		"root": false
+	},
+	"nddilycre5fdz6jx": {
+		"definition": "finesse_big",
+		"x": -166.27687752661222,
+		"y": 32,
+		"root": false
+	},
+	"02fk87z4tecq8uga": {
+		"definition": "blur",
+		"x": -166.27687752661222,
+		"y": -32,
+		"root": false
+	},
+	"ri64sdi0odje1dqz": {
+		"definition": "finesse",
+		"x": -221.70250336881634,
+		"y": 0,
+		"root": false
+	},
+	"ib9y3lra9ile33f5": {
+		"definition": "finesse_big",
+		"x": -55.4256258422041,
+		"y": 32,
+		"root": false
+	},
+	"wu19orxpug84a6av": {
+		"definition": "brittle_defense",
+		"x": -55.4256258422041,
+		"y": -32,
+		"root": false
+	},
+	"mmbaxgn0t8o3znoi": {
+		"definition": "finesse",
+		"x": -2.842170943040401e-14,
+		"y": 0,
+		"root": false
+	},
+	"r5vkp5nppa81lu3l": {
+		"definition": "finesse_big",
+		"x": 166.27687752661217,
+		"y": 32,
+		"root": false
+	},
+	"yqxa1nlwdphu1747": {
+		"definition": "finesse",
+		"x": 110.85125168440811,
+		"y": 0,
+		"root": false
+	},
+	"q91a2qmolxg8tiss": {
+		"definition": "attunement",
+		"x": 184.7520861406802,
+		"y": 64,
+		"root": false
+	},
+	"77g8a22v1n2g5289": {
+		"definition": "attunement",
+		"x": 258.65292059695236,
+		"y": 64,
+		"root": false
+	},
+	"0cevm0kd4kqi3ecg": {
+		"definition": "finesse",
+		"x": 184.7520861406802,
+		"y": 0,
+		"root": false
+	},
+	"myshalfoqeufw3yz": {
+		"definition": "finesse",
+		"x": 258.6529205969523,
+		"y": 0,
+		"root": false
+	},
+	"6vh87yqnl5omrfmr": {
+		"definition": "physique",
+		"x": 184.7520861406802,
+		"y": -64,
+		"root": false
+	},
+	"q9b216x917n6k5uh": {
+		"definition": "physique",
+		"x": 258.65292059695224,
+		"y": -64,
+		"root": false
+	},
+	"a2vgnaa77ciby068": {
+		"definition": "physique_big",
+		"x": 332.5537550532244,
+		"y": -64,
+		"root": false
+	},
+	"iawq90eavwrroxyf": {
+		"definition": "finesse_big",
+		"x": 314.07854643915636,
+		"y": 32,
+		"root": false
+	},
+	"mqloyxe3pu03teaj": {
+		"definition": "attunement_big",
+		"x": 295.6033378250884,
+		"y": 128,
+		"root": false
+	},
+	"ctplmg2mamd2ljl9": {
+		"definition": "magebane",
+		"x": 295.6033378250884,
+		"y": -128,
+		"root": false
+	},
+	"jd2hxlf1nzo52q7x": {
+		"definition": "omniscience",
+		"x": 332.5537550532244,
+		"y": 64,
+		"root": false
+	},
+	"k856l1die4uzy8fk": {
+		"definition": "ethereal",
+		"x": 314.07854643915636,
+		"y": -32,
+		"root": false
+	}
+}

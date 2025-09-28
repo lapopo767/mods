@@ -1,0 +1,17 @@
+{
+	"powers": [
+		"medievalorigins:dwarf/dwarven_tech",
+		"medievalorigins:dwarf/miniature",
+		"medievalorigins:dwarf/nocturnal_eyes",
+		"medievalorigins:dwarf/potent_brew",
+		"medievalorigins:dwarf/pickaxeless_stone",
+		"medievalorigins:dwarf/helmet_spawn",
+		"thermoo-patches:extra_heat_resistance"
+	],
+	"icon": {
+		"id": "medievalorigins:dwarf"
+	},
+	"impact": 2,
+	"order": 1,
+	"loading_priority": 1
+}

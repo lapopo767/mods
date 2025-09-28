@@ -1,0 +1,111 @@
+{
+  "states": {
+    "start": {
+      "text": [
+        {
+          "text": "Hello"
+        },
+        {
+          "text": " Do you need anything? "
+        }
+      ],
+      "illustrations": [
+        "discussion"
+      ],
+      "choices": [
+        {
+          "text": "How do I get inside the Starlight Dimension?",
+          "next": "question_dim"
+        },
+        {
+          "next": "question_seeking_eye",
+          "text": "What is the Seeking Eye used for?"
+        },
+        {
+          "next": "shop",
+          "text": "Mythical Wares"
+        },
+        {
+          "next": "end",
+          "text": "Nevermind"
+        }
+      ]
+    },
+    "end": {
+      "type": "end_dialogue",
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 1EFCAF8296901361"
+      }
+    },
+    "question_dim": {
+      "text": "Use the Orb of Prophecy on the Portal!",
+      "illustrations": [
+        "discussion"
+      ],
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 3E95EB0861C00B73"
+      },
+      "choices": [
+        {
+          "next": "start",
+          "text": "Thank you."
+        }
+      ]
+    },
+    "question_seeking_eye": {
+      "text": "Hold in your OFF-HAND an item like redstone then use the item. There are others items that work with the eye as well!",
+      "illustrations": [
+        "discussion"
+      ],
+      "choices": [
+        {
+          "next": "start",
+          "text": "Thank you."
+        }
+      ]
+    },
+    "shop": {
+      "text": "",
+      "type": "end_dialogue",
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run function kevs:unlockshop"
+      }
+    }
+  },
+  "illustrations": {
+    "discussion": [
+      {
+        "type": "blabber:entity",
+        "entity": "@interlocutor",
+        "x1": 70,
+        "y1": 500,
+        "x2": 200,
+        "y2": -220,
+        "size": 65,
+        "y_offset": 0,
+        "stare_at_x": 50,
+        "stare_at_y": 0
+      },
+      {
+        "type": "blabber:entity",
+        "entity": "@s",
+        "x1": 195,
+        "y1": 500,
+        "x2": 325,
+        "y2": -220,
+        "size": 65,
+        "y_offset": 0,
+        "stare_at_x": -50,
+        "stare_at_y": 5
+      }
+    ]
+  },
+  "layout": {
+    "type": "blabber:rpg"
+  },
+  "unskippable": true,
+  "start_at": "start"
+}

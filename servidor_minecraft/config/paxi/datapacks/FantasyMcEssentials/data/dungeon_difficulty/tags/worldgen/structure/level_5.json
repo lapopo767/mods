@@ -1,0 +1,21 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "minecraft:end_city",
+      "required": false
+    },
+	{
+      "id": "takesapillage:bastille",
+      "required": false
+    },
+	{
+      "id": "repurposed_structures:stronghold_end",
+      "required": false
+    },
+	{
+      "id": "repurposed_structures:city_nether"",
+      "required": false
+    }
+  ]
+}

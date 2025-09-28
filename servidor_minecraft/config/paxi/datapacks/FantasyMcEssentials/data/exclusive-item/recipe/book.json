@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nOS",
+    "ONO",
+    "SOn"
+  ],
+  "key": {
+    "n": {
+      "item": "bosses_of_mass_destruction:void_thorn"
+    },
+    "O": {
+      "item": "transmog:void_fragment"
+    },
+    "S": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "N": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "exclusive-item:book"
+  }
+}

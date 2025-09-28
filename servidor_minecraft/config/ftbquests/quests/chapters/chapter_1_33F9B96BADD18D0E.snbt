@@ -1,0 +1,137 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	default_quest_size: 2.0d
+	filename: "chapter_1_33F9B96BADD18D0E"
+	group: "0C0B397FD2057AB5"
+	icon: {
+		components: {
+			"ftbquests:icon": "fantasy_mc:textures/icon32x32.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "33F9B96BADD18D0E"
+	images: [
+		{
+			click: "#65CFB8900D081995"
+			height: 1.0d
+			hover: ["Check out Progression first!"]
+			image: "journal:textures/arrow-icon.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -4.25d
+			y: 0.0d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["Under Construction!"]
+			image: "biomeswevegone:item/white_mangrove/hanging_sign"
+			order: 8
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.55d
+			y: 0.0d
+		}
+		{
+			click: "#03268147BABAD026"
+			dependency: "259AAC4D4007B0E3"
+			height: 2.0d
+			hover: [
+				"Change your kit?"
+				"Disappears when you lock in your path."
+			]
+			image: "midnightlib:textures/gui/sprites/icon/reset.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.85d
+			y: 3.4d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["7D81F98DB4725B7D"]
+			disable_toast: true
+			id: "65A5CD7EBB084862"
+			rewards: [{
+				count: 12
+				id: "7B41BAF05EC35650"
+				item: {
+					count: 1
+					id: "runes:healing_stone"
+				}
+				type: "item"
+			}]
+			tasks: [
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "09BDD54430B319EA"
+					item: { count: 3, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 3L
+					disable_toast: true
+					id: "0FD24E76E9050137"
+					item: { count: 3, id: "minecraft:gold_nugget" }
+					type: "item"
+				}
+			]
+			x: -0.85d
+			y: -4.25d
+		}
+		{
+			dependencies: ["01EAE609A98F99D0"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/icon32x32.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "7D81F98DB4725B7D"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 32C9658055AA7F06"
+					icon: {
+						id: "paladins:priest_robe_chest"
+					}
+					id: "6F6F058E697B263B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add lockedPath"
+					id: "5813C4F234623B0B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 259AAC4D4007B0E3"
+					id: "3D1BBA08C060EC7E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3F4F7E3077293540"
+				type: "checkmark"
+			}]
+			x: -0.85d
+			y: 0.0d
+		}
+	]
+}

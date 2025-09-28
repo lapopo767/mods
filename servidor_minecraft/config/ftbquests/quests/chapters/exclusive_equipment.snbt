@@ -1,0 +1,52 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	disable_toast: true
+	filename: "exclusive_equipment"
+	group: "1C1C39EB0029A774"
+	id: "03ACC730897791A6"
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			id: "131CD850401BEE52"
+			invisible: true
+			tasks: [{
+				id: "5605B5A928610007"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.7000000000000004d
+		}
+		{
+			dependencies: ["131CD850401BEE52"]
+			id: "152C7657D91CD6BF"
+			tasks: [{
+				id: "50C75A3B4265F39D"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: -1.7d
+		}
+		{
+			id: "34B0B3A857CE2332"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p complete 152C7657D91CD6BF"
+				id: "2959E5257D21C764"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "336C0DA44DE8BD9F"
+				type: "advancement"
+			}]
+			x: -2.55d
+			y: -1.7d
+		}
+	]
+}

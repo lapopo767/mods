@@ -1,0 +1,430 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_start_v2"
+	group: "1C1C39EB0029A774"
+	id: "4BE8CB4DA0C82737"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["03268147BABAD026"]
+			id: "3670661B34C577DB"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 3E36B29697D0E896"
+					id: "29E540F103B2AE32"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 0A3BB03FDE3F6C25"
+					id: "5A4593914BDE9138"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 21B59771DF32AAA0"
+					id: "59ACFCD3EEE433F6"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 13220BB99E37C603"
+					id: "700B2162E4DFBA0F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 2958FF9EA66CDF56"
+					id: "7815C16A5A60B43B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "706925BD3E26DCF9"
+				type: "advancement"
+			}]
+			x: -0.8642857142857152d
+			y: -0.85d
+		}
+		{
+			can_repeat: true
+			id: "1398C18476E98DCD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 2C3352144E4F04A9"
+					id: "3B0362D59EE7ABE5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 1F3C50F9922D5A3C"
+					id: "3584A1F22F8C25D4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 01EAE609A98F99D0"
+					id: "1912A08C90EBA061"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 0CF0B6EFB77D1306"
+					id: "7184C0973125D001"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3E36B29697D0E896"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -1.8642857142857152d
+			y: 0.15000000000000002d
+		}
+		{
+			can_repeat: true
+			id: "68995789BC20B8BC"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 7A24F7AF9896FB50"
+					id: "5ADEE9BD084E716C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 5E75FFD089877F35"
+					id: "4792EAF3EE21C977"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 3E4016870EEE37A3"
+					id: "3F3D4F8E78480342"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 7AE3C1D738E29DD5"
+					id: "49275000AA7ABDFC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0A3BB03FDE3F6C25"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -0.3642857142857152d
+			y: 0.15000000000000002d
+		}
+		{
+			dependencies: ["3670661B34C577DB"]
+			disable_toast: true
+			id: "170D59A01F0BDAAA"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run attribute @p minecraft:generic.armor base set 0"
+					id: "177518FA04C77E9B"
+					permission_level: 4
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run attribute @p minecraft:generic.movement_speed base set 0.1"
+					id: "6F12F8DFBCBB1E34"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run attribute @p minecraft:generic.attack_damage base set 1"
+					id: "34B70D2CD62BB0A4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run attribute @p minecraft:generic.max_health base set 20"
+					id: "77AFDE0F07B6AF55"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run attribute @p spell_power:healing base set 0"
+					id: "60708779269AC1C5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run function kevs:elementalist_statrevert"
+					id: "598A8E3CA188E93D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "54BA0F46C7592810"
+				type: "advancement"
+			}]
+			x: -2.364285714285715d
+			y: -0.85d
+		}
+		{
+			dependencies: [
+				"03268147BABAD026"
+				"3670661B34C577DB"
+			]
+			id: "35EC3E2EAB8872EF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Exiled_Knight"
+					id: "0C911950E8B8646B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Elementalist"
+					id: "550B02EFAA3A91CF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Shadow_Assassin"
+					id: "48F1AE387A788FD1"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove Forsaken_Prophet"
+					id: "226A1208D840DA55"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 03ACC730897791A6"
+					id: "52E890973F7FC300"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "5E50B2424281E132"
+				type: "advancement"
+			}]
+			x: 0.6357142857142848d
+			y: -0.85d
+		}
+		{
+			can_repeat: true
+			id: "14F890875FDB1452"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 475E5F5710EE94BD"
+					id: "39660E5F5956A8E3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 2B18C041FBC84DDC"
+					id: "2F9AF4B83F853E67"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 48B5B15BD8C3DACF"
+					id: "33FC937533B49D22"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 2118749AFB1C1BF0"
+					id: "1264213D1677F666"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 32C9658055AA7F06"
+					id: "43D524012E25E5CC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "13220BB99E37C603"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 1.1357142857142848d
+			y: 0.15000000000000002d
+		}
+		{
+			can_repeat: true
+			id: "17FE5B8B84FDB64E"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 4CE07E50C1AFC0CE"
+					id: "628D4219BD1AA388"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 7B040B35A1BC843C"
+					id: "023C7184116ECBB6"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 4D6B925CD55C3053"
+					id: "2136BF2B7E4A8AFA"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 6BCF0DAC9F5E72DD"
+					id: "5DB924C5CA507ED7"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "2958FF9EA66CDF56"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: 0.13214285714286123d
+		}
+		{
+			can_repeat: true
+			id: "7DE6B1C9B2C0645F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 2B2CC4D094B6E514"
+					id: "0E41B5F1F4332ABC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 73248BFD9BB8ACA6"
+					id: "682EF9552A6F9393"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 0BE623668164FF63"
+					id: "7AAF2D5DE4C2DC92"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 6ABC3BD2516E8479"
+					id: "682779A9FC025548"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "3F062EA503332CBF"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -4.81071428571429d
+			y: 0.11428571428571388d
+		}
+	]
+}

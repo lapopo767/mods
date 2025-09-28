@@ -1,0 +1,18 @@
+# Don't change this! Version used to track needed updates.
+version = 0
+enable_spell_hotbar_background_rendering = true
+enable_spell_hotbar_cooldown_overlay = true
+enable_spell_hotkey_icons = true
+show_items_in_spell_hot_bar = true
+enable_cooldown_icons = false
+enable_spell_hotbar_cooldown_number = false
+spell_cooldown_number_offset_x = 10
+spell_cooldown_number_offset_y = -10
+
+[spell_cooldown_number_color]
+# Red component, 0 to 255
+r = 192
+# Green component, 0 to 255
+g = 192
+# Blue component, 0 to 255
+b = 192

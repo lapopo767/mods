@@ -1,0 +1,286 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "chapter1_admin"
+	group: "5A697336DE338BF2"
+	id: "6D30514B5DF9E5EA"
+	order_index: 1
+	quest_links: [ ]
+	quests: [
+		{
+			id: "784494A430D8F0FA"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run execute as @e[tag=LucasFriend,limit=1,sort=nearest] run tellraw @p {\"text\":\"\",\"color\":\"gray\",\"extra\":[{\"selector\":\"@e[tag=LucasFriend,limit=1,sort=nearest]\",\"color\":\"green\"},{\"text\":\": \"},{\"text\":\"Heyyy HEYyyy *hiccup*\",\"color\":\"yellow\"}]}"
+				id: "676295197105AE7D"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				count: 64L
+				id: "2ECE1AFDEA28C8C5"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: -1.7d
+		}
+		{
+			can_repeat: true
+			id: "361AE2A02BCFBC46"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run execute unless entity @e[tag=LucasFriend,distance=..150] as @e[type=villager,sort=random,limit=1] at @s run summon minecraft:villager ~ ~ ~ {VillagerData:{type:plains,profession:armorer,level:99},CustomName:'[{\"text\":\"Lucas\",\"color\":\"dark_red\"}]',Tags:[\"LucasFriend\"]}"
+					id: "7D63B76866ADBE70"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run effect give @e[tag=LucasFriend,limit=1,sort=nearest,distance=..150] glowing 30 30"
+					id: "1A68A163705234CF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 2ECE1AFDEA28C8C5"
+					id: "6188A8E14A458139"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 0AA89EF6A0752336"
+					id: "211D8C56622F7A3A"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0C5B27A6169ADF33"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -0.8500000000000001d
+			y: -1.7d
+		}
+		{
+			can_repeat: true
+			id: "43A0C43CDE5EB0B7"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run tellraw @p [  {\"text\": \"Last known position:\\n\", \"color\": \"yellow\", \"bold\": true},  {\"text\": \"X: \", \"color\": \"yellow\"},  {\"nbt\": \"Pos[0]\", \"entity\": \"@e[type=villager,tag=LucasFriend,limit=1]\", \"interpret\": true, \"color\": \"yellow\"},  {\"text\": \"\\nY: \", \"color\": \"yellow\"},  {\"nbt\": \"Pos[1]\", \"entity\": \"@e[type=villager,tag=LucasFriend,limit=1]\", \"interpret\": true, \"color\": \"yellow\"},  {\"text\": \"\\nZ: \", \"color\": \"yellow\"},  {\"nbt\": \"Pos[2]\", \"entity\": \"@e[type=villager,tag=LucasFriend,limit=1]\", \"interpret\": true, \"color\": \"yellow\"}]"
+				id: "61465A274C5B44AD"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				count: 64L
+				id: "0AA89EF6A0752336"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 1.6999999999999997d
+			y: -1.7d
+		}
+		{
+			dependencies: ["568B28E0E7AB8FA3"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "510B81D5B8031ED3"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p complete 3103888C67D41E2C"
+				id: "1524C1402CC2BDCD"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "2D2C474C68428AFF"
+				type: "advancement"
+			}]
+			x: -3.4d
+			y: 1.7d
+		}
+		{
+			dependencies: ["510B81D5B8031ED3"]
+			id: "3103888C67D41E2C"
+			tasks: [{
+				count: 64L
+				id: "482A8A37F1D7C5AB"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -0.8500000000000001d
+			y: 1.7d
+		}
+		{
+			can_repeat: true
+			id: "6E17A1E3A48A38F0"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You can't seem to figure out where to go...\",\"color\":\"yellow\"}]"
+					id: "2941CFAC91EBFFD6"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"Maybe heading into the center of the village would help?\",\"color\":\"yellow\"}]"
+					id: "155F0E325C7A9C82"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"[Village not found]\",\"color\":\"red\"}]"
+					id: "3A1BB73F5D7F7315"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run function kevs:resetprologuewhenvillagenotfound"
+					id: "004D3AD729D75CBF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "1AF730C8D276288E"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: 1.6999999999999997d
+			y: 1.7d
+		}
+		{
+			dependencies: ["568B28E0E7AB8FA3"]
+			dependency_requirement: "all_started"
+			id: "0F0D49177851FBFA"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 3103888C67D41E2C"
+				id: "1B2167A0565941CF"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "kevs:is_lucas"
+				criterion: ""
+				id: "679AC4D2D5BF6463"
+				type: "advancement"
+			}]
+			x: -3.4d
+			y: 0.0d
+		}
+		{
+			id: "56E993D1FD640500"
+			rewards: [{
+				command: "/give @p basicweapons:iron_dagger[custom_name='[\"\",{\"text\":\"Chef\\'s Trusty Knife\",\"italic\":false,\"color\":\"yellow\"}]',lore=['[\"\",{\"text\":\"It\\'s been used for a while but it\\'ll do the trick - Bob\",\"italic\":false}]'],enchantments={levels:{looting:1}},damage=125]"
+				id: "34DDE4DFA37FC286"
+				type: "command"
+			}]
+			tasks: [{
+				id: "50DD4E7C447EED5F"
+				type: "checkmark"
+			}]
+			x: -0.85d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			dependencies: [
+				"568B28E0E7AB8FA3"
+				"3103888C67D41E2C"
+			]
+			hide_lock_icon: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/newquestimg/book.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 1.25d
+			id: "1D44DA76754CF835"
+			optional: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p if predicate kevs:village_check run ftbquests change_progress @p complete 0C5B27A6169ADF33"
+					id: "51724229613F0E2C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless predicate kevs:village_check run ftbquests change_progress @p complete 1AF730C8D276288E"
+					id: "3BE4F715F1696BB0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "746FE49D3BF27343"
+				type: "checkmark"
+			}]
+			x: 5.1d
+			y: 0.0d
+		}
+		{
+			dependencies: ["568B28E0E7AB8FA3"]
+			id: "2211BB8DF8FABA59"
+			rewards: [
+				{
+					auto: "enabled"
+					description: "About your past"
+					icon: {
+						components: {
+							"ftbquests:icon": "supplementaries:block/daub_frame"
+						}
+						id: "ftbquests:custom_icon"
+					}
+					id: "7C63DFBF4B356B7B"
+					type: "toast"
+				}
+				{
+					id: "49B182EB5E05AB91"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				advancement: "kevs:is_lucas"
+				criterion: ""
+				id: "4880B9563CB38353"
+				type: "advancement"
+			}]
+			x: 7.6499999999999995d
+			y: 0.0d
+		}
+	]
+}

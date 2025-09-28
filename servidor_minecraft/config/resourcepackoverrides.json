@@ -1,0 +1,71 @@
+{
+  "schema_version": "2",
+  "failed_reloads_per_session": 5,
+  "default_packs": [
+		"vanilla",
+		"fabric",
+		"fantasy_mc",	
+		"file/Simply Swords Reforged v1 - IncompatibilityFix.zip",
+		"file/xali's Enchanted Books Addon v3 1.21.zip",
+		"minecraft:tieredz_mrpgc",
+		"moonlight:mods_dynamic_assets",
+		"file/Skyrim Soundpack v6.1.zip",
+		"presencefootsteps:default_sound_pack",
+		"file/Ashen_Custom_Font.zip",
+		"file/EmbellishedStone-1.20.1-1.0.0.zip",
+		"file/[1.4.1] Enhanced Boss Bars.zip",
+		"file/Visual Titles 1.1.zip",
+		"file/Better_Combat_Free_Legs.zip",
+		"file/Icon Xaero's 1.2 HF.zip",
+		"file/\u00A76Drodi's Villagers [V2.8].zip",
+		"file/\u00A73Drodi's Illagers [V5] pre 1.21.5.zip",
+		"file/fantasy-mc-respack.zip",
+		"file/boss-refreshed-v1.4.zip",
+		"file/DPS"
+  ],
+  "pack_overrides": {
+    "1": [
+		"vanilla",
+		"fabric",
+		"fantasy_mc",	
+		"file/Simply Swords Reforged v1 - IncompatibilityFix.zip",
+		"file/xali's Enchanted Books Addon v3 1.21.zip",
+		"minecraft:tieredz_mrpgc",
+		"moonlight:mods_dynamic_assets",
+		"file/Skyrim Soundpack v6.1.zip",
+		"presencefootsteps:default_sound_pack",
+		"file/Ashen_Custom_Font.zip",
+		"file/EmbellishedStone-1.20.1-1.0.0.zip",
+		"file/[1.4.1] Enhanced Boss Bars.zip",
+		"file/Visual Titles 1.1.zip",
+		"file/Better_Combat_Free_Legs.zip",
+		"file/Icon Xaero's 1.2 HF.zip",
+		"file/\u00A76Drodi's Villagers [V2.8].zip",
+		"file/\u00A73Drodi's Illagers [V5] pre 1.21.5.zip",
+		"file/fantasy-mc-respack.zip",
+		"file/boss-refreshed-v1.4.zip",
+		"file/DPS"
+    ],
+    "2": [
+      "high_contrast",
+      "programmer_art",
+      "the_bumblezone:anti_tropophobia",
+      "lootr:old_textures",
+      "supplementaries:darker_ropes",
+	  "file/Simply Swords Reforged v1.zip",
+      "file/SkyrimSongpack",
+	  "file/Origins_Expanded_Foods_v3.1.zip",
+	  "subtle_effects:biome_color_water_particles",
+	  "kevs-tieredz-modifiers:tiered_more_overwrite_res",
+	  "$polymer-resources"
+    ],
+    "$$1": {
+      "required": true,
+      "fixed_position": true,
+      "force_compatible": true
+    },
+    "$$2": {
+      "hidden": true
+    }
+  }
+}

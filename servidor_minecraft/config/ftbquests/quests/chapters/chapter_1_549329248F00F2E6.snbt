@@ -1,0 +1,202 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	default_quest_size: 2.0d
+	filename: "chapter_1_549329248F00F2E6"
+	group: "4566EAA67E2AEE09"
+	icon: {
+		components: {
+			"ftbquests:icon": "fantasy_mc:textures/icon32x32.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "549329248F00F2E6"
+	images: [
+		{
+			click: "#65CFB8900D081995"
+			height: 1.0d
+			hover: ["Check out Progression first!"]
+			image: "journal:textures/arrow-icon.png"
+			rotation: 0.0d
+			width: 1.5d
+			x: -1.7d
+			y: 0.0d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["Under Construction!"]
+			image: "biomeswevegone:item/white_mangrove/hanging_sign"
+			order: 8
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.95d
+			y: 0.0d
+		}
+		{
+			click: "#03268147BABAD026"
+			dependency: "259AAC4D4007B0E3"
+			height: 2.0d
+			hover: [
+				"Change your kit?"
+				"Disappears when you lock in your path."
+			]
+			image: "midnightlib:textures/gui/sprites/icon/reset.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 2.55d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			dependencies: ["1091F8F96436E7B0"]
+			id: "1C7AC8901695D8B6"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "3B78340E1ACCB574"
+					table_id: 8906247205817171379L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "2AF02DDF27FCBB77"
+					table_id: 8906247205817171379L
+					type: "random"
+				}
+			]
+			tasks: [
+				{
+					consume_items: true
+					disable_toast: true
+					id: "38EEB61FFE3B5FCF"
+					item: { count: 1, id: "elemental_wizards_rpg:elemental_essence" }
+					type: "item"
+				}
+				{
+					consume_items: true
+					count: 6L
+					disable_toast: true
+					id: "301B2690B710C33D"
+					item: { count: 3, id: "minecraft:cobblestone" }
+					type: "item"
+				}
+			]
+			x: 1.7d
+			y: -5.1d
+		}
+		{
+			dependencies: ["0CF0B6EFB77D1306"]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/icon32x32.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "1091F8F96436E7B0"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 32C9658055AA7F06"
+					icon: {
+						id: "elemental_wizards_rpg:elemental_head"
+					}
+					id: "5637E83DCE9B337E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					id: "4916899CD4AF3FA6"
+					item: {
+						count: 1
+						id: "elemental_wizards_rpg:elemental_essence"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2DBE23D074F23B7F"
+					item: {
+						count: 1
+						id: "more_rpg_classes:aqua_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "584DFCD0B876CF98"
+					item: {
+						count: 1
+						id: "runes:arcane_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "07EF2C38950317A0"
+					item: {
+						count: 1
+						id: "runes:fire_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "2BBEA0B2E2015153"
+					item: {
+						count: 1
+						id: "runes:frost_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "62AE4F84C19A7431"
+					item: {
+						count: 1
+						id: "more_rpg_classes:storm_stone"
+					}
+					type: "item"
+				}
+				{
+					count: 5
+					id: "63E51A200B1CFCCF"
+					item: {
+						count: 1
+						id: "more_rpg_classes:terra_stone"
+					}
+					type: "item"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add lockedPath"
+					id: "2C2CC635D5712F55"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 259AAC4D4007B0E3"
+					id: "3FC5751FF9C7BF48"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "44DCFAA2F419A34A"
+				type: "checkmark"
+			}]
+			x: 1.7d
+			y: 0.0d
+		}
+	]
+}

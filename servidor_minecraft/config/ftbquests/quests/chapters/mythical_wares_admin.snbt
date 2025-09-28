@@ -1,0 +1,20 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "mythical_wares_admin"
+	group: "1C1C39EB0029A774"
+	id: "382AF2990F48C5F7"
+	order_index: 8
+	quest_links: [ ]
+	quests: [{
+		id: "48053244F0BE8606"
+		invisible: true
+		tasks: [{
+			id: "110EC82A6DC54B52"
+			type: "checkmark"
+		}]
+		x: 1.7d
+		y: 0.85d
+	}]
+}

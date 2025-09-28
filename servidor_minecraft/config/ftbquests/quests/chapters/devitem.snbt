@@ -1,0 +1,424 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "devitem"
+	group: "334CA8F70B6DE4C1"
+	id: "7E71384BBC621419"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "4BA5BA0740C84FDB"
+			tasks: [{
+				id: "48CDAD8C8D45167A"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, requiredTag: "Exiled_Knight", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Knight's Claymore\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"Long since abandoned.Though in its weakened state, it refuses to break.\"", "\"  \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "rogues:charge", "spellbladenext:vaulting_slam" ] } }, count: 1, id: "magistuarmory:copper_claymore" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: -6.8d
+		}
+		{
+			id: "4F0107A6D3345768"
+			tasks: [{
+				id: "5E9FA05C86F1FCDF"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, requiredTag: "Shadow_Assassin", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Bloodied Iron Dagger\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A new recruit's dagger. A mentor's gift.\"", "\"   \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "rogues:throw", "rogues:slice_and_dice" ] } }, count: 1, id: "rogues:iron_dagger" }
+				type: "item"
+			}]
+			x: -1.7000000000000002d
+			y: -6.8d
+		}
+		{
+			id: "2FD8A20C2F30D1C6"
+			tasks: [{
+				id: "3499749D0AFDA2CE"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, requiredTag: "Forsaken_Prophet", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Holy Staff\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "minecraft:mending": 1, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A tool of miracles, once wielded by a true believer. Even now, it glows with light—but is it still holy?\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1, "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "paladins:holy_beam", "paladins:flash_heal", "paladins:holy_shock" ] } }, count: 1, id: "paladins:holy_staff" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -6.8d
+		}
+		{
+			id: "51DF3FDD0305A57A"
+			tasks: [{
+				id: "078C8D887BD805E3"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:fire" }, { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:frost" }, { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:arcane" }, { amount: 0.0d, id: "minecraft:1742100504811", operation: "add_value", type: "minecraft:player.entity_interaction_range" }, { amount: 3.0d, id: "minecraft:1742100504811", operation: "add_value", type: "minecraft:generic.attack_damage" }, { amount: -2.4d, id: "minecraft:1742100504811", operation: "add_value", type: "minecraft:generic.attack_speed" }, { amount: 0.02d, id: "minecraft:1742100504811", operation: "add_value", type: "kevslibrary:fire_tornado_chance" } ], show_in_tooltip: 0b }, "minecraft:custom_data": { ExclusiveItem: 1b, requiredTag: "Elementalist", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Di\",\"type\":\"text\"},{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"v\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"er\",\"type\":\"text\"},{\"bold\":true,\"color\":\"#663300\",\"italic\":false,\"text\":\"g\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_blue\",\"italic\":false,\"text\":\"en\",\"type\":\"text\"},{\"bold\":true,\"italic\":false,\"text\":\"ce\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"The wand left behind by your mentor, you feel some strange aura coming from it.\"", "\"   \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damage\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.6 Attack Speed\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2.5 Attack Range\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"#5251F5\",\"italic\":false,\"text\":\"+2.5 Spell Power to Fire/Frost/Arcane\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"#5251F5\",\"italic\":false,\"text\":\"+2.5 Spell Power to Air/Earth/Water\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"#5251F5\",\"italic\":false,\"text\":\"+2% to summon a Fire Tornado\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "elemental_wizards_rpg:aqua_springwater", "elemental_wizards_rpg:terra_stone_flesh", "elemental_wizards_rpg:wind_aeroblast", "wizards:arcane_missile", "wizards:fire_breath", "wizards:frost_nova" ] } }, count: 1, id: "wizards:wand_novice" }
+				type: "item"
+			}]
+			x: 1.6999999999999993d
+			y: -6.8d
+		}
+		{
+			id: "55EAEAF0D85FCC12"
+			tasks: [{
+				id: "1C00C5D5CD52F410"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 0.075d, id: "relics_rpgs:lesser_use_ranged.the_eye", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_charm-trinket", type: "kevslibrary:crit_chance" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"The Eye\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": ["\"Something is watching you\""], "spell_engine:spell_container": { spell_ids: [ "rogues:vanish", "rogues:shadow_step" ] } }, count: 1, id: "relics_rpgs:lesser_use_ranged" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: 3.4d
+		}
+		{
+			id: "3BE6A8F20C3FE930"
+			tasks: [{
+				id: "2907467B112AD2FB"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.15d, id: "archers:small_quiver.magic_quiver", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "trinket_group_spell-quiver", type: "ranged_weapon:damage" }, { amount: 0.15d, id: "archers:small_quiver.magic_quiver", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-quiver", type: "ranged_weapon:haste" } ], show_in_tooltip: 1b }, "bundleapi:custom_bundle_contents": { content: [{ count: 10, id: "xtraarrows:iron_arrow" }], size_multiplier: 4 }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"bold\":false,\"color\":\"gold\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Magic Quiver\",\"type\":\"text\",\"underlined\":false}" }, count: 1, id: "archers:small_quiver" }
+				type: "item"
+			}]
+			x: -1.7d
+			y: 3.4d
+		}
+		{
+			id: "5B282CD98A1A3E6B"
+			tasks: [{
+				id: "1993F8BB57E5EA26"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: -0.04d, id: "jewelry:iron_ring.gravity_ring", is_stackable: 1b, operation: "add_value", slot_name: "ring", type: "minecraft:generic.gravity" }, { amount: 100.0d, id: "jewelry:iron_ring.gravity_ring", is_stackable: 1b, operation: "add_value", slot_name: "ring", type: "minecraft:generic.safe_fall_distance" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"bold\":false,\"color\":\"dark_aqua\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Gravity Ring\",\"type\":\"text\",\"underlined\":false}" }, count: 1, id: "jewelry:iron_ring" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 3.4d
+		}
+		{
+			id: "3EA678ACF0979D98"
+			tasks: [{
+				id: "34B331A71C7D840D"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 2.0d, id: "relics_rpgs:medium_proc_spell_power.strange_skull", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "accessories:trinket_group_spell-trinket" }, { amount: -0.25d, id: "relics_rpgs:medium_proc_spell_power.strange_skull", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "minecraft:generic.max_health" }, { amount: -0.1d, id: "relics_rpgs:medium_proc_spell_power.strange_skull", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "spell_power:generic" }, { amount: -0.1d, id: "relics_rpgs:medium_proc_spell_power.strange_skull", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "minecraft:generic.attack_damage" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FFFFFF\",\"extra\":[{\"bold\":true,\"color\":\"#FFFFFF\",\"italic\":false,\"obfuscated\":true,\"strikethrough\":false,\"text\":\"4\",\"type\":\"text\",\"underlined\":false},{\"bold\":true,\"color\":\"#FFFFFF\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Skull\",\"type\":\"text\",\"underlined\":false}],\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Strange\",\"type\":\"text\",\"underlined\":false}", "minecraft:lore": ["\"Mysterious Power resides here\""], "spell_engine:spell_container": { } }, count: 1, id: "relics_rpgs:medium_proc_spell_power" }
+				type: "item"
+			}]
+			x: 1.7d
+			y: 3.4d
+		}
+		{
+			id: "0236FA661CF4595E"
+			tasks: [{
+				id: "5AC13D665DC73A6E"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 1.5d, id: "relics_rpgs:greater_perk_heal_cleanse", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_charm-trinket", type: "spell_power:healing" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:lore": ["\"GO HOLY WATER I CHOOSE YOU!\""], "spell_engine:spell_container": { spell_ids: ["oathswornpaladins:lesser_divine_smite"] } }, count: 1, id: "relics_rpgs:greater_perk_heal_cleanse" }
+				type: "item"
+			}]
+			x: 3.4d
+			y: 3.4d
+		}
+		{
+			id: "2FBA374B6E7F4E17"
+			tasks: [{
+				id: "7A58B2F7BD96313A"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.25d, id: "artifacts:shock_pendant.lightning_attractor", is_stackable: 1b, operation: "add_value", slot_name: "hat", type: "kevslibrary:chain_lightning_chance" }, { amount: 0.05d, id: "artifacts:shock_pendant.lightning_attractor", is_stackable: 1b, operation: "add_value", slot_name: "necklace", type: "kevslibrary:chain_lightning_overload_chance" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "\"Lightning Attractor\"" }, count: 1, id: "artifacts:shock_pendant" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: 5.1d
+		}
+		{
+			id: "2C90259A8A98F432"
+			tasks: [{
+				id: "26562A7C6BD1E3F8"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.15d, id: "rpg_battle_gear:mystic_essence.variant_essence", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "spell_power:healing" }, { amount: 0.15d, id: "rpg_battle_gear:mystic_essence.variant_essence", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "minecraft:generic.attack_damage" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Variant Essence\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": ["\"Variants\""], "spell_engine:spell_container": { spell_ids: ["spellbladenext:phase_dash"] }, "transmog:appearance_item": { itemStack: { id: "rpg_battle_gear:mystic_essence" } } }, count: 1, id: "relics_rpgs:greater_proc_physical_trance" }
+				type: "item"
+			}]
+			x: -1.7d
+			y: 5.1d
+		}
+		{
+			id: "134CAA0ED44E06F5"
+			tasks: [{
+				id: "5CE68A5D4FF5A8CC"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.25d, id: "relics_rpgs:jewel_figurine_ruby.ruby_serpent_figurine", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:crit_damage" }, { amount: 0.1d, id: "relics_rpgs:jewel_figurine_ruby.ruby_serpent_figurine", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:crit_chance" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b, requiredTag: "Shadow_Assassin", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Ruby Serpent Figurine\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": ["\"A symbol of rank. A sign of trust. A death sentence disguised as a gift.\""], "minecraft:rarity": "epic", "minecraft:repair_cost": 1 }, count: 1, id: "relics_rpgs:jewel_figurine_ruby" }
+				type: "item"
+			}]
+			x: -1.7d
+			y: -8.5d
+		}
+		{
+			id: "2906BDA7FD98388F"
+			tasks: [{
+				id: "6F175038FC915949"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.25d, id: "elemental_wizards_rpg:elemental_essence.void_essence", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "trinket_group_spell-trinket", type: "extraspellattributes:converttofire" }, { amount: 0.25d, id: "elemental_wizards_rpg:elemental_essence.void_essence", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "trinket_group_spell-trinket", type: "extraspellattributes:converttofrost" }, { amount: 0.25d, id: "elemental_wizards_rpg:elemental_essence.void_essence", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "trinket_group_spell-trinket", type: "extraspellattributes:converttoarcane" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FFFFFF\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Void Essence\",\"type\":\"text\",\"underlined\":false}", "minecraft:lore": ["\"Variants\""], "spell_engine:spell_container": { }, "transmog:appearance_item": { itemStack: { id: "elemental_wizards_rpg:elemental_essence" } } }, count: 1, id: "relics_rpgs:greater_proc_physical_trance" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 5.1d
+		}
+		{
+			id: "5B876D89E4F026E2"
+			tasks: [{
+				id: "538E3150B7E9AAE0"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 2.0d, id: "elemental_wizards_rpg:elemental_essence.star_essence", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "spell_power:fire" }, { amount: 2.0d, id: "elemental_wizards_rpg:elemental_essence.star_essence", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "spell_power:arcane" }, { amount: 2.0d, id: "elemental_wizards_rpg:elemental_essence.star_essence", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "spell_power:frost" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FFFFFF\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Star Essence\",\"type\":\"text\",\"underlined\":false}", "minecraft:lore": ["\"Variants\""], "spell_engine:spell_container": { }, "transmog:appearance_item": { itemStack: { id: "elemental_wizards_rpg:elemental_essence" } } }, count: 1, id: "relics_rpgs:greater_proc_physical_trance" }
+				type: "item"
+			}]
+			x: 1.7d
+			y: 5.1d
+		}
+		{
+			id: "49135262F6D327B9"
+			tasks: [{
+				id: "2694E943037C47B7"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.5d, id: "artifacts:cross_necklace.holy_necklace", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "trinket_group_spell-trinket", type: "extraspellattributes:converttoheal" }, { amount: 0.25d, id: "artifacts:cross_necklace.holy_necklace", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "trinket_group_spell-trinket", type: "spell_power:healing" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"bold\":true,\"color\":\"#FFFFFF\",\"italic\":false,\"obfuscated\":false,\"strikethrough\":false,\"text\":\"Holy Necklace\",\"type\":\"text\",\"underlined\":false}", "spell_engine:spell_container": { } }, count: 1, id: "artifacts:cross_necklace" }
+				type: "item"
+			}]
+			x: 3.3999999999999995d
+			y: 5.1d
+		}
+		{
+			id: "1387F8AAF0843BCA"
+			tasks: [{
+				id: "24088D037B1E9DA4"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.05d, id: "simplyswords:tempest.wheel_of_elements", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:fire_tornado_chance" }, { amount: 0.05d, id: "simplyswords:tempest.wheel_of_elements", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:frost_nova_chance" }, { amount: 0.05d, id: "simplyswords:tempest.wheel_of_elements", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:arcane_rupture_chance" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "\"Wheel of Elements\"", "minecraft:lore": ["\"Fire, Frost, Arcane power circulates.\""], "spell_engine:spell_container": { }, "transmog:appearance_item": { itemStack: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, id: "simplyswords:tempest" } } }, count: 1, id: "relics_rpgs:medium_proc_spell_power" }
+				type: "item"
+			}]
+			x: -1.7d
+			y: 6.8d
+		}
+		{
+			id: "3F93152947C26AB0"
+			tasks: [{
+				id: "279619595DFB94F9"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 2.0d, id: "simplyswords:tempest.wheel_of_elements", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "spell_power:air" }, { amount: 2.0d, id: "simplyswords:tempest.wheel_of_elements", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "spell_power:earth" }, { amount: 2.0d, id: "simplyswords:tempest.wheel_of_elements", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "spell_power:water" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "\"Wheel of Elements\"", "minecraft:lore": ["\"Air, Water, Earth power circulates.\""], "spell_engine:spell_container": { }, "transmog:appearance_item": { itemStack: { components: { "simplyswords:gem_power": { has_nether_power: 1b, has_runic_power: 0b, nether_power: "simplyswords:empty_power", runic_power: "simplyswords:empty_power" } }, id: "simplyswords:tempest" } } }, count: 1, id: "relics_rpgs:medium_proc_spell_power" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 6.8d
+		}
+		{
+			id: "7FF571BFA185F9FD"
+			tasks: [{
+				id: "27D98DAD328418D9"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 0.25d, id: "paladins:priest_spell_book", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-book", type: "spell_power:healing" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b } }, count: 1, id: "paladins:priest_spell_book" }
+				type: "item"
+			}]
+			x: 1.7d
+			y: 6.8d
+		}
+		{
+			id: "25671B801D70A853"
+			tasks: [{
+				id: "7E6FB3973EC3EE05"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.15d, id: "rpg_battle_gear:guardian_heart.holy_heart", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "spell_power:healing" }, { amount: 0.25d, id: "rpg_battle_gear:guardian_heart.holy_heart", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "spell_engine:healing_taken" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "\"Holy Heart\"", "minecraft:lore": ["\"You can feel warmth coming from it.\""], "spell_engine:spell_container": { spell_ids: [ "relics_rpgs:greater_perk_healing_cleanse", "relics_rpgs:greater_perk_heal_danger" ] }, "transmog:appearance_item": { itemStack: { id: "rpg_battle_gear:guardian_heart" } } }, count: 1, id: "relics_rpgs:greater_proc_physical_trance" }
+				type: "item"
+			}]
+			x: 3.4d
+			y: 6.8d
+		}
+		{
+			id: "59AC086046B420FC"
+			tasks: [{
+				id: "3946B9B26EF184E7"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "\"Cloak of Power\"", "minecraft:lore": ["\"Power surges within\""], "spell_engine:spell_container": { spell_ids: [ "relics_rpgs:medium_proc_spell_haste", "relics_rpgs:medium_proc_spell_power", "relics_rpgs:greater_proc_spell_trance" ] } }, count: 1, id: "frostiful:inert_frostology_cloak" }
+				type: "item"
+			}]
+			x: 5.1d
+			y: 3.4d
+		}
+		{
+			id: "6C8EDCDC84F05324"
+			tasks: [{
+				id: "2190E317A189506C"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.1d, id: "simplyswords:tampered_remnant.thunder_bringer", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:chain_lightning_chance" }, { amount: 0.15d, id: "simplyswords:tampered_remnant.thunder_bringer", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:chain_lightning_overload_chance" }, { amount: 3.0d, id: "simplyswords:tampered_remnant.thunder_bringer", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "spell_power:lightning" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Thunder Bringer\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "spell_engine:spell_container": { spell_ids: [ "relics_rpgs:greater_perk_roll_damage", "rogues:shock_powder" ] }, "transmog:appearance_item": { itemStack: { id: "simplyswords:tampered_remnant" } } }, count: 1, id: "relics_rpgs:greater_proc_spell_trance" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: 6.8d
+		}
+		{
+			id: "2551F436A0C91856"
+			tasks: [{
+				id: "3BD2F5453BC350F9"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 2.0d, id: "archers:large_quiver.ego_quiver", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "ranged_weapon:velocity" }, { amount: 0.25d, id: "archers:large_quiver.ego_quiver", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "trinket_group_spell-trinket", type: "ranged_weapon:damage" }, { amount: 2.0d, id: "archers:large_quiver.ego_quiver", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "affinity:generic.extra_arrow_damage" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "\"Ego Quiver\"", "spell_engine:spell_container": { } }, count: 1, id: "archers:large_quiver" }
+				type: "item"
+			}]
+			x: 5.1d
+			y: 6.8d
+		}
+		{
+			id: "6770A7F363D72E88"
+			tasks: [{
+				id: "4D7F8E94185E2857"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 1.0d, id: "relics_rpgs:medium_proc_attack_speed.dragon_skull", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "accessories:trinket_group_spell-book" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b }, "minecraft:custom_name": "\"Dragon Skull\"", "minecraft:lore": ["\"\""], "spell_engine:spell_container": { } }, count: 1, id: "relics_rpgs:medium_proc_attack_speed" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 3.4d
+		}
+		{
+			id: "555EC062BA2AC22C"
+			tasks: [{
+				id: "09CFE5BAE9E513C6"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 0.1d, id: "rogues:netherite_dagger.sharp_dagger", is_stackable: 1b, operation: "add_multiplied_base", slot_name: "trinket_group_spell-trinket", type: "minecraft:generic.attack_speed" }, { amount: 0.1d, id: "rogues:netherite_dagger.sharp_dagger", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:crit_chance" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; -2142621167, 1456227202, -1089138004, 458863323 ] }, "minecraft:custom_name": "\"Sharp Dagger\"", "minecraft:lore": ["\"Why not use it as a weapon? I don't know.\""], "spell_engine:spell_container": { }, "transmog:appearance_item": { itemStack: { id: "rogues:netherite_dagger" } } }, count: 1, id: "relics_rpgs:greater_proc_physical_trance" }
+				type: "item"
+			}]
+			x: 5.1d
+			y: 5.1d
+		}
+		{
+			id: "7D70125C5A7D5F0E"
+			tasks: [{
+				id: "37AF2E7DBE9D332D"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 0.15d, id: "the_bumblezone:windy_air.swift_strikes", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:multistrike_chance" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 1047695931, 296043046, -1629945748, -111589328 ] }, "minecraft:custom_name": "\"Swift Strikes\"", "minecraft:lore": ["\"Swift and deadly\""], "spell_engine:spell_container": { }, "transmog:appearance_item": { itemStack: { id: "the_bumblezone:windy_air" } } }, count: 1, id: "relics_rpgs:greater_proc_physical_trance" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 5.1d
+		}
+		{
+			id: "6C0A62DED7D3ADC6"
+			tasks: [{
+				id: "6A8B9D7358450F0B"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 0.1d, id: "formidulus:deer_phase2_disc.blood_relic", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:damage" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 863510766, -1264235381, -1766841612, -1263279442 ] }, "minecraft:custom_name": "\"Blood Relic\"", "minecraft:lore": ["\"BLOOD FOR THE BLOOD GOD\""], "spell_engine:spell_container": { }, "transmog:appearance_item": { itemStack: { id: "formidulus:deer_phase2_disc" } } }, count: 1, id: "relics_rpgs:greater_proc_physical_trance" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: 8.5d
+		}
+		{
+			id: "7FD55B02D81F2069"
+			tasks: [{
+				id: "6AE0D0F15E5E9EA8"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 783635075, -93502296, -1219529231, -505206548 ] }, "minecraft:custom_name": "\"Arrow Soul\"", "spell_engine:spell_container": { spell_ids: [ "relics_rpgs:greater_perk_ranged_levitate", "relics_rpgs:medium_proc_ranged_damage" ] }, "transmog:appearance_item": { itemStack: { id: "eternal_starlight:aethersent_arrow" } } }, count: 1, id: "relics_rpgs:greater_perk_ranged_levitate" }
+				type: "item"
+			}]
+			x: -1.7d
+			y: 8.5d
+		}
+		{
+			id: "0504DFE146DB90E4"
+			tasks: [{
+				id: "221A43CA406870DD"
+				item: { components: { "minecraft:damage": 124, "minecraft:enchantments": { levels: { "affinity:curse_of_illiteracy": 1, "enchantplus:durability/curse_of_enchant": 1, "frostiful:frozen_touch_curse": 3, "minecraft:vanishing_curse": 1, "nova_structures:conductivity_curse": 1 } }, "minecraft:repair_cost": 31 }, count: 1, id: "formidulus:sacrificial_dagger" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			id: "6F2A419D6ABE0836"
+			tasks: [{
+				id: "38D68AD1C54E1620"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 0.3d, id: "artifacts:lucky_scarf", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "necklace", type: "minecraft:generic.luck" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; -891679738, 677661879, -1594062708, 1017013309 ] } }, count: 1, id: "artifacts:lucky_scarf" }
+				type: "item"
+			}]
+			x: 1.7d
+			y: 8.5d
+		}
+		{
+			id: "213AFFC38C4C2F0E"
+			tasks: [{
+				id: "7442B64B251403D6"
+				item: { components: { "accessories:attributes": { modifiers: [ { amount: 1.0d, id: "things:socks.comfy_socks", is_stackable: 1b, operation: "add_value", slot_name: "shoes", type: "minecraft:generic.armor" }, { amount: 0.25d, id: "things:socks.comfy_socks", is_stackable: 1b, operation: "add_multiplied_total", slot_name: "shoes", type: "thermoo:generic.frost_resistance" } ], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; -1830200014, -59684382, -1822928495, -265121824 ] }, "minecraft:custom_name": "{\"extra\":[{\"color\":\"aqua\",\"italic\":false,\"text\":\"Comfy Socks\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": ["{\"extra\":[{\"italic\":false,\"text\":\"The socks fill you with determination.\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"], "minecraft:rarity": "epic" }, count: 1, id: "things:socks" }
+				type: "item"
+			}]
+			x: 6.8d
+			y: 6.8d
+		}
+		{
+			dependencies: ["7176D133BBC67F06"]
+			id: "6B1CC4FEC46322B0"
+			tasks: [{
+				id: "75274F62BE01F6F0"
+				item: { components: { "minecraft:attribute_modifiers": { modifiers: [ { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:air" }, { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:water" }, { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:earth" }, { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:fire" }, { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:frost" }, { amount: 2.5d, id: "minecraft:1742100504811", operation: "add_value", type: "spell_power:arcane" }, { amount: 0.0d, id: "minecraft:1742100504811", operation: "add_value", type: "minecraft:player.entity_interaction_range" }, { amount: 3.0d, id: "minecraft:1742100504811", operation: "add_value", type: "minecraft:generic.attack_damage" }, { amount: -2.4d, id: "minecraft:1742100504811", operation: "add_value", type: "minecraft:generic.attack_speed" }, { amount: 0.02d, id: "minecraft:1742100504811", operation: "add_value", type: "kevslibrary:fire_tornado_chance" } ], show_in_tooltip: 0b }, "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 1469226580, -1758052236, -1852795753, 1383806440 ], requiredTag: "Elementalist", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Di\",\"type\":\"text\"},{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"v\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"er\",\"type\":\"text\"},{\"bold\":true,\"color\":\"#663300\",\"italic\":false,\"text\":\"g\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_blue\",\"italic\":false,\"text\":\"en\",\"type\":\"text\"},{\"bold\":true,\"italic\":false,\"text\":\"ce\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:unbreaking": 5, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"This is not its true form.\"", "\"   \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 3 Attack Damage\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 1.6 Attack Speed\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"dark_green\",\"italic\":false,\"text\":\" 2.5 Attack Range\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"#5251F5\",\"italic\":false,\"text\":\"+2.5 Spell Power to Fire/Frost/Arcane\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"#5251F5\",\"italic\":false,\"text\":\"+2.5 Spell Power to Air/Earth/Water\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"color\":\"#5251F5\",\"italic\":false,\"text\":\"+2% to summon a Fire Tornado\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "elemental_wizards_rpg:aqua_springwater", "elemental_wizards_rpg:terra_stone_flesh", "elemental_wizards_rpg:wind_aeroblast", "wizards:arcane_missile", "wizards:fire_breath", "wizards:frost_nova" ] } }, count: 1, id: "wizards:wand_novice" }
+				type: "item"
+			}]
+			x: 1.7000000000000002d
+			y: -1.7d
+		}
+		{
+			id: "7176D133BBC67F06"
+			tasks: [{
+				id: "135FF955C02E793F"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; -1306460509, -521909864, -1957425949, -1348026783 ], requiredTag: "Elementalist", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Di\",\"type\":\"text\"},{\"bold\":true,\"color\":\"aqua\",\"italic\":false,\"text\":\"v\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"er\",\"type\":\"text\"},{\"bold\":true,\"color\":\"#663300\",\"italic\":false,\"text\":\"g\",\"type\":\"text\"},{\"bold\":true,\"color\":\"dark_blue\",\"italic\":false,\"text\":\"en\",\"type\":\"text\"},{\"bold\":true,\"italic\":false,\"text\":\"ce\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": [ "\"An orb full of Elemental Power\"", "\"   \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "elemental_wizards_rpg:aqua_springwater", "elemental_wizards_rpg:terra_stone_flesh", "elemental_wizards_rpg:wind_aeroblast", "wizards:arcane_missile", "wizards:fire_breath", "wizards:frost_nova" ] } }, count: 1, id: "elemental_wizards_rpg:elemental_essence" }
+				type: "item"
+			}]
+			x: 1.7000000000000002d
+			y: -3.4d
+		}
+		{
+			dependencies: ["06999CAF068251C9"]
+			id: "75503A32771CDC88"
+			tasks: [{
+				id: "34E1170AADD4DAE8"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; -1013774602, 2129284995, -1439304914, -503673169 ], requiredTag: "Exiled_Knight", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Knight's Claymore\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:unbreaking": 5, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"Long since abandoned. Though in its weakened state, it refuses to break.\"", "\"  \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: ["rogues:charge"] } }, count: 1, id: "magistuarmory:copper_claymore" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: -1.7d
+		}
+		{
+			id: "3CDF020929521B98"
+			tasks: [{
+				id: "537DFA547C98A4C3"
+				type: "checkmark"
+			}]
+			x: -5.1d
+			y: -6.8d
+		}
+		{
+			id: "7FFF42FF8EB182DA"
+			tasks: [{
+				id: "4AAD4FD941F76413"
+				type: "checkmark"
+			}]
+			x: -5.1d
+			y: -3.4d
+		}
+		{
+			id: "06999CAF068251C9"
+			tasks: [{
+				id: "26FAF1F251C257DF"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 27865818, -1973337736, -1201800467, -1379900504 ], requiredTag: "Exiled_Knight", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Sword\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:unbreaking": 1, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A dull blade.\"", "\"  \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "magistuarmory:copper_shortsword" }
+				type: "item"
+			}]
+			x: -3.4d
+			y: -3.4d
+		}
+		{
+			id: "273B49625151A052"
+			tasks: [{
+				id: "687FEBEAFCE36579"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; -1661377046, -458535570, -1962008092, 1180467913 ], requiredTag: "Forsaken_Prophet", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Holy Necklace\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "minecraft:unbreaking": 1, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A necklace of divinity.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1, "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "paladins:flash_heal", "paladins:holy_shock" ] }, "transmog:appearance_item": { itemStack: { id: "jewelry:citrine_necklace" } } }, count: 1, id: "paladins:acolyte_wand" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -3.4d
+		}
+		{
+			dependencies: ["273B49625151A052"]
+			id: "5AA70417C317AB19"
+			tasks: [{
+				id: "63B0C8C5026B0C12"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 843428701, 797196371, -1953685764, -821153105 ], requiredTag: "Forsaken_Prophet", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Holy Staff\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:unbreaking": 5, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A tool of miracles, once wielded by a true believer. Even now, it glows with light—but is it still holy?\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1, "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "paladins:holy_beam", "paladins:flash_heal", "paladins:holy_shock" ] } }, count: 1, id: "paladins:holy_staff" }
+				type: "item"
+			}]
+			x: 0.0d
+			y: -1.7d
+		}
+		{
+			dependencies: ["64D2E2EC1844DBD4"]
+			id: "069DC802AA9837EA"
+			tasks: [{
+				id: "16FC3F9FA0F64890"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 1698750687, -1766308966, -1708930635, -333450391 ], requiredTag: "Shadow_Assassin", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Iron Dagger\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:unbreaking": 5, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A new recruit's dagger. A mentor's gift.\"", "\"   \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: [ "rogues:throw", "rogues:slice_and_dice" ] } }, count: 1, id: "rogues:iron_dagger" }
+				type: "item"
+			}]
+			x: -1.7000000000000002d
+			y: -1.7d
+		}
+		{
+			id: "64D2E2EC1844DBD4"
+			tasks: [{
+				id: "54429587BB066068"
+				item: { components: { "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 1698750687, -1766308966, -1708930635, -333450391 ], requiredTag: "Shadow_Assassin", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Bloodied Iron Dagger\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantments": { levels: { "minecraft:mending": 1, "minecraft:unbreaking": 2, "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A new recruit's dagger. A mentor's gift.\"", "\"   \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "spell_engine:spell_container": { is_proxy: 1b, spell_ids: ["rogues:throw"] } }, count: 1, id: "rogues:iron_dagger" }
+				type: "item"
+			}]
+			x: -1.7000000000000002d
+			y: -3.4d
+		}
+		{
+			id: "661572ED7AD23684"
+			tasks: [{
+				id: "22F5C1DFA71A0832"
+				item: { components: { "accessories:attributes": { modifiers: [{ amount: 0.05d, id: "relics_rpgs:jewel_figurine_ruby", is_stackable: 1b, operation: "add_value", slot_name: "trinket_group_spell-trinket", type: "kevslibrary:crit_chance" }], show_in_tooltip: 1b }, "minecraft:custom_data": { ExclusiveItem: 1b, exclusiveID: [I; 2009671568, -1611905135, -1907000134, -314697373 ], requiredTag: "Shadow_Assassin", showRequiredTag: 0b }, "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Ruby Serpent Figurine\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": ["\"A symbol of rank. A sign of trust. A death sentence disguised as a gift.\""], "minecraft:rarity": "epic", "minecraft:repair_cost": 1 }, count: 1, id: "relics_rpgs:jewel_figurine_ruby" }
+				type: "item"
+			}]
+			x: -1.7d
+			y: 0.0d
+		}
+	]
+}

@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "type": "minecraft:player",
+    "slots": {
+      "container.*": {
+        "items": [
+          "minecraft:beef",
+          "minecraft:porkchop",
+          "minecraft:mutton"
+        ],
+        "count": 9
+      }
+    }
+  }
+}

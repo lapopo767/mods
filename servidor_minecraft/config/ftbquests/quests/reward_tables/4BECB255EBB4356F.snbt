@@ -1,0 +1,12 @@
+{
+	id: "4BECB255EBB4356F"
+	loot_size: 1
+	order_index: 5
+	rewards: [
+		{ id: "63229BE565D69D6D", item: { count: 1, id: "relics_rpgs:greater_proc_physical_trance" } }
+		{ id: "6202453822B85900", item: { count: 1, id: "relics_rpgs:greater_proc_defense_danger" } }
+		{ id: "5782C991347E0BBD", item: { count: 1, id: "relics_rpgs:greater_perk_ranged_levitate" } }
+		{ id: "52E067FA9C1F7E29", item: { count: 1, id: "relics_rpgs:greater_perk_heal_cleanse" } }
+		{ id: "30EA96ED765175CF", item: { count: 1, id: "relics_rpgs:greater_proc_spell_trance" } }
+	]
+}

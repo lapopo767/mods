@@ -1,0 +1,19 @@
+{
+    "dimension": "the_bumblezone:the_bumblezone",
+	"increasingDistance": 10000,
+	"distanceFactor": 0.1,
+    "increasingTime": 0,
+    "timeFactor": 0,
+    "heightDistance": 30,
+    "heightFactor": 0.1,
+	"maxFactorHealth": 15.0,
+	"maxFactorDamage": 10.0,
+	"maxFactorProtection": 3.0,
+    "maxFactorSpeed": 2.0,
+    "startingFactor": 1.25,
+    "startingDistance": 20000,
+    "startingTime": 0,
+    "startingHeight": 62,
+    "positiveHeightIncreasion": true,
+    "negativeHeightIncreasion": true
+}

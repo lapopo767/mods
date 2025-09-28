@@ -1,0 +1,29 @@
+{
+  "id": "mod_id:damage_boost",
+  "rarity": "legendary",
+  "entry": {
+    "type": "lootables:attribute",
+    "attribute": "minecraft:generic.attack_damage",
+    "id": "mod_id:damage_boost",
+    "value": 1.0,
+    "operation": "add_value",
+    "persistent": true
+  },
+  "desc": {
+    "translate": "mod_id.damage_boost.desc"
+  },
+  "weight": 2,
+  "max_uses": 1,
+  "condition": {
+    "condition": "entity_properties",
+    "entity": "this",
+    "predicate": {
+      "type_specific": {
+        "type": "player",
+        "advancements": {
+          "minecraft:story/enter_the_nether": true
+        }
+      }
+    }
+  }
+}

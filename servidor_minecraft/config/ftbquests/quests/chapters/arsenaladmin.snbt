@@ -1,0 +1,166 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "arsenaladmin"
+	group: "1C1C39EB0029A774"
+	id: "352A55692264DB86"
+	order_index: 6
+	quest_links: [ ]
+	quests: [
+		{
+			id: "1CD1A25A7D00077F"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 0E58803486C1EAE3"
+					id: "3BED56A017A8EB95"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 355F0D36CCC5DCB0"
+					id: "33777EFEBDB9C3FD"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 18682B35409594DB"
+					id: "58C6007DAFB7FB89"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "3190A3D402730DE6"
+				type: "advancement"
+			}]
+			x: -1.7d
+			y: -6.661338147750939E-16d
+		}
+		{
+			id: "14D40BDAAC67B6C6"
+			invisible: true
+			tasks: [{
+				id: "7DEB7E9ABCD2C79C"
+				type: "checkmark"
+			}]
+			x: -4.218847493575595E-15d
+			y: -6.661338147750939E-16d
+		}
+		{
+			id: "355F0D36CCC5DCB0"
+			invisible: true
+			tasks: [{
+				id: "632CD910D0301CB7"
+				type: "checkmark"
+			}]
+			x: -4.218847493575595E-15d
+			y: -1.7d
+		}
+		{
+			id: "18682B35409594DB"
+			invisible: true
+			tasks: [{
+				id: "28C04C3C2D204A6F"
+				type: "checkmark"
+			}]
+			x: -1.7d
+			y: -1.7d
+		}
+		{
+			id: "16D5D38AF1918E53"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 4E5D6DB02EA23401"
+					id: "37EF73E0DA1DF315"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 5BBEA88732334B2A"
+					id: "44FB34844D492E62"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 7001D53E3E52BFF2"
+					id: "1F9C564CAB3B3FA7"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "68133EAE403DD8A9"
+				type: "advancement"
+			}]
+			x: -1.7d
+			y: 3.3999999999999995d
+		}
+		{
+			id: "5BBEA88732334B2A"
+			invisible: true
+			tasks: [{
+				id: "6D4E991C9099EF0D"
+				type: "checkmark"
+			}]
+			x: 2.886579864025407E-15d
+			y: 1.6999999999999986d
+		}
+		{
+			id: "0653DE7DCDB4E622"
+			invisible: true
+			tasks: [{
+				id: "57AD97F14E51B965"
+				type: "checkmark"
+			}]
+			x: -1.7d
+			y: 1.6999999999999986d
+		}
+		{
+			id: "7001D53E3E52BFF2"
+			invisible: true
+			tasks: [{
+				id: "1A324A9F5D1D22A2"
+				type: "checkmark"
+			}]
+			x: 2.886579864025407E-15d
+			y: 3.3999999999999995d
+		}
+		{
+			dependencies: ["5BBEA88732334B2A"]
+			id: "4E5D6DB02EA23401"
+			tasks: [{
+				id: "5DF74238F8064C0A"
+				type: "checkmark"
+			}]
+			x: 1.7250000000000056d
+			y: 6.760714285714277d
+		}
+		{
+			dependencies: ["355F0D36CCC5DCB0"]
+			id: "0E58803486C1EAE3"
+			tasks: [{
+				id: "45B9E5C80FDC0D6B"
+				type: "checkmark"
+			}]
+			x: 1.7d
+			y: -5.1d
+		}
+	]
+}

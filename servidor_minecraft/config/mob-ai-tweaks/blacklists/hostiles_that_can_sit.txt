@@ -1,0 +1,13 @@
+#Blacklist for hostile mobs that can sit down randomly, takes their in-game ID (e.g. mob-ai-tweaks:mob_to_blacklist)
+mob-ai-tweaks:burned
+mob-ai-tweaks:dead_beard
+mob-ai-tweaks:frostbitten
+mob-ai-tweaks:glacial_hunter
+mob-ai-tweaks:immortal
+mob-ai-tweaks:mummy
+mob-ai-tweaks:skeleton_lackey
+mob-ai-tweaks:swampy
+mob-ai-tweaks:undead_miner
+mob-ai-tweaks:zap
+mob-ai-tweaks:zombie_lackey
+

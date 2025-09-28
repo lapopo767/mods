@@ -1,0 +1,40 @@
+{
+  "castbar": {
+    "base": {
+      "origin": "BOTTOM",
+      "offset": {
+        "field_1343": 0.0,
+        "field_1342": -27.0
+      }
+    },
+    "target": {
+      "visible": false,
+      "offset": {
+        "field_1343": 0.0,
+        "field_1342": -12.0
+      }
+    },
+    "icon": {
+      "visible": true,
+      "offset": {
+        "field_1343": -9.0,
+        "field_1342": -36.0
+      }
+    },
+    "width": 172
+  },
+  "hotbar": {
+    "origin": "BOTTOM",
+    "offset": {
+      "field_1343": -204.75008,
+      "field_1342": 0.5099671
+    }
+  },
+  "error_message": {
+    "origin": "BOTTOM",
+    "offset": {
+      "field_1343": -1.25,
+      "field_1342": -73.99429
+    }
+  }
+}

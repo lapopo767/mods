@@ -1,0 +1,9 @@
+{
+  "sortType": "ALPHANUMERIC",
+  "buttonSize": "LARGE",
+  "xOffsetInventory": 0,
+  "yOffsetInventory": -20,
+  "xOffsetContainer": 0,
+  "yOffsetContainer": 0,
+  "sortDelay": 0
+}

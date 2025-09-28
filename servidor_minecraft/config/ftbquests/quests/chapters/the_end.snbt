@@ -1,0 +1,16 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_end"
+	group: "635BA1166DF0AF30"
+	icon: {
+		components: {
+			"ftbquests:icon": "fantasy_mc:textures/endworld.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "5FC6BC6B9EF72254"
+	order_index: 2
+	quest_links: [ ]
+	quests: [ ]
+}

@@ -1,0 +1,1308 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: "none"
+	default_quest_size: 2.0d
+	filename: "chapter_1"
+	group: "5A697336DE338BF2"
+	id: "23E8265733471C28"
+	images: [
+		{
+			click: "#65CFB8900D081995"
+			height: 2.0d
+			hover: ["Check out Progression first!"]
+			image: "journal:textures/arrow-icon.png"
+			rotation: 0.0d
+			width: 3.0d
+			x: 2.55d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.15d
+			y: 0.8500000000000001d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 10.2d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 7.6499999999999995d
+			y: 5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.049999999999999d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.049999999999999d
+			y: 5.949999999999999d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.15d
+			y: -0.8499999999999996d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 16.15d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7000000000000002d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4000000000000004d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -0.85d
+		}
+		{
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_log_top"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 15.299999999999999d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.6999999999999997d
+			y: -0.8500000000000001d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -0.8500000000000001d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.6999999999999997d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.6999999999999997d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -0.8500000000000001d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.3999999999999995d
+			y: -0.8500000000000001d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: 4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 0.8500000000000001d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: -0.8499999999999996d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: -5.95d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: -5.1d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -5.1d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -5.1d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -1.7d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -1.7d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -1.7d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 13.6d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 11.9d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/glass"
+			order: 6
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 5.1d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/glass"
+			order: 8
+			rotation: 0.0d
+			width: 4.0d
+			x: -4.25d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/blackwood_door_bottom"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -0.8500000000000005d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/blackwood_door_top"
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/blackwood_door_bottom"
+			rotation: -180.0d
+			width: 2.0d
+			x: 1.7d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/blackwood_door_top"
+			rotation: 180.0d
+			width: 2.0d
+			x: 1.7d
+			y: -0.8500000000000005d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -2.55d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -2.55d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -3.4d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4000000000000004d
+			y: -3.4d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -4.25d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "handcrafted:block/cupboard/dark_oak/cupboard_side"
+			order: 6
+			rotation: 0.0d
+			width: 2.5d
+			x: -4.25d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "handcrafted:block/cupboard/dark_oak/cupboard_side"
+			order: 4
+			rotation: 0.0d
+			width: 0.5d
+			x: -4.8773809523809675d
+			y: -2.903571428571439d
+		}
+		{
+			height: 2.0d
+			image: "handcrafted:block/cupboard/dark_oak/cupboard_side"
+			order: 4
+			rotation: 0.0d
+			width: 0.5d
+			x: -3.6119047619047926d
+			y: -2.90000000000002d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:item/lantern"
+			order: 6
+			rotation: 0.0d
+			width: 1.0d
+			x: -3.5821428571428697d
+			y: -4.036904761904779d
+		}
+		{
+			height: 1.0d
+			image: "affinity:item/milk_cup"
+			order: 6
+			rotation: 0.0d
+			width: 1.0d
+			x: -4.677380952380965d
+			y: -3.132142857142874d
+		}
+		{
+			click: "#"
+			height: 2.0d
+			hover: ["Guild Under Construction!"]
+			image: "biomeswevegone:item/white_mangrove/hanging_sign"
+			order: 6
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.527380952380966d
+			y: -8.10595238095238d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -2.55d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: -2.55d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: -3.4d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -3.4d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -4.25d
+		}
+		{
+			color: 11184810
+			height: 1.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 3
+			rotation: 0.0d
+			width: 2.0d
+			x: 10.2d
+			y: -4.25d
+		}
+		{
+			height: 4.0d
+			image: "minecraft:block/glass"
+			order: 4
+			rotation: 0.0d
+			width: 4.0d
+			x: 9.35d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "eternal_starlight:textures/gui/screen/crest_selection/next_page.png"
+			order: 7
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.55d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "eternal_starlight:textures/gui/screen/crest_selection/next_page.png"
+			order: 8
+			rotation: -45.0d
+			width: 2.0d
+			x: 4.25d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "eternal_starlight:textures/gui/screen/crest_selection/next_page.png"
+			order: 8
+			rotation: 45.0d
+			width: 2.0d
+			x: 0.85d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "eternal_starlight:textures/gui/screen/crest_selection/next_page.png"
+			order: 8
+			rotation: -135.0d
+			width: 2.0d
+			x: 4.25d
+			y: -10.2d
+		}
+		{
+			height: 2.0d
+			image: "eternal_starlight:textures/gui/screen/crest_selection/next_page.png"
+			order: 7
+			rotation: 180.0d
+			width: 2.0d
+			x: 2.55d
+			y: -10.2d
+		}
+		{
+			height: 2.0d
+			image: "eternal_starlight:textures/gui/screen/crest_selection/next_page.png"
+			order: 8
+			rotation: 135.0d
+			width: 2.0d
+			x: 0.85d
+			y: -10.2d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:block/bloom_planks"
+			order: 6
+			rotation: 0.0d
+			width: 1.0d
+			x: 3.6107142857142946d
+			y: -9.742857142857138d
+		}
+		{
+			height: 1.0d
+			image: "deeperdarker:block/bloom_planks"
+			order: 6
+			rotation: 0.0d
+			width: 1.0d
+			x: 1.432142857142864d
+			y: -9.742857142857138d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -7.6499999999999995d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_log"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -9.35d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -11.049999999999999d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_oak_planks"
+			order: 5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -11.049999999999999d
+		}
+		{
+			click: "#03268147BABAD026"
+			dependency: "259AAC4D4007B0E3"
+			height: 2.0d
+			hover: [
+				"Change your kit?"
+				"Disappears when you lock in your path."
+			]
+			image: "midnightlib:textures/gui/sprites/icon/reset.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: 2.55d
+			y: 5.95d
+		}
+	]
+	order_index: 0
+	quest_links: [ ]
+	quests: [{
+		dependencies: ["2C3352144E4F04A9"]
+		hide_until_deps_complete: true
+		icon: {
+			components: {
+				"ftbquests:icon": "fantasy_mc:textures/icon32x32.png"
+			}
+			id: "ftbquests:custom_icon"
+		}
+		icon_scale: 2.0d
+		id: "568B28E0E7AB8FA3"
+		rewards: [
+			{
+				auto: "no_toast"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 32C9658055AA7F06"
+				icon: {
+					id: "magistuarmory:copper_claymore"
+				}
+				id: "7A0B396B029B7D9A"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}
+			{
+				auto: "invisible"
+				command: "/execute as @p at @p run tag @p add lockedPath"
+				id: "5D46706508A2E968"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}
+			{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 259AAC4D4007B0E3"
+				id: "294D1A03694F4D79"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}
+		]
+		shape: "rsquare"
+		tasks: [{
+			id: "3C37876FCCE0B0F4"
+			type: "checkmark"
+		}]
+		x: 2.55d
+		y: 2.55d
+	}]
+}

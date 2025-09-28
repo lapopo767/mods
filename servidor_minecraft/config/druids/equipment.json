@@ -1,0 +1,133 @@
+{
+  "melee_weapons": {},
+  "armor_sets": {
+    "primalist_netherite": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 3,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 8,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 6,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 3,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.06,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 5.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    },
+    "primalist": {
+      "armor_toughness": 0.0,
+      "knockback_resistance": 0.0,
+      "head": {
+        "armor": 2,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 3.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "chest": {
+        "armor": 7,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 3.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "legs": {
+        "armor": 5,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 3.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      },
+      "feet": {
+        "armor": 2,
+        "attributes": [
+          {
+            "attribute": "minecraft:generic.attack_damage",
+            "value": 0.04,
+            "operation": "ADD_MULTIPLIED_BASE"
+          },
+          {
+            "attribute": "druids:totem_health",
+            "value": 3.0,
+            "operation": "ADD_VALUE"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "minecraft:monument",
+      "required": false
+    },
+    {
+      "id": "minecraft:stronghold",
+      "required": false
+    },
+	{
+      "id": "explorify:black_spiral",
+      "required": false
+    },
+	{
+      "id": "explorify:end_shipwreck",
+      "required": false
+    },
+	{
+      "id": "friendsandfoes:citadel",
+      "required": false
+    },
+    {
+      "id": "minecraft:trial_chambers",
+      "required": false
+    },
+	{
+      "id": "adventuredungeons:bygonedungeon",
+      "required": false
+    },
+	{
+      "id": "adventuredungeons:coldlair",
+      "required": false
+    },
+	{
+      "id": "adventuredungeons:murkydungeon",
+      "required": false
+    },
+	{
+      "id": "adventuredungeons:trialrooms",
+      "required": false
+    },
+	{
+      "id": "bosses_of_mass_destruction:gauntlet_arena",
+      "required": false
+    },
+	{
+      "id": "bosses_of_mass_destruction:lich_tower",
+      "required": false
+    },
+	{
+      "id": "dungeons_arise_seven_seas:unicorn_galleon",
+      "required": false
+    }
+  ]
+}

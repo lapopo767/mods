@@ -1,0 +1,2717 @@
+{
+	default_hide_dependency_lines: true
+	default_quest_shape: "none"
+	default_quest_size: 2.0d
+	filename: "bounty_hunt"
+	group: "334CA8F70B6DE4C1"
+	icon: {
+		components: {
+			"ftbquests:icon": "archers:textures/mob_effect/hunters_mark.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "7C88C6378A79B711"
+	images: [
+		{
+			height: 8.0d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: 1
+			rotation: 0.0d
+			width: 13.0d
+			x: 0.0d
+			y: -0.85d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/map/map_background.png"
+			rotation: 0.0d
+			width: 16.0d
+			x: 0.0d
+			y: -0.85d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 2.55d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -2.55d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -4.25d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -5.95d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: -3.4d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: -1.7d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 0.0d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 1.7d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 90.0d
+			width: 2.0d
+			x: 3.4d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 6.799999999999999d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -8.5d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 8.5d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -6.8d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -5.1d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -3.4d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: -1.7d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 0.0d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 1.7d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 3.4d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 5.1d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 6.8d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: -8.5d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: -6.8d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: -5.1d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: -3.4d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: -1.7d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 0.0d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 1.7d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 3.4d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 5.1d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 6.8d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 8.5d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "journal:textures/arrow-icon-hover.png"
+			rotation: 180.0d
+			width: 4.0d
+			x: 13.6d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 18.7d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 20.4d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 23.8d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 25.5d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 27.2d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 28.9d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 32.3d
+			y: -8.5d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_side"
+			order: -5
+			rotation: 180.0d
+			width: 2.0d
+			x: 34.0d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: -5.1d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 22.099999999999998d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 25.5d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "regions_unexplored:block/alpha_grass_block_top"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: -1
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 0.0d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 2.0d
+			x: 28.9d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 2.0d
+			x: 27.2d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/dark_oak_log"
+			order: 2
+			rotation: 90.0d
+			width: 2.0d
+			x: 25.5d
+			y: -4.25d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: -0.85d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_log_top"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 32.3d
+			y: 2.55d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_log_top"
+			order: 2
+			rotation: 90.0d
+			width: 2.0d
+			x: 24.65d
+			y: -4.25d
+		}
+		{
+			height: 1.0d
+			image: "minecraft:block/dark_oak_log_top"
+			order: 2
+			rotation: -90.0d
+			width: 2.0d
+			x: 29.75d
+			y: -4.25d
+		}
+		{
+			height: 10.0d
+			image: "minecraft:textures/map/map_background.png"
+			order: -2
+			rotation: 15.0d
+			width: 16.0d
+			x: 25.5d
+			y: -1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 2.0d
+			x: 23.8d
+			y: 5.95d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/fire_0"
+			order: 2
+			rotation: 0.0d
+			width: 1.0d
+			x: 29.75d
+			y: -4.25d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: 1.7d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/fire_0"
+			rotation: 0.0d
+			width: 2.0d
+			x: 27.2d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/fire_0"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: -0.85d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/fire_0"
+			order: 2
+			rotation: 0.0d
+			width: 2.0d
+			x: 20.4d
+			y: 0.85d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: 5.1d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: 6.8d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 2.0d
+			x: 28.9d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/lava_still"
+			rotation: 0.0d
+			width: 2.0d
+			x: 30.599999999999998d
+			y: -6.8d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			rotation: 0.0d
+			width: 2.0d
+			x: 34.0d
+			y: -3.4d
+		}
+		{
+			height: 2.0d
+			image: "minecraft:block/magma"
+			order: -4
+			rotation: 0.0d
+			width: 2.0d
+			x: 18.7d
+			y: -5.1d
+		}
+		{
+			click: "#5F7B1143BE21395D"
+			height: 10.0d
+			hover: ["Nightlich"]
+			image: "fantasy_mc:textures/newquestimg/nightlich.png"
+			order: 5
+			rotation: 0.0d
+			width: 10.0d
+			x: -14.45d
+			y: -16.15d
+		}
+		{
+			click: "#23EAFF143A5AADCF"
+			height: 14.0d
+			hover: ["Nether Gauntlet"]
+			image: "fantasy_mc:textures/gaunt.png"
+			rotation: 0.0d
+			width: 14.0d
+			x: 27.2d
+			y: -21.25d
+		}
+		{
+			click: "#3339B7F8872A5BF6"
+			height: 14.0d
+			hover: ["Obsidilith"]
+			image: "fantasy_mc:textures/newquestimg/obsilith.png"
+			rotation: 0.0d
+			width: 8.0d
+			x: -1.7d
+			y: -22.099999999999998d
+		}
+		{
+			click: "#70181D615D35E7A9"
+			height: 12.0d
+			hover: ["Blackstone Golem"]
+			image: "fantasy_mc:textures/blackstone.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: -0.85d
+			y: 20.4d
+		}
+		{
+			click: "#67CF0F48CB195D7D"
+			height: 12.0d
+			hover: ["The Eye"]
+			image: "minecraft:item/ender_eye"
+			rotation: 0.0d
+			width: 12.0d
+			x: 27.2d
+			y: 19.55d
+		}
+		{
+			click: "#3BED93E4E61BE681"
+			height: 12.0d
+			hover: ["Void Blossom"]
+			image: "fantasy_mc:textures/newquestimg/voidblossom.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 40.8d
+			y: -17.0d
+		}
+		{
+			height: 8.0d
+			image: "minecraft:textures/map/map_background_checkerboard.png"
+			order: -1
+			rotation: 15.0d
+			width: 13.0d
+			x: 25.5d
+			y: -1.7d
+		}
+		{
+			click: "#60E37417E7A2239B"
+			height: 12.0d
+			hover: ["Void Shadow"]
+			image: "fantasy_mc:textures/voidshadow.png"
+			rotation: 0.0d
+			width: 12.0d
+			x: 13.6d
+			y: 16.15d
+		}
+	]
+	order_index: 4
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: [
+				"41B44E6FCB1851D3"
+				"46A80A01AAE6E38F"
+				"636B7BB2082683FE"
+				"403BAA8C31D20D89"
+				"333D6C6BA49D17F6"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/newquestimg/openchest.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "7B66A4785EA24FE0"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "32D5D3C38225972F"
+				table_id: 414955309082543837L
+				type: "choice"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "57C450C2753B2771"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 5.1d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_merc"
+			}
+			icon_scale: 2.0d
+			id: "46A80A01AAE6E38F"
+			rewards: [{
+				id: "5F2D451CD8F5C05D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:minor_mercenary"
+				id: "16064313DF210F4B"
+				type: "kill"
+				value: 1L
+			}]
+			x: 1.7d
+			y: -1.7d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_mage"
+			}
+			icon_scale: 2.0d
+			id: "403BAA8C31D20D89"
+			rewards: [{
+				id: "4E37321ABD496B5D"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:minor_archmage_fire"
+				id: "4BFAA6918EC57D82"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.7d
+			y: -1.7d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_templar"
+			}
+			icon_scale: 2.0d
+			id: "636B7BB2082683FE"
+			rewards: [{
+				id: "7ED4FAEE0F7CFFAD"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:minor_templar"
+				id: "175CC54072F1AB38"
+				type: "kill"
+				value: 1L
+			}]
+			x: -3.4d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_rogue"
+			}
+			icon_scale: 2.0d
+			id: "41B44E6FCB1851D3"
+			rewards: [{
+				id: "655D9D2BAC2F190F"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:minor_trickster"
+				id: "03000E505FF3A8CC"
+				type: "kill"
+				value: 1L
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_jugg"
+			}
+			icon_scale: 2.0d
+			id: "333D6C6BA49D17F6"
+			rewards: [{
+				id: "668CF3AFB91D7CE9"
+				type: "xp_levels"
+				xp_levels: 5
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:minor_juggernaut"
+				id: "16A5C73C530F6FF0"
+				type: "kill"
+				value: 1L
+			}]
+			x: 3.4d
+			y: 0.0d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_templar"
+			}
+			icon_scale: 2.0d
+			id: "4F393E095CD18883"
+			rewards: [{
+				id: "357D45A1FCA43ED4"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:templar"
+				id: "6DD62A5481B3CF37"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.099999999999998d
+			y: 5.1d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_mage"
+			}
+			icon_scale: 2.0d
+			id: "1A013AD3A8CA0868"
+			rewards: [{
+				id: "2EFE31C78A439676"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:archmage_fire"
+				id: "6D14A1CB98AF2698"
+				type: "kill"
+				value: 1L
+			}]
+			x: 32.3d
+			y: -5.1d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_rogue"
+			}
+			icon_scale: 2.0d
+			id: "005C78CC07459DF8"
+			rewards: [{
+				id: "5B9948DB6E885C63"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:trickster"
+				id: "3D234D712629C14E"
+				type: "kill"
+				value: 1L
+			}]
+			x: 28.9d
+			y: 1.7d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_merc"
+			}
+			icon_scale: 2.0d
+			id: "63A1CD3BC709E962"
+			rewards: [{
+				id: "1CEB01828513F1DB"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:mercenary"
+				id: "49A01A823B70E590"
+				type: "kill"
+				value: 1L
+			}]
+			x: 22.099999999999998d
+			y: -3.4d
+		}
+		{
+			icon: {
+				id: "rpg-minibosses:poster_jugg"
+			}
+			icon_scale: 2.0d
+			id: "20E575385584F6AF"
+			rewards: [{
+				id: "1DDACF60E9921333"
+				type: "xp_levels"
+				xp_levels: 7
+			}]
+			tasks: [{
+				entity: "rpg-minibosses:juggernaut"
+				id: "5CA0ED010D3F1653"
+				type: "kill"
+				value: 1L
+			}]
+			x: 31.45d
+			y: 6.8d
+		}
+		{
+			dependencies: ["152C7657D91CD6BF"]
+			id: "23EAFF143A5AADCF"
+			rewards: [
+				{
+					id: "5C95224594643BDC"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "6BAEFB2917E797F5"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:gauntlet"
+				icon: {
+					components: {
+						"ftbquests:icon": "fantasy_mc:textures/gaunt.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "6C93AE14F0FB1751"
+				type: "kill"
+				value: 1L
+			}]
+			x: 26.54285714285716d
+			y: -20.478571428571428d
+		}
+		{
+			dependencies: ["152C7657D91CD6BF"]
+			id: "5F7B1143BE21395D"
+			rewards: [
+				{
+					id: "5C6B43D64769AF5C"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "18B5904CAE2E73A6"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:lich"
+				icon: {
+					components: {
+						"ftbquests:icon": "fantasy_mc:textures/nightlich.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "7C984A99A3C57037"
+				type: "kill"
+				value: 1L
+			}]
+			x: -14.314285714285724d
+			y: -16.114285714285714d
+		}
+		{
+			dependencies: ["152C7657D91CD6BF"]
+			id: "3BED93E4E61BE681"
+			rewards: [
+				{
+					id: "064279191FD7C701"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "396573E59D70868C"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:void_blossom"
+				icon: {
+					components: {
+						"ftbquests:icon": "fantasy_mc:textures/newquestimg/voidblossom.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "07AF450E98F745A5"
+				type: "kill"
+				value: 1L
+			}]
+			x: 40.900000000000006d
+			y: -14.442857142857143d
+		}
+		{
+			dependencies: ["152C7657D91CD6BF"]
+			id: "70181D615D35E7A9"
+			rewards: [
+				{
+					id: "77EADB94690F8311"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "0FC3C4F3D8ABB8EC"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:blackstone_golem"
+				icon: {
+					components: {
+						"ftbquests:icon": "adventurez:item/blackstone_golem_heart"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "46A0505F9C6A6A38"
+				type: "kill"
+				value: 1L
+			}]
+			x: -0.7428571428571402d
+			y: 20.450000000000003d
+		}
+		{
+			dependencies: ["152C7657D91CD6BF"]
+			id: "67CF0F48CB195D7D"
+			rewards: [
+				{
+					id: "30D82306885DA2C8"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "7DF52A24C315DBCD"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "adventurez:the_eye"
+				icon: {
+					id: "minecraft:ender_eye"
+				}
+				id: "081ABA47F94B3CC8"
+				type: "kill"
+				value: 1L
+			}]
+			x: 27.471428571428575d
+			y: 19.950000000000017d
+		}
+		{
+			dependencies: ["152C7657D91CD6BF"]
+			icon: {
+				id: "transmog:void_fragment"
+			}
+			icon_scale: 2.0d
+			id: "60E37417E7A2239B"
+			rewards: [
+				{
+					id: "5EA1E4AAFF916BE5"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "77F399E0E4E39A85"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			size: 4.0d
+			tasks: [{
+				entity: "adventurez:void_shadow"
+				id: "6BB2F231C50C7BF2"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.6d
+			y: 15.299999999999999d
+		}
+		{
+			dependencies: ["152C7657D91CD6BF"]
+			id: "3339B7F8872A5BF6"
+			rewards: [
+				{
+					id: "74C37401F05C108F"
+					type: "xp_levels"
+					xp_levels: 5
+				}
+				{
+					count: 3
+					id: "5333A4850C320D0F"
+					item: {
+						count: 1
+						id: "minecraft:netherite_scrap"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				entity: "bosses_of_mass_destruction:obsidilith"
+				icon: {
+					components: {
+						"ftbquests:icon": "fantasy_mc:textures/obsilith.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "35F246B6EAED6B40"
+				type: "kill"
+				value: 1L
+			}]
+			x: -1.2428571428571473d
+			y: -20.692857142857143d
+		}
+		{
+			dependencies: [
+				"1A013AD3A8CA0868"
+				"63A1CD3BC709E962"
+				"4F393E095CD18883"
+				"20E575385584F6AF"
+				"005C78CC07459DF8"
+			]
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/newquestimg/openchest.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			icon_scale: 2.0d
+			id: "454FC65C729369D5"
+			rewards: [{
+				exclude_from_claim_all: true
+				id: "2D131C629058A3EE"
+				table_id: 414955309082543837L
+				type: "choice"
+			}]
+			size: 2.0d
+			tasks: [{
+				id: "1F2C69E9D0C21911"
+				type: "checkmark"
+			}]
+			x: 26.555952380952377d
+			y: -0.6952380952380821d
+		}
+		{
+			icon: {
+				components: {
+					"ftbquests:icon": "hexblade:item/magus_head"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "18949DC60B9760B0"
+			rewards: [
+				{
+					exclude_from_claim_all: true
+					id: "673EC34A51E75EE2"
+					table_id: 414955309082543837L
+					type: "choice"
+				}
+				{
+					exclude_from_claim_all: true
+					id: "4E6C143D97D6DC20"
+					table_id: 5470943729444730223L
+					type: "choice"
+				}
+				{
+					id: "62D806EC32BC0856"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+			]
+			tasks: [{
+				entity: "rpg-minibosses:magus"
+				id: "35953DF5268665FB"
+				type: "kill"
+				value: 1L
+			}]
+			x: 13.413095238095224d
+			y: 3.161904761904779d
+		}
+	]
+}

@@ -1,0 +1,1480 @@
+{
+  "meta": {
+    "sanitize_config": true,
+    "rounding_unit": 0.5,
+    "merge_item_modifiers": false
+  },
+  "announcement": {
+    "enabled": true,
+    "check_interval_seconds": 5,
+    "history_size": 2
+  },
+  "per_player_difficulty": {
+    "enabled": false,
+    "counting": "EVERYWHERE",
+    "entities": [
+      {
+        "entity_matches": {
+          "attitude": "ANY",
+          "entity_id_regex": "^(?!the_bumblezone:cosmic_crystal_entity).*$"
+        },
+        "attributes": [
+          {
+            "attribute": "damage",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.0,
+            "value": 0.2
+          },
+          {
+            "attribute": "generic.max_health",
+            "operation": "MULTIPLY_BASE",
+            "randomness": 0.0,
+            "value": 0.2
+          }
+        ],
+        "experience_multiplier": 0.0
+      }
+    ]
+  },
+  "difficulty_types": [
+    {
+      "name": "overworld_dungeon",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!minecraft:wither$)(?!minecraft:warden$)(?!formidulus:deer_god$).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.2
+            }
+          ],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.5,
+            "max_nearby_entities_multiplier": 1.0,
+            "min_spawn_delay_multiplier": -0.1,
+            "max_spawn_delay_multiplier": -0.1,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.2
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 1.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              },
+              {
+                "attribute": "power",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "nether_dungeon",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!minecraft:wither$)(?!minecraft:warden$)(?!formidulus:deer_god$).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.15
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.15
+            }
+          ],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 0.75,
+            "max_nearby_entities_multiplier": 1.25,
+            "min_spawn_delay_multiplier": -0.1,
+            "max_spawn_delay_multiplier": -0.1,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.2
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 1.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              },
+              {
+                "attribute": "power",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "end_dungeon",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^(?!minecraft:wither$)(?!minecraft:warden$)(?!formidulus:deer_god$).*$"
+          },
+          "attributes": [
+            {
+              "attribute": "damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.2
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.5
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.05,
+              "value": 0.2
+            }
+          ],
+          "spawners": {
+            "spawn_range_multiplier": 0.0,
+            "spawn_count_multiplier": 1.0,
+            "max_nearby_entities_multiplier": 1.5,
+            "min_spawn_delay_multiplier": -0.1,
+            "max_spawn_delay_multiplier": -0.1,
+            "required_player_range_multiplier": 0.0
+          },
+          "experience_multiplier": 0.2
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 1.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              },
+              {
+                "attribute": "power",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "high_level_overworld",
+      "parent": "overworld_dungeon",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": ".*"
+          },
+          "attributes": [
+            {
+              "attribute": "kevslibrary:armor_penetration",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.02
+            },
+            {
+              "attribute": "kevslibrary:multistrike_chance",
+              "operation": "ADDITION",
+              "randomness": 0.02,
+              "value": 0.02
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "high_level_nether",
+      "parent": "nether_dungeon",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": ".*"
+          },
+          "attributes": [
+            {
+              "attribute": "kevslibrary:armor_penetration",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.025
+            },
+            {
+              "attribute": "kevslibrary:multistrike_chance",
+              "operation": "ADDITION",
+              "randomness": 0.025,
+              "value": 0.025
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "high_level_end",
+      "parent": "end_dungeon",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": ".*"
+          },
+          "attributes": [
+            {
+              "attribute": "kevslibrary:armor_penetration",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.03
+            },
+            {
+              "attribute": "kevslibrary:multistrike_chance",
+              "operation": "ADDITION",
+              "randomness": 0.03,
+              "value": 0.03
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "overworld_bosses",
+      "parent": "",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^minecraft:wither$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.1
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.1
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^minecraft:warden$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.1
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 4.0
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^formidulus:deer_god$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.1
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 3.0
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": ".*"
+          },
+          "attributes": [
+            {
+              "attribute": "kevslibrary:armor_penetration",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.02
+            },
+            {
+              "attribute": "kevslibrary:multistrike_chance",
+              "operation": "ADDITION",
+              "randomness": 0.03,
+              "value": 0.02
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 1.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              },
+              {
+                "attribute": "power",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "nether_bosses",
+      "parent": "",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^minecraft:wither$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.25
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.1
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^minecraft:warden$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.075
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 4.0
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": ".*"
+          },
+          "attributes": [
+            {
+              "attribute": "kevslibrary:armor_penetration",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.025
+            },
+            {
+              "attribute": "kevslibrary:multistrike_chance",
+              "operation": "ADDITION",
+              "randomness": 0.02,
+              "value": 0.025
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 1.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              },
+              {
+                "attribute": "power",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              }
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "name": "eternal_starlight",
+      "parent": "high_level_nether",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^eternal_starlight:starlight_golem$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.075
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^eternal_starlight:lunar_monstrosity$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.075
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.075
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ],
+      "rewards": {
+        "armor": [],
+        "weapons": []
+      }
+    },
+    {
+      "name": "end_bosses",
+      "parent": "",
+      "entities": [
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^minecraft:ender_dragon$"
+          },
+          "attributes": [
+            {
+              "attribute": "damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.15
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 2.0
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 1.0
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^minecraft:wither$"
+          },
+          "attributes": [
+            {
+              "attribute": "damage",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": 0.075
+            },
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.14
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.125
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": "^minecraft:warden$"
+          },
+          "attributes": [
+            {
+              "attribute": "generic.max_health",
+              "operation": "MULTIPLY_BASE",
+              "randomness": 0.0,
+              "value": -0.05
+            },
+            {
+              "attribute": "generic.armor",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 5.0
+            }
+          ],
+          "experience_multiplier": 0.4
+        },
+        {
+          "entity_matches": {
+            "attitude": "ANY",
+            "entity_id_regex": ".*"
+          },
+          "attributes": [
+            {
+              "attribute": "kevslibrary:armor_penetration",
+              "operation": "ADDITION",
+              "randomness": 0.0,
+              "value": 0.03
+            },
+            {
+              "attribute": "kevslibrary:multistrike_chance",
+              "operation": "ADDITION",
+              "randomness": 0.03,
+              "value": 0.03
+            }
+          ],
+          "experience_multiplier": 0.4
+        }
+      ],
+      "rewards": {
+        "armor": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "generic.armor",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.0,
+                "value": 0.05
+              },
+              {
+                "attribute": "generic.max_health",
+                "operation": "ADDITION",
+                "randomness": 0.0,
+                "value": 1.0
+              }
+            ]
+          }
+        ],
+        "weapons": [
+          {
+            "item_matches": {
+              "item_id_regex": ".*",
+              "loot_table_regex": ".*",
+              "rarity_regex": ".*"
+            },
+            "attributes": [
+              {
+                "attribute": "damage",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              },
+              {
+                "attribute": "power",
+                "operation": "MULTIPLY_BASE",
+                "randomness": 0.05,
+                "value": 0.05
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "dimensions": [
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:overworld"
+      },
+      "difficulty": {
+        "name": "overworld_bosses",
+        "level": 0
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_1"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~mostructures"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~qrafty"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~mvs"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~philipsruins"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~mss"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~nova_structures"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~wabi_sabi_structures"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_2"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_3"
+          },
+          "difficulty": {
+            "name": "overworld_dungeon",
+            "level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_4"
+          },
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_5"
+          },
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_6"
+          },
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 6
+          }
+        }
+      ],
+      "entities": [
+        {
+          "entity_type": "minecraft:warden",
+          "loot_table": "warden",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "mutantmonsters:mutant_zombie",
+          "loot_table": "mutantmonsters:entities/mutant_zombie",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "minecraft:wither",
+          "loot_table": "minecraft:entities/wither",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "formidulus:deer_god",
+          "loot_table": "formidulus:entities/deer_god",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "hexblade:magus",
+          "loot_table": "hexblade:entities/magus",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 2
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:minor_archmage_fire",
+          "loot_table": "rpg-minibosses:entities/minor_archmage_fire",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 1
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:minor_juggernaut",
+          "loot_table": "rpg-minibosses:entities/minor_juggernaut",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 1
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:minor_mercenary",
+          "loot_table": "rpg-minibosses:entities/minor_mercenary",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 1
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:minor_templar",
+          "loot_table": "rpg-minibosses:entities/minor_templar",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 1
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:minor_trickster",
+          "loot_table": "rpg-minibosses:entities/minor_trickster",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 1
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:archmage_fire",
+          "loot_table": "rpg-minibosses:entities/archmage_fire",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:juggernaut",
+          "loot_table": "rpg-minibosses:entities/juggernaut",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:mercenary",
+          "loot_table": "rpg-minibosses:entities/mercenary",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:templar",
+          "loot_table": "rpg-minibosses:entities/templar",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:trickster",
+          "loot_table": "rpg-minibosses:entities/trickster",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "rpg-minibosses:magus",
+          "loot_table": "rpg-minibosses:entities/magus",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        },
+        {
+          "entity_type": "loot_n_explore:frost_monarch",
+          "loot_table": "loot_n_explore:entities/frost_monarch",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 3
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_nether"
+      },
+      "difficulty": {
+        "name": "nether_bosses",
+        "level": 2
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~mostructures"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 1,
+            "entity_level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~wabi_sabi_structures"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 1,
+            "entity_level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~qrafty"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 1,
+            "entity_level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~nova_structures"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 1,
+            "entity_level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~philipsruins"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 1,
+            "entity_level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_1"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 1
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_2"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~mns"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_3"
+          },
+          "difficulty": {
+            "name": "nether_dungeon",
+            "level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_4"
+          },
+          "difficulty": {
+            "name": "high_level_nether",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_5"
+          },
+          "difficulty": {
+            "name": "high_level_nether",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "repurposed_structures:ancient_city_nether"
+          },
+          "difficulty": {
+            "name": "high_level_nether",
+            "level": 5
+          }
+        }
+      ],
+      "entities": [
+        {
+          "entity_type": "minecraft:warden",
+          "loot_table": "warden",
+          "difficulty": {
+            "name": "high_level_nether",
+            "level": 4
+          }
+        },
+        {
+          "entity_type": "mutantmonsters:mutant_zombie",
+          "loot_table": "mutantmonsters:entities/mutant_zombie",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 4
+          }
+        },
+        {
+          "entity_type": "minecraft:wither",
+          "loot_table": "minecraft:entities/wither",
+          "difficulty": {
+            "name": "high_level_nether",
+            "level": 4
+          }
+        },
+        {
+          "entity_type": "bosses_of_mass_destruction:gauntlet",
+          "loot_table": "bosses_of_mass_destruction:chests/gauntlet",
+          "difficulty": {
+            "name": "high_level_nether",
+            "level": 4
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "minecraft:the_end"
+      },
+      "difficulty": {
+        "name": "end_bosses",
+        "level": 4
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "~mostructures"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 2,
+            "entity_level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~qrafty"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 2,
+            "entity_level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~wabi_sabi_structures"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 2,
+            "entity_level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~nova_structures"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 2,
+            "entity_level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~philipsruins"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 2,
+            "entity_level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_2"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 1,
+            "entity_level": 2
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_2"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 2,
+            "entity_level": 3
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_3"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 3,
+            "entity_level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "~mes"
+          },
+          "difficulty": {
+            "name": "end_dungeon",
+            "level": 3,
+            "entity_level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_4"
+          },
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_5"
+          },
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "repurposed_structures:ancient_city_end"
+          },
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 5
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "#dungeon_difficulty:level_6"
+          },
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 6
+          }
+        }
+      ],
+      "entities": [
+        {
+          "entity_type": "warden",
+          "loot_table": "warden",
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 6
+          }
+        },
+        {
+          "entity_type": "ender_dragon",
+          "loot_table": "ender_dragon",
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 6
+          }
+        },
+        {
+          "entity_type": "mutantmonsters:mutant_zombie",
+          "loot_table": "mutantmonsters:entities/mutant_zombie",
+          "difficulty": {
+            "name": "high_level_overworld",
+            "level": 6
+          }
+        },
+        {
+          "entity_type": "minecraft:wither",
+          "loot_table": "minecraft:entities/wither",
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 6
+          }
+        },
+        {
+          "entity_type": "bosses_of_mass_destruction:obsidilith",
+          "loot_table": "bosses_of_mass_destruction:chests/obsidilith",
+          "difficulty": {
+            "name": "high_level_end",
+            "level": 6
+          }
+        }
+      ]
+    },
+    {
+      "world_matches": {
+        "dimension_regex": "eternal_starlight:starlight"
+      },
+      "zones": [
+        {
+          "zone_matches": {
+            "structure": "eternal_starlight:cursed_garden"
+          },
+          "difficulty": {
+            "name": "eternal_starlight",
+            "level": 4
+          }
+        },
+        {
+          "zone_matches": {
+            "structure": "eternal_starlight:golem_forge"
+          },
+          "difficulty": {
+            "name": "eternal_starlight",
+            "level": 4
+          }
+        }
+      ],
+      "entities": []
+    }
+  ]
+}

@@ -1,0 +1,226 @@
+{
+    // The version of the config file. Do not change this unless you know what you are doing.
+    "rconfig:version": 0,
+    // Choose between 'en_us' and 'it_it'. Used for npc dialogues, researcher diaries and structure books. Defaults to 'client', which will autoselect the language depending on client language on first launch, or default to en_us in servers. Will not affect already generated structures. Additional languages may be added via datapack.
+    "serverLanguage": "en_us",
+    "misc": {
+        // If changed ingame, takes effect on world reload
+        "modLootInVanillaStructures": false,
+        /*
+         * Reading speed (in words per minute) of chat messages, used for multiline npc dialogues. Increase it to make npcs 'talk' faster, decrease it to make them 'talk' slower. Set it to 0 to receive all messages together.
+         * Type: Integer
+         */
+        "dialogueWordsPerMinute": 120,
+        // Type: Float
+        "zombieGuberSpawnChance": 0.2
+    },
+    "client": {
+        // Shows the title of the places you are visiting when exploring the Growsseth world preset.
+        "enableLocationTitles": true,
+        // Valid Values: CHAT_OVERLAY, TITLE
+        "locationTitlesMode": "TITLE",
+        // Shows a small toast when the researcher unlocks new trades. Works only for web and progress trades.
+        "newTradeNotifications": true,
+        "disableNpcDialogues": false,
+        "mapCornerIcons": true
+    },
+    "researcher": {
+        // Shares memory between all researcher entities (narratively assume it's the 'same' Researcher moving around).Applies on first spawn or with the command '/greset'.Will affect dialogues and trades (multiple researchers will always have a random selection of trades that do not change).In Growsseth world preset this will always be true.
+        "singleResearcher": true,
+        /*
+         * Ignored if single researcher is false. If enabled, the researcher will initially only sell one kind of map, and unlock more structures as you return to him after finding the previous one.
+         * In this mode, the researcher's 'quest' will automatically progress (see quest config section).If disabled, each instance of the researcher will have up to N random maps (see randomTradeMaxMaps) for sale, with no quest progress. Always true with a fixed order in Growsseth world preset.
+         */
+        "singleResearcherProgress": true,
+        // Applies Resistance V and Regeneration V to the researcher, and prevents him from fighting the player.
+        "immortalResearcher": false,
+        // When the player visits a structure of the mod the researcher will generate a diary related to it in the tent's lectern. If another diary is on the lectern it will be moved to the tent chest, and even if that is full it will drop on the ground. Does not work if single researcher is off.
+        "researcherWritesDiaries": true,
+        /*
+         * Trade price multiplier for borrowing the researcher's donkey. Only affects emeralds.
+         * Type: Float
+         */
+        "researcherBorrowPenalty": 2.0,
+        // The researcher teleports back to his original position after five minutes away from it (or after suffocating for 3 seconds inside a wall), and avoids interacting with Nether and End portals to prevent cheese.
+        "researcherTeleports": true,
+        // If the player tries to cheat while fighting the researcher he will drink a turtle master potion and enable a passive regen to prevent him from dying. Also prevents him from suffocating when on low health.
+        "researcherAntiCheat": true,
+        // Zombies, skeletons, raiders and vexes will be hostile towards the researcher, and he will react to them and other mobs who attack him. If changed ingame, takes effect on world reload.
+        "researcherInteractsWithMobs": true,
+        // The researcher will attack the mobs mentioned in the previous setting (if enabled) even when they are not attacking him. If changed ingame, takes effect on world reload.
+        "researcherStrikesFirst": false,
+        // Whether to apply gamemaster-controlled trades when web data sync is enabled.
+        "webTrades": true,
+        /*
+         * If >0, the time (in fraction of ingame days) it takes for the researcher to refresh his trade uses.
+         * Type: Float
+         */
+        "tradesRestockTime": 1.0,
+        // Max map amount the researcher sells. Used only when single researcher (or trade progress for single researcher) is disabled.
+        "randomTradeNumMaps": {
+            // Type: Integer
+            "min": 2,
+            // Type: Integer
+            "max": 2
+        },
+        // Max misc item amount the researcher sells. Used for random trades included in all trade modes except web (limited by progress for progress modes).
+        "randomTradeNumItems": {
+            // Type: Integer
+            "min": 2,
+            // Type: Integer
+            "max": 2
+        },
+        /*
+         * If >0, the time (in fraction of ingame days) it takes for the researcher to change his random trades when single researcher (or trade progress for single researcher) is disabled.
+         * Type: Float
+         */
+        "randomTradesRefreshTime": 0.0
+    },
+    "web": {
+        // CAREFUL: check the Wiki on GitHub for how to use this. Enables gamemaster-mode, allowing the player you decide to connect to to control the mod's features and more. Requires reloading the world.
+        "webDataSync": false,
+        // Only connect to trusted sources!
+        "dataSyncUrl": "http://localhost:5000",
+        "dataSyncEndpoint": "server_data",
+        "dataSyncApiKey": "",
+        /*
+         * How much time (in minutes) must pass between each server query. Must be at least 10 seconds.
+         * Type: Float
+         */
+        "dataSyncReloadTime": 5.0,
+        // CAREFUL: check the Wiki on GitHub for how to use this. Creates a websocket connection with the gamemaster, allowing them to control the mod in real time. Requires reloading the world.
+        "liveUpdateService": false,
+        // Only connect to trusted sources!
+        "liveUpdateUrl": "http://localhost:5000",
+        // Type: Integer
+        "liveUpdatePort": -1,
+        // Allow the gamemaster to execute any arbitrary command.
+        "remoteCommandExecution": false
+    },
+    "quest-spoiler": {
+        /*
+         * Price multiplier for the researcher's trades after curing him. Only affects emeralds.
+         * Type: Float
+         */
+        "researcherCuredDiscount": 0.5
+    },
+    "structures": {
+        "researcherTentEnabled": true,
+        "caveCampEnabled": true,
+        "beekeeperHouseEnabled": true,
+        "conduitChurchEnabled": true,
+        "enchantTowerEnabled": true,
+        "abandonedForgeEnabled": true,
+        "noteblockLabEnabled": true,
+        // If changed ingame, takes effect on world reload
+        "golemHouseEnabled": true,
+        "conduitRuinsEnabled": true,
+        "noteblockShipEnabled": true,
+        // Warning: with this version the final quest might work incorrectly. It's also recommended to enable only one variant.
+        "researcherTentSimpleEnabled": false
+    },
+    "worldpreset": {
+        "researcherTent": {
+            "structureId": "growsseth:cydonia/researcher_tent",
+            "enabled": true,
+            // Type: Integer
+            "x": 1374,
+            // Type: Integer
+            "y": 74,
+            // Type: Integer
+            "z": 162,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "CLOCKWISE_180"
+        },
+        "caveCamp": {
+            "structureId": "growsseth:cydonia/cave_camp",
+            "enabled": true,
+            // Type: Integer
+            "x": 934,
+            // Type: Integer
+            "y": 38,
+            // Type: Integer
+            "z": 340,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "NONE"
+        },
+        "caveCampMarker": {
+            "structureId": "growsseth:cydonia/marker",
+            "enabled": true,
+            // Type: Integer
+            "x": 940,
+            // Type: Integer
+            "y": 68,
+            // Type: Integer
+            "z": 347,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "NONE"
+        },
+        "enchantTower": {
+            "structureId": "growsseth:cydonia/enchant_tower",
+            "enabled": true,
+            // Type: Integer
+            "x": -1276,
+            // Type: Integer
+            "y": 123,
+            // Type: Integer
+            "z": 743,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "NONE"
+        },
+        "golemHouse": {
+            "structureId": "growsseth:cydonia/golem_house",
+            "enabled": true,
+            // Type: Integer
+            "x": 171,
+            // Type: Integer
+            "y": 144,
+            // Type: Integer
+            "z": 861,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "COUNTERCLOCKWISE_90"
+        },
+        "beekeeperHouse": {
+            "structureId": "growsseth:cydonia/beekeeper_house",
+            "enabled": true,
+            // Type: Integer
+            "x": 3086,
+            // Type: Integer
+            "y": 72,
+            // Type: Integer
+            "z": 989,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "COUNTERCLOCKWISE_90"
+        },
+        "noteblockLab": {
+            "structureId": "growsseth:cydonia/noteblock_lab",
+            "enabled": true,
+            // Type: Integer
+            "x": 2260,
+            // Type: Integer
+            "y": 69,
+            // Type: Integer
+            "z": -1674,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "NONE"
+        },
+        "conduitChurch": {
+            "structureId": "growsseth:cydonia/conduit_church",
+            "enabled": true,
+            // Type: Integer
+            "x": -1553,
+            // Type: Integer
+            "y": 39,
+            // Type: Integer
+            "z": 2527,
+            // Valid Values: NONE, CLOCKWISE_90, CLOCKWISE_180, COUNTERCLOCKWISE_90
+            "rotation": "CLOCKWISE_180"
+        }
+    },
+    "debug": {
+        "debugNpcDialogues": false,
+        // Make structures wildly more likely, for dev usage.
+        "structuresDebugMode": false,
+        "researcherSpeedup": false
+    }
+}

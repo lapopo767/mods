@@ -1,0 +1,954 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "the_start_545924027F50C64C"
+	group: "1C1C39EB0029A774"
+	id: "545924027F50C64C"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["2C3352144E4F04A9"]
+			disable_toast: true
+			id: "4CE07E50C1AFC0CE"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run attribute @p minecraft:generic.armor base set 4"
+				id: "2A980C948E997101"
+				permission_level: 4
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "476F62E6D0C12418"
+				type: "dimension"
+			}]
+			x: -7.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"475E5F5710EE94BD"
+				"5A346BFA4AC8C95B"
+				"73248BFD9BB8ACA6"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						exiled_knight: 1
+					}
+					"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+					"minecraft:enchantment_glint_override": 1b
+					"minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+					"minecraft:lore": ["\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\""]
+					"minecraft:rarity": "epic"
+				}
+				id: "minecraft:blade_pottery_sherd"
+			}
+			id: "7A24F7AF9896FB50"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 3B6C42CAB9960CF9"
+					id: "61AB01F7D08A76EF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 21B59771DF32AAA0"
+					id: "0C605AA05978F3A9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run sk give @p exiled_knight"
+					id: "3C8098516C2A6A4B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You have been given the Exiled Knight kit due to obtaining key items!\",\"color\":\"yellow\"}]"
+					id: "1C2C2512E695697F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tag @p add kit_chosen"
+					id: "728713A23D15A378"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add Exiled_Knight"
+					id: "5D6C5E425F05373D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "45F4C17969803790"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": [ "\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\"", "\"    \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "minecraft:blade_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -4.0d
+			y: 0.5d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"2B18C041FBC84DDC"
+				"5A346BFA4AC8C95B"
+				"2B2CC4D094B6E514"
+			]
+			id: "5E75FFD089877F35"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 3B6C42CAB9960CF9"
+					id: "468BCA037275608A"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 21B59771DF32AAA0"
+					id: "182DDB100C85A67A"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run sk give @p shadow_assassin"
+					id: "21D623F7577A0C8E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You have been given the Shadow Operative kit due to obtaining key items!\",\"color\":\"yellow\"}]"
+					id: "560CB372825D6865"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tag @p add kit_chosen"
+					id: "3840C87251059EB6"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add Shadow_Assassin"
+					id: "6450E40D35020D22"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7773FF83A9F4E0F7"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Skull Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A contract left unfinished. A name erased from history.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "minecraft:skull_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -3.0d
+			y: -0.5d
+		}
+		{
+			dependencies: ["3B6C42CAB9960CF9"]
+			id: "21B59771DF32AAA0"
+			max_completable_dependents: 5
+			min_required_dependencies: 1
+			tasks: [
+				{
+					dimension: "minecraft:overworld"
+					id: "1E59247F7937F0A1"
+					optional_task: true
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_nether"
+					id: "41CD6290FA7C705F"
+					optional_task: true
+					type: "dimension"
+				}
+				{
+					dimension: "minecraft:the_end"
+					id: "711093890842E067"
+					optional_task: true
+					type: "dimension"
+				}
+			]
+			x: -1.5d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0B4FC9FE1CA24F20"]
+			id: "3B6C42CAB9960CF9"
+			tasks: [{
+				consume_items: true
+				count: 64L
+				id: "0CFD8159302027C2"
+				item: { count: 64, id: "minecraft:bedrock" }
+				type: "item"
+			}]
+			x: -1.5d
+			y: 1.5d
+		}
+		{
+			id: "0B4FC9FE1CA24F20"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 3B6C42CAB9960CF9"
+					id: "59BB567C8CEEF638"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove kit_chosen"
+					id: "52ADC7C45F6EA71D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove kit_chosen_v2"
+					id: "238F1B20EBC9F25F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove lockedPath"
+					id: "2266BBC945B33D26"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "2DCD526B2ECB31E2"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: 3.0d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"48B5B15BD8C3DACF"
+				"5A346BFA4AC8C95B"
+				"0BE623668164FF63"
+			]
+			id: "3E4016870EEE37A3"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 3B6C42CAB9960CF9"
+					id: "1DC4FC836EEDEBC9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 21B59771DF32AAA0"
+					id: "06C2D29437439E65"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run sk give @p forsaken_prophet"
+					id: "70A93A42281FDFA3"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You have been given the Forsaken Prophet kit due to obtaining key items!\",\"color\":\"yellow\"}]"
+					id: "4D7BA651155171AE"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tag @p add kit_chosen"
+					id: "544192CD9E81353E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add Forsaken_Prophet"
+					id: "488C92EEC7B7B180"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "64DD9CF62CC8EB4F"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Heartbreak Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"The temple is gone, but this remains. A piece of the past that refuses to let go.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1, "minecraft:unbreakable": { } }, count: 1, id: "minecraft:heartbreak_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.0d
+			y: -0.5d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"2118749AFB1C1BF0"
+				"5A346BFA4AC8C95B"
+				"6ABC3BD2516E8479"
+			]
+			id: "7AE3C1D738E29DD5"
+			min_required_dependencies: 3
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 3B6C42CAB9960CF9"
+					id: "3C19D3C07DB81AD2"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 21B59771DF32AAA0"
+					id: "228A13987AA31CBE"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run sk give @p elementalist"
+					id: "37AFF4EAC022EFBF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You have been given the Arcane Researcher kit due to obtaining key items!\",\"color\":\"yellow\"}]"
+					id: "668E29E2E0C0F9A5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p unless entity @p[tag=kit_chosen] run tag @p add kit_chosen"
+					id: "7309C886ACF1EFDA"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p add Elementalist"
+					id: "714F686DBC0EA7E9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "64DDC444FA219B01"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Flow Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A fragment of ancient ceramic, smooth to the touch yet unnaturally cold. Unlike the ruins of other lost civilizations, this sherd is flawless—unweathered, untouched by time.\"", "\"' \"", "{\"extra\":[{\"italic\":false,\"text\":\"- \",\"type\":\"text\"},{\"italic\":false,\"text\":\"Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1 }, count: 1, id: "minecraft:flow_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 1.0d
+			y: 0.5d
+		}
+		{
+			dependencies: ["0CF0B6EFB77D1306"]
+			disable_toast: true
+			id: "6BCF0DAC9F5E72DD"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run attribute @p minecraft:generic.max_health base set 12"
+					id: "1A0C819F35106328"
+					permission_level: 4
+					silent: true
+					team_reward: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run function kevs:elementalist_statadd"
+					id: "0E2BB3FC46D99CC0"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "25ADDA9D5D394195"
+				type: "dimension"
+			}]
+			x: 4.0d
+			y: -1.5d
+		}
+		{
+			dependencies: ["1F3C50F9922D5A3C"]
+			disable_toast: true
+			id: "7B040B35A1BC843C"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run attribute @p minecraft:generic.movement_speed base set 0.11"
+				id: "39E068606E39BE59"
+				permission_level: 4
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "516AEE4AA7E3E0EE"
+				type: "dimension"
+			}]
+			x: -4.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["01EAE609A98F99D0"]
+			disable_toast: true
+			id: "4D6B925CD55C3053"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run attribute @p spell_power:healing base set 2"
+				id: "0936E46A161486FE"
+				permission_level: 4
+				silent: true
+				team_reward: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				disable_toast: true
+				id: "662172CB0F890202"
+				type: "dimension"
+			}]
+			x: 1.0d
+			y: -2.0d
+		}
+		{
+			dependencies: ["40A8771C6D0E3F7E"]
+			id: "0976E00C036AB2E3"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run tag @p add kit_chosen"
+				id: "128A24B60CD78620"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "1CB3FA3C70844A27"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -2.5d
+		}
+		{
+			dependencies: [
+				"2C3352144E4F04A9"
+				"1F3C50F9922D5A3C"
+				"0CF0B6EFB77D1306"
+				"01EAE609A98F99D0"
+			]
+			id: "24A65AE5229E7704"
+			min_required_dependencies: 1
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "5A5391A659EDC997"
+				type: "advancement"
+			}]
+			x: -1.5d
+			y: -3.5d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"2B2CC4D094B6E514"
+			]
+			id: "2B18C041FBC84DDC"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p if entity @p[tag=kit_chosen_v2] run sk give @p shadow_assassin"
+					id: "3E209B819621E648"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 2B2CC4D094B6E514"
+					id: "2C08E14569ECE5B5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "255D8ABC2A6C5B57"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Skull Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A contract left unfinished. A name erased from history.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Shadow Assassin's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "minecraft:skull_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -2.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"73248BFD9BB8ACA6"
+			]
+			icon: {
+				components: {
+					"minecraft:custom_data": {
+						exiled_knight: 1
+					}
+					"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+					"minecraft:enchantment_glint_override": 1b
+					"minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+					"minecraft:lore": ["\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\""]
+					"minecraft:rarity": "epic"
+				}
+				id: "minecraft:blade_pottery_sherd"
+			}
+			id: "475E5F5710EE94BD"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p if entity @p[tag=kit_chosen_v2] run sk give @p exiled_knight"
+					id: "2C80E1C36425E227"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 73248BFD9BB8ACA6"
+					id: "4715765B65DAA025"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "69B6821EC6AE1CA8"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:item_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Blade Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:lore": [ "\"A shattered remnant of the last battle fought for the kingdom. The broken engraving tells of a commander’s betrayal… but the name is missing.\"", "\"    \"", "{\"extra\":[{\"italic\":false,\"text\":\"- Exiled Knight's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic" }, count: 1, id: "minecraft:blade_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -3.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"0BE623668164FF63"
+			]
+			id: "48B5B15BD8C3DACF"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p if entity @p[tag=kit_chosen_v2] run sk give @p forsaken_prophet"
+					id: "7E49C3E6BD9B036E"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 0BE623668164FF63"
+					id: "114B39A5FEB58C21"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3BA4C84F0A6BAF62"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"yellow\",\"italic\":false,\"text\":\"Heartbreak Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"The temple is gone, but this remains. A piece of the past that refuses to let go.\"", "{\"extra\":[{\"italic\":false,\"text\":\"   \",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "{\"extra\":[{\"italic\":false,\"text\":\"- Forsaken Prophet's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1, "minecraft:unbreakable": { } }, count: 1, id: "minecraft:heartbreak_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: -1.0d
+			y: -1.5d
+		}
+		{
+			dependencies: [
+				"21B59771DF32AAA0"
+				"6ABC3BD2516E8479"
+			]
+			id: "2118749AFB1C1BF0"
+			min_required_dependencies: 1
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p if entity @p[tag=kit_chosen_v2] run sk give @p elementalist"
+					id: "331AE0E63F2726CC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 6ABC3BD2516E8479"
+					id: "2AFFEA98AFD2A6BD"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "157804E925A14BA7"
+				item: { components: { "minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_purple\",\"italic\":false,\"text\":\"Flow Pottery Sherd\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}", "minecraft:enchantment_glint_override": 1b, "minecraft:enchantments": { levels: { "yigd:soulbound": 1 } }, "minecraft:lore": [ "\"A fragment of ancient ceramic, smooth to the touch yet unnaturally cold. Unlike the ruins of other lost civilizations, this sherd is flawless—unweathered, untouched by time.\"", "\"' \"", "{\"extra\":[{\"italic\":false,\"text\":\"- \",\"type\":\"text\"},{\"italic\":false,\"text\":\"Elementalist's Main Story Item -\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}" ], "minecraft:rarity": "epic", "minecraft:repair_cost": 1 }, count: 1, id: "minecraft:flow_pottery_sherd" }
+				match_components: "fuzzy"
+				type: "item"
+			}]
+			x: 0.5d
+			y: 1.5d
+		}
+		{
+			dependencies: [
+				"7AE3C1D738E29DD5"
+				"5E75FFD089877F35"
+				"3E4016870EEE37A3"
+				"7A24F7AF9896FB50"
+			]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "4C9D6710C722D729"
+			min_required_dependencies: 1
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p if entity @p[nbt={cardinal_components:{\"origins:origin\":{OriginLayers:[{Origin:\"origins:empty\"}]}}}] run origin gui @p"
+				id: "6F1D2C06304060A9"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "0AF4299A2C53F8FD"
+				type: "advancement"
+			}]
+			x: -1.4833333333333272d
+			y: -4.518154761904761d
+		}
+		{
+			dependencies: ["0B4FC9FE1CA24F20"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "5A346BFA4AC8C95B"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run tag @p add kit_chosen"
+				id: "4C727B942DAB6F26"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "644572C2A5AEA4F9"
+				type: "advancement"
+			}]
+			x: -1.4642857142857153d
+			y: 4.6541666666666615d
+		}
+		{
+			id: "4987434B029707A4"
+			rewards: [{
+				auto: "invisible"
+				command: "execute as @p at @p run ftbquests change_progress @p complete 08BEE63295E2F228"
+				id: "208BD636297BC195"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "5FB9E7B33B75D175"
+				type: "advancement"
+			}]
+			x: 18.7d
+			y: 0.8500000000000011d
+		}
+		{
+			id: "08BEE63295E2F228"
+			tasks: [{
+				id: "09594331AF11D66B"
+				type: "checkmark"
+			}]
+			x: 6.8d
+			y: 0.85d
+		}
+		{
+			id: "099327947598A54F"
+			tasks: [{
+				id: "38E1BA4F36925DF1"
+				type: "checkmark"
+			}]
+			x: 17.0d
+			y: 0.8500000000000008d
+		}
+		{
+			dependencies: ["099327947598A54F"]
+			id: "71BB30EF5887DB38"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 000503637F848AE0"
+				id: "0BFFC256FF8A8B9D"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "27FAFEE98FD9CFA5"
+				optional_task: true
+				type: "dimension"
+			}]
+			x: 15.299999999999999d
+			y: -1.7d
+		}
+		{
+			dependencies: ["71BB30EF5887DB38"]
+			id: "000503637F848AE0"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 4BE8CB4DA0C82737"
+				id: "2D77AC5E3006A9A2"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "71FB67E68FD54735"
+				type: "checkmark"
+			}]
+			x: 14.450000000000001d
+			y: 0.8500000000000008d
+		}
+		{
+			dependencies: ["000503637F848AE0"]
+			id: "1AE3F861665E80F1"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 1E66ADD1ED444001"
+				id: "0C9EC4A62C354399"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "73FBA2DEEF0E2130"
+				optional_task: true
+				type: "dimension"
+			}]
+			x: 12.749999999999998d
+			y: 3.3999999999999995d
+		}
+		{
+			dependencies: ["1AE3F861665E80F1"]
+			id: "1E66ADD1ED444001"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 4BE8CB4DA0C82737"
+				id: "3100376D9CF844BC"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "6C0F6529CB307496"
+				type: "checkmark"
+			}]
+			x: 11.9d
+			y: 0.8500000000000008d
+		}
+		{
+			dependencies: ["1E66ADD1ED444001"]
+			id: "558FC9E1602808EB"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 5396C26F07874739"
+				id: "47259D2366E0FBAD"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "64A54EB48002C50D"
+				optional_task: true
+				type: "dimension"
+			}]
+			x: 10.2d
+			y: -1.7d
+		}
+		{
+			dependencies: ["558FC9E1602808EB"]
+			id: "5396C26F07874739"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 4BE8CB4DA0C82737"
+				id: "62FA54781766D0C0"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "2908088F91C94588"
+				type: "checkmark"
+			}]
+			x: 8.5d
+			y: 0.8499999999999999d
+		}
+		{
+			dependencies: ["5F1CDE36EC40F458"]
+			id: "209E4F9FB904A61A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 4BE8CB4DA0C82737"
+					id: "3B9243DFA82ADC84"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p reset 08BEE63295E2F228"
+					id: "1A0EA90B02CF68EF"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3FD7C6F1AACF34DA"
+				type: "checkmark"
+			}]
+			x: 5.1d
+			y: 0.85d
+		}
+		{
+			dependencies: ["5396C26F07874739"]
+			id: "5F1CDE36EC40F458"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 209E4F9FB904A61A"
+				id: "3C26423FDEFB90B2"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				dimension: "minecraft:overworld"
+				id: "21ED69400489DF34"
+				optional_task: true
+				type: "dimension"
+			}]
+			x: 6.8d
+			y: 3.4d
+		}
+		{
+			id: "6ABC3BD2516E8479"
+			tasks: [{
+				id: "52465A7A25E6320B"
+				type: "checkmark"
+			}]
+			x: 2.55d
+			y: 1.7d
+		}
+		{
+			id: "73248BFD9BB8ACA6"
+			tasks: [{
+				id: "73289E03932CEEEE"
+				type: "checkmark"
+			}]
+			x: -5.95d
+			y: 1.7d
+		}
+		{
+			id: "2B2CC4D094B6E514"
+			tasks: [{
+				id: "3785393F0652ECA1"
+				type: "checkmark"
+			}]
+			x: -5.95d
+			y: -1.7d
+		}
+		{
+			id: "0BE623668164FF63"
+			tasks: [{
+				id: "28B17BB25E59B0FA"
+				type: "checkmark"
+			}]
+			x: 2.55d
+			y: -1.7d
+		}
+	]
+}

@@ -1,0 +1,55 @@
+{
+	id: "7B9958A5788C3DB3"
+	loot_size: 1
+	order_index: 3
+	rewards: [
+		{
+			count: 12
+			id: "60151E9AB9111233"
+			item: {
+				count: 1
+				id: "more_rpg_classes:aqua_stone"
+			}
+		}
+		{
+			count: 12
+			id: "18B321BF69406A32"
+			item: {
+				count: 1
+				id: "more_rpg_classes:terra_stone"
+			}
+		}
+		{
+			count: 12
+			id: "642EB98D1EA4CE64"
+			item: {
+				count: 1
+				id: "more_rpg_classes:storm_stone"
+			}
+		}
+		{
+			count: 12
+			id: "64C82C1952421FB7"
+			item: {
+				count: 1
+				id: "runes:arcane_stone"
+			}
+		}
+		{
+			count: 12
+			id: "00CB97E6E80681D8"
+			item: {
+				count: 1
+				id: "runes:fire_stone"
+			}
+		}
+		{
+			count: 12
+			id: "01B96E3FD273E2FD"
+			item: {
+				count: 1
+				id: "runes:frost_stone"
+			}
+		}
+	]
+}

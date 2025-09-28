@@ -1,0 +1,117 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "minecraft:fortress",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:stronghold_nether",
+      "required": false
+    },
+    {
+      "id": "minecraft:bastion_remnant",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:bastion_underground",
+      "required": false
+    },
+    {
+      "id": "loot_n_explore:frost_monolith",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_city",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:ancient_city_ocean",
+      "required": false
+    },
+    {
+      "id": "ancient_trials:dungeon_trial",
+      "required": false
+    },
+    {
+      "id": "bosses_of_mass_destruction:obsidilith_arena",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:victory_frigate",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:cursed_garden",
+      "required": false
+    },
+    {
+      "id": "eternal_starlight:golem_forge",
+      "required": false
+    },
+    {
+      "id": "formidulus:deer_cult_hideout",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:asgard",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:cubehold",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:doxalfar_ruins",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:gladsheimr",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:helblom",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:helheim",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:lifblom",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:meogard",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:proto_fracture",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:runic_alfheim_tree",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:runic_fracture",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:runic_labyrinth",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:voroblon",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:zenflors",
+      "required": false
+    },
+    {
+      "id": "yggdrasil:alfheim_tree",
+      "required": false
+    }
+  ]
+}

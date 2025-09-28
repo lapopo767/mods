@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "nOS",
+    "ONO",
+    "SOn"
+  ],
+  "key": {
+    "n": {
+      "item": "minecraft:echo_shard"
+    },
+    "O": {
+      "item": "transmog:void_fragment"
+    },
+    "S": {
+      "item": "minecraft:totem_of_undying"
+    },
+    "N": {
+      "item": "minecraft:book"
+    }
+  },
+  "result": {
+    "id": "book-of-unlearning:book_of_unlearning"
+  }
+}

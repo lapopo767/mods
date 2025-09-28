@@ -1,0 +1,10 @@
+{
+  "guiEnabled": true,
+  "requiredXpLevels": 20,
+  "requiredItems": [
+    {
+      "id": "rpg-minibosses:lavos_horn",
+      "count": 1
+    }
+  ]
+}

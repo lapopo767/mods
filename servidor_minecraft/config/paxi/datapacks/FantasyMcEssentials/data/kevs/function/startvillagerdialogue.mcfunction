@@ -1,0 +1,1 @@
+execute as @p at @p run blabber dialogue start kevs:village_quest @s @e[limit=1,sort=nearest,type=villager]

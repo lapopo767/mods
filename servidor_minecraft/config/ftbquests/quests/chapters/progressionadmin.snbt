@@ -1,0 +1,438 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "progressionadmin"
+	group: "1C1C39EB0029A774"
+	id: "788C0B7CEEB565C4"
+	order_index: 5
+	quest_links: [ ]
+	quests: [
+		{
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "29A0F26232B33D59"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p complete 7EDB9F5EAF82D4B4"
+				id: "64876819283609B1"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "5799140AEBFA75E2"
+				type: "advancement"
+			}]
+			x: -0.85d
+			y: 0.0d
+		}
+		{
+			dependencies: ["29A0F26232B33D59"]
+			id: "7EDB9F5EAF82D4B4"
+			tasks: [{
+				id: "071AAB3C8B8C2BAB"
+				type: "checkmark"
+			}]
+			x: 5.551115123125783E-16d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6978B2883CFF23B3"]
+			hide_dependency_lines: true
+			hide_dependent_lines: true
+			id: "6ADD52DDB7FE550E"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p reset 7EDB9F5EAF82D4B4"
+				id: "338E6CDF64F197E2"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "2718D61988D452DB"
+				type: "advancement"
+			}]
+			x: 0.8500000000000002d
+			y: 0.0d
+		}
+		{
+			id: "1307FFA61AF57C0B"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You unlocked a new quest!\",\"color\":\"yellow\"}]"
+					id: "1184D194B6B096A4"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run playsound minecraft:entity.villager.ambient ambient @p ~ ~ ~"
+					id: "6AC5B0CB46EF183B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "7EBD4E2781E46D95"
+				type: "checkmark"
+			}]
+			x: -3.4d
+			y: 2.55d
+		}
+		{
+			id: "6DD41B59527E584F"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You unlocked a new quest!\",\"color\":\"yellow\"}]"
+					id: "65D20D8286CBE0B5"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run playsound minecraft:entity.villager.ambient ambient @p ~ ~ ~"
+					id: "47049D3D3425D25C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "79F0E60BE2D176DD"
+				type: "checkmark"
+			}]
+			x: -0.85d
+			y: 2.55d
+		}
+		{
+			id: "5CB6E07170D88CA2"
+			invisible: true
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You unlocked a new quest!\",\"color\":\"yellow\"}]"
+					id: "0DC3A763F7DAEFFC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run playsound minecraft:entity.villager.ambient ambient @p ~ ~ ~"
+					id: "25362FD5745CD93F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "26AC952E6453F950"
+				type: "checkmark"
+			}]
+			x: 1.7d
+			y: 2.55d
+		}
+		{
+			id: "6DD49EAC5FCB5104"
+			rewards: [
+				{
+					count: 4
+					id: "74C021016F5198CD"
+					item: {
+						count: 1
+						id: "cardiac:life_bottle"
+					}
+					type: "item"
+				}
+				{
+					id: "06D60429D7E554FC"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 2
+					id: "11BABD4FDF229792"
+					item: {
+						count: 1
+						id: "minecraft:iron_ingot"
+					}
+					type: "item"
+				}
+			]
+			tasks: [{
+				id: "59547504A0DFFF47"
+				type: "checkmark"
+			}]
+			x: -3.4d
+			y: 5.95d
+		}
+		{
+			id: "7D8DEE1C1504AA81"
+			rewards: [
+				{
+					count: 12
+					id: "1CC5058F5EF9ACD1"
+					item: {
+						count: 1
+						id: "minecraft:bread"
+					}
+					type: "item"
+				}
+				{
+					id: "55D54666BA3DA923"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+			]
+			tasks: [{
+				id: "0C9C8459E33EB40F"
+				type: "checkmark"
+			}]
+			x: -0.85d
+			y: 5.95d
+		}
+		{
+			id: "488395DBFFFBE15F"
+			rewards: [{
+				id: "6C9129CF9C27C48A"
+				item: {
+					components: {
+						"minecraft:attribute_modifiers": {
+							modifiers: [{
+								amount: 5.0d
+								id: "minecraft:1745126615137"
+								operation: "add_value"
+								slot: "mainhand"
+								type: "minecraft:player.mining_efficiency"
+							}]
+							show_in_tooltip: 0b
+						}
+						"minecraft:damage": 200
+						"minecraft:lore": [
+							"{\"extra\":[{\"italic\":false,\"text\":\"This axe feels strangely light.\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+							"{\"extra\":[{\"italic\":false,\"text\":\"Despite its sharp edges, it seems to be only for wood-cutting.\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+						]
+					}
+					count: 1
+					id: "minecraft:iron_axe"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "3A32A31C308CBF51"
+				type: "checkmark"
+			}]
+			x: 1.7d
+			y: 5.95d
+		}
+		{
+			can_repeat: true
+			id: "1C1630F5593EFF0B"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run playsound minecraft:entity.villager.ambient ambient @p ~ ~ ~"
+				id: "05497BB33089F00E"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "3E95EB0861C00B73"
+				type: "checkmark"
+			}]
+			x: -5.95d
+			y: 3.4d
+		}
+		{
+			dependencies: ["6DD49EAC5FCB5104"]
+			id: "4EEDE3A392228D8A"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run advancement revoke @p only kevs:is_villager"
+					id: "6B1E01F0688E18FC"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove mobs_finished"
+					id: "5388EF2C753C5246"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "20333CEDB52A510A"
+				type: "advancement"
+			}]
+			x: -3.4d
+			y: 7.6499999999999995d
+		}
+		{
+			dependencies: ["7D8DEE1C1504AA81"]
+			id: "5E98AD5522EE31D6"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run advancement revoke @p only kevs:is_villager"
+					id: "1922CCA293A03805"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove crops_finished"
+					id: "5B16129AC7A71665"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "15CA8B9493531BBB"
+				type: "advancement"
+			}]
+			x: -0.85d
+			y: 7.6499999999999995d
+		}
+		{
+			dependencies: ["488395DBFFFBE15F"]
+			id: "5A0DAFE2211662AF"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run advancement revoke @p only kevs:is_villager"
+					id: "3138DE16346BB82C"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tag @p remove wood_finished"
+					id: "414BB51D4E7A46D8"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "73818F21F7F27F4C"
+				type: "advancement"
+			}]
+			x: 1.7d
+			y: 7.6499999999999995d
+		}
+		{
+			can_repeat: true
+			id: "266B88C5845D9875"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run advancement revoke @p only kevs:is_villager"
+				id: "10525CCD74B1A661"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "0734FD4CC6951750"
+				type: "checkmark"
+			}]
+			x: -5.95d
+			y: 5.1d
+		}
+		{
+			dependencies: [
+				"5E98AD5522EE31D6"
+				"4EEDE3A392228D8A"
+				"5A0DAFE2211662AF"
+			]
+			id: "7A32D2FB49071F8D"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run advancement grant @p only kevs:is_villager"
+				id: "04B98E2C566932EC"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "11C57E3357369C6F"
+				type: "advancement"
+			}]
+			x: -0.85d
+			y: 9.35d
+		}
+		{
+			can_repeat: true
+			id: "6835B0496AE984F6"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @s run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"Speak with the Villager again to get the rewards\",\"color\":\"yellow\"}]"
+				id: "5DBF88B9C2DF5611"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "01567A9090EF085C"
+				type: "checkmark"
+			}]
+			x: -5.95d
+			y: 6.8d
+		}
+		{
+			id: "07E197AEF3D056FA"
+			tasks: [{
+				id: "768F7947B086298F"
+				type: "checkmark"
+			}]
+			x: -5.95d
+			y: 0.0d
+		}
+		{
+			id: "74D98495F45DB899"
+			rewards: [{
+				auto: "invisible"
+				command: "execute as @p at @p run ftbquests change_progress @p reset 74D98495F45DB899"
+				id: "485458DF817F02A1"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "kevs:is_villager"
+				criterion: ""
+				id: "518A3255196BD03B"
+				type: "advancement"
+			}]
+			x: -7.6499999999999995d
+			y: 5.1d
+		}
+	]
+}

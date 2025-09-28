@@ -1,0 +1,37 @@
+{
+  "criteria": {
+    "summoned": {
+      "conditions": {
+        "entity": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "type": "minecraft:wither"
+            }
+          }
+        ]
+      },
+      "trigger": "minecraft:summoned_entity"
+    }
+  },
+  "display": {
+    "description": {
+      "translate": ""
+    },
+    "icon": {
+      "count": 1,
+      "id": "minecraft:nether_star"
+    },
+    "title": "Summon Wither fake",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "requirements": [
+    [
+      "summoned"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

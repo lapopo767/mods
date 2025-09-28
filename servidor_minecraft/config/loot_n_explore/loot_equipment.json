@@ -1,0 +1,370 @@
+{
+  "injectors": {
+    "loot_n_explore:chests/inns/desert": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/inns/plains": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/plains/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/desert/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/savanna/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/snowy/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/vilages/taiga/small_inn": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_0_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_0_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/dungeons/glacial_tomb/common": {
+      "rolls": 0.75,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:spawners/frozen/normal/reward": {
+      "rolls": 0.75,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:spawners/frozen/ominous/reward": {
+      "rolls": 0.75,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_2_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_2_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/reward_ominous_common": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_weapons",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/trial_chambers/reward_common": {
+      "rolls": 0.5,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_1_weapons",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_armors",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_1_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/reward_ominous_unique": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_4_accessories",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:chests/trials/frozen/reward_unique": {
+      "rolls": 1.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": true,
+          "weight": 2,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_4_accessories",
+          "filters_lenient": true,
+          "weight": 2
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    },
+    "loot_n_explore:entities/frost_monarch": {
+      "rolls": 2.0,
+      "bonus_rolls": 0.2,
+      "entries": [
+        {
+          "id": "#rpg_series:loot_tier/tier_3_weapons",
+          "filters_lenient": true,
+          "weight": 4,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_armors",
+          "filters_lenient": true,
+          "weight": 4,
+          "enchant": {
+            "min_power": 1.0,
+            "max_power": 30.0,
+            "allow_treasure": true
+          }
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_accessories",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_3_relics",
+          "filters_lenient": true,
+          "weight": 1
+        },
+        {
+          "id": "#rpg_series:loot_tier/tier_5_weapons",
+          "filters_lenient": true,
+          "weight": 1
+        }
+      ]
+    }
+  },
+  "regex_injectors": {}
+}

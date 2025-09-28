@@ -1,0 +1,217 @@
+{
+  "states": {
+    "start": {
+      "text": [
+        {
+          "text": "Hello adventurer!"
+        },
+        {
+          "text": " Do you need anything? "
+        }
+      ],
+      "illustrations": [
+        "discussion"
+      ],
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 3E95EB0861C00B73"
+      },
+      "choices": [
+        {
+          "text": "Is there anything you need me to do?",
+          "next": "question"
+        },
+        {
+          "next": "finished_mobs",
+          "text": "Quest finished: Mob Extermination",
+          "only_if": {
+            "predicate": "kevs:mobs_finished",
+            "when_unavailable": {
+              "display": "hidden",
+              "message": ""
+            }
+          }
+        },
+        {
+          "next": "finished_crops",
+          "text": "Quest finished: Crops Gathering",
+          "only_if": {
+            "predicate": "kevs:crops_finished",
+            "when_unavailable": {
+              "display": "hidden",
+              "message": ""
+            }
+          }
+        },
+        {
+          "next": "finished_wood",
+          "text": "Quest finished: Wood Gathering",
+          "only_if": {
+            "predicate": "kevs:wood_finished",
+            "when_unavailable": {
+              "display": "hidden",
+              "message": ""
+            }
+          }
+        },
+        {
+          "next": "end",
+          "text": "Nevermind"
+        }
+      ]
+    },
+    "end": {
+      "type": "end_dialogue",
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 0734FD4CC6951750"
+      }
+    },
+    "question": {
+      "text": "Oh there are a few things you could do for me!",
+      "illustrations": [
+        "discussion"
+      ],
+	 
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 3E95EB0861C00B73"
+      },
+      "choices": [
+        {
+          "next": "mobs",
+          "text": "Mob Extermination"
+        },
+        {
+          "next": "crops",
+          "text": "Crops Gathering"
+        },
+        {
+          "next": "wood",
+          "text": "Wood Gathering"
+        },
+        {
+          "next": "start",
+          "text": "Maybe another time"
+        }
+      ]
+    },
+    "crops": {
+      "text": "Oh thank you adventurer! My back has been hurting for a while now...",
+      "illustrations": [
+        "discussion"
+      ],
+      "choices": [
+        {
+          "next": "question",
+          "text": "Anything else?"
+        },
+        {
+          "next": "end",
+          "text": "End"
+        }
+      ],
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 79F0E60BE2D176DD"
+      }
+    },
+    "mobs": {
+      "text": "The Clerics said they need some Rotten Flesh for their experiments so just about 12 pieces will be enough",
+      "illustrations": [
+        "discussion"
+      ],
+      "choices": [
+        {
+          "next": "question",
+          "text": "Anything else?"
+        },
+        {
+          "next": "end",
+          "text": "End"
+        }
+      ],
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 7EBD4E2781E46D95"
+      }
+    },
+    "wood": {
+      "text": "I have been meaning to get some new furnitures so get me 12 logs!",
+      "illustrations": [
+        "discussion"
+      ],
+      "choices": [
+        {
+          "next": "question",
+          "text": "Anything else?"
+        },
+        {
+          "next": "end",
+          "text": "End"
+        }
+      ],
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 26AC952E6453F950"
+      }
+    },
+    "finished_mobs": {
+      "text": "",
+      "type": "end_dialogue",
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 59547504A0DFFF47"
+      }
+    },
+    "finished_crops": {
+      "text": "",
+      "type": "end_dialogue",
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 0C9C8459E33EB40F"
+      }
+    },
+    "finished_wood": {
+      "text": "",
+      "type": "end_dialogue",
+      "action": {
+        "type": "blabber:command",
+        "value": "/execute as @p at @p run ftbquests change_progress @p complete 3A32A31C308CBF51"
+      }
+    }
+  },
+  "illustrations": {
+    "discussion": [
+      {
+        "type": "blabber:entity",
+        "entity": "@interlocutor",
+        "x1": 70,
+        "y1": 500,
+        "x2": 200,
+        "y2": -220,
+        "size": 65,
+        "y_offset": 0,
+        "stare_at_x": 50,
+        "stare_at_y": 0
+      },
+      {
+        "type": "blabber:entity",
+        "entity": "@s",
+        "x1": 195,
+        "y1": 500,
+        "x2": 325,
+        "y2": -220,
+        "size": 65,
+        "y_offset": 0,
+        "stare_at_x": -50,
+        "stare_at_y": 0
+      }
+    ]
+  },
+  "layout": {
+    "type": "blabber:rpg"
+  },
+  "unskippable": true,
+  "start_at": "start"
+}

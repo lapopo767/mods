@@ -1,0 +1,35 @@
+{
+  "bookmarks": {},
+  "opened_books": {
+    "514de1ff-91ad-4f2b-b934-9159b1d60b27": [
+      "affinity:wispen_testament"
+    ],
+    "778f76a6-7145-41eb-82a1-160823e37332": [
+      "affinity:wispen_testament"
+    ],
+    "02e560c9-59d8-4341-8f0a-9693a137e778": [
+      "affinity:wispen_testament"
+    ],
+    "c6297b8b-73a9-4771-9a5a-34df2446c1e8": [
+      "affinity:wispen_testament"
+    ],
+    "17714c5c-13fa-4d9e-8262-dde883c0423c": [
+      "affinity:wispen_testament"
+    ],
+    "d6cf99b2-8c42-4e52-aba5-13cf721254c9": [
+      "affinity:wispen_testament"
+    ]
+  },
+  "viewed_entries": {
+    "514de1ff-91ad-4f2b-b934-9159b1d60b27": {
+      "affinity:wispen_testament": [
+        "affinity:assembly_augment"
+      ]
+    },
+    "17714c5c-13fa-4d9e-8262-dde883c0423c": {
+      "affinity:wispen_testament": [
+        "affinity:staff_prototyping"
+      ]
+    }
+  }
+}

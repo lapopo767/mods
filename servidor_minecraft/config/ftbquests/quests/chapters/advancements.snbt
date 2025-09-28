@@ -1,0 +1,110 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	default_quest_size: 2.0d
+	filename: "advancements"
+	group: "334CA8F70B6DE4C1"
+	icon: {
+		components: {
+			"ftbquests:icon": "fantasy_mc:textures/newquestimg/crown.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "3A3C767E02C821CC"
+	order_index: 3
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["07E197AEF3D056FA"]
+			icon_scale: 1.25d
+			id: "63C1006D442A4D6B"
+			invisible: true
+			rewards: [
+				{
+					id: "0783A5CCB8380DB1"
+					type: "xp_levels"
+					xp_levels: 2
+				}
+				{
+					count: 4
+					id: "0002C31BBF97954B"
+					item: {
+						count: 1
+						id: "minecraft:emerald"
+					}
+					type: "item"
+				}
+			]
+			size: 2.0d
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				icon: {
+					components: {
+						"ftbquests:icon": "merchantmarkers:textures/entity/villager/default.png"
+					}
+					id: "ftbquests:custom_icon"
+				}
+				id: "4F69EB3DF5B1B10D"
+				type: "advancement"
+			}]
+			x: 19.55d
+			y: 7.6499999999999995d
+		}
+		{
+			dependencies: [
+				"33A131408E8D412E"
+				"686E71C58723204C"
+				"62491DF076BD73C3"
+				"6A0C95C3A3458204"
+				"523F8DA423C7878D"
+				"09FE579FDF177027"
+				"4D80EF1AA3B3E0BB"
+				"0E08FC9046B51A7E"
+				"4AB20B25C65E665C"
+				"00751E6CDCC873C7"
+				"3CA7D82BA2FE89E5"
+				"5E898EEDC35C3D62"
+				"05141E60397EC710"
+				"06838DB91C957F74"
+				"615861A84A784955"
+				"12FA4282E9543CF2"
+				"24802C0F942F2340"
+				"07078AE3E5D92F5F"
+				"645DC3CF2429F0D9"
+				"1A28555D6AF625AA"
+				"7E509020DBB6E568"
+				"4645066AF717164D"
+				"7118CF3152FE7821"
+				"4C8796A9C286401F"
+				"4425413C9FE3B90D"
+				"76A2A8D9AEB13EB2"
+				"29E47AB0F746B16C"
+			]
+			hide_until_deps_complete: true
+			icon: {
+				components: {
+					"ftbquests:icon": "elemental_wizards_rpg:item/misc/elemental_essence"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "1C65A4F378445293"
+			rewards: [{
+				id: "71168EB181D7827B"
+				type: "xp_levels"
+				xp_levels: 10
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				icon: {
+					id: "elemental_wizards_rpg:elemental_essence"
+				}
+				id: "570E77A9E7A6EC42"
+				type: "advancement"
+			}]
+			x: 23.8d
+			y: 7.6499999999999995d
+		}
+	]
+}

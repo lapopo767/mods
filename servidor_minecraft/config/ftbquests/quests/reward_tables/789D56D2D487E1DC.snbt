@@ -1,0 +1,34 @@
+{
+	id: "789D56D2D487E1DC"
+	loot_size: 1
+	order_index: 2
+	rewards: [
+		{ id: "66FA2BB71B3DB610", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:flame_cloud_spell"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "459AC59E9F570529", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:flame_cloud_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "1D259B38EEB32607", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:exploding_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "497AF27ECFBB38C2", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:wither_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "061785CED87702A1", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:wither_ranged"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "734CB9D39EE300BF", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:cooldown_shot_spell"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "6D94F67E932BBF9C", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:cooldown_heal"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "1198BD0EF773CBE2", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:chain_reaction_spell"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "2DC2909260C5F41E", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:bonus_shot_ranged"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "6B2E360029E54F8F", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:rampaging_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "77C1DA2CC7FC003B", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:radiance_spell"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "725234D13417AC35", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:radiance_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "09163B3520A67AAE", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:poison_cloud_ranged"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "7C3F68D91DA18F55", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:poison_cloud_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "2058458085F3EC8D", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:leeching_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "35279282CBEAFEB6", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:guarding_strike_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "6C837469A3714FC7", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:guardian_heal"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "1B7F1A8FF9789FBC", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:frost_cloud_spell"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "575AB1DD62F8E147", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:unyielding_shield"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "187F0CE5ED5920EF", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:swirling_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "7F30014DF13BF97F", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:sundering_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "0E153C5AA0DB6F22", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:stunning_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "1A14C252215FE0C7", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:spiked_shield"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "3977010EA765B732", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:slowing_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "2A353E9BF451D347", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:shockwave_melee"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "688584F1C2729D1B", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:shockwave_area_spell"] } }, count: 1, id: "spell_engine:scroll" } }
+		{ id: "66EB1909DE223F58", item: { components: { "spell_engine:spell_container": { max_spell_count: 1, spell_ids: ["arsenal:rampaging_ranged"] } }, count: 1, id: "spell_engine:scroll" } }
+	]
+}

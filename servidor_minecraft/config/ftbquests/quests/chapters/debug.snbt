@@ -1,0 +1,271 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "debug"
+	group: ""
+	id: "6893A5479B4C2B16"
+	images: [
+		{
+			click: "#16FC97D719E0D4AC"
+			height: 1.0d
+			hover: ["Back"]
+			image: "fantasy_mc:textures/back.png"
+			rotation: 0.0d
+			width: 2.0d
+			x: -0.85d
+			y: 1.7d
+		}
+		{
+			click: "#545924027F50C64C"
+			height: 1.0d
+			hover: [
+				"Move to debug section"
+				"Take a picture of it for support!"
+			]
+			image: "ftblibrary:icons/bug"
+			rotation: 0.0d
+			width: 1.0d
+			x: 0.0d
+			y: -1.7d
+		}
+	]
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/bug"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "4B13F4D720B43E2D"
+			rewards: [
+				{
+					auto: "no_toast"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 3C3608AEA56E4262"
+					feedback_message: "Bypassing..."
+					id: "351E503CBD68D5AB"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 0E0C3F33AF215AEB"
+					id: "52F67B9329ABB92F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 780EDAE903E6AB26"
+					id: "6C4BF0ACF5B1C048"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests change_progress @p complete 54044866CF0F2A60"
+					id: "150785FF341F33D7"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests open_book 0155B01A1805346A"
+					id: "3E7C74C632FFFD1B"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"Bypassed animations\",\"color\":\"yellow\"}]"
+					id: "437F434ECF40E8B9"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "700E95567AC10779"
+				type: "checkmark"
+			}]
+			x: -1.7d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "minecraft:block/dirt_path_side"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "0634B4B5147D7793"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p if entity @p[tag=Elementalist] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You are an Elementalist\",\"color\":\"yellow\"}]"
+					id: "1E2E6D3031F67BAD"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p if entity @p[tag=Shadow_Assassin] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You are a Shadow Assassin\",\"color\":\"yellow\"}]"
+					id: "0182CDAC24816BB6"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p if entity @p[tag=Forsaken_Prophet] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You are a Forsaken Prophet\",\"color\":\"yellow\"}]"
+					id: "5322DC617B76C77F"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p if entity @p[tag=Exiled_Knight] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You are an Exiled Knight\",\"color\":\"yellow\"}]"
+					id: "2F5C7E60C457A22D"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "4998C67AAD9F5113"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/newquestimg/shinylock.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "3228DADC26D39F6C"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p if entity @p[tag=lockedPath] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You are locked in this Path\",\"color\":\"yellow\"}]"
+					id: "07659BD1F38BBFB5"
+					permission_level: 4
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "execute as @p at @p unless entity @p[tag=lockedPath] run tellraw @p [{\"text\":\"\",\"color\":\"gray\"},{\"text\":\"You are not locked in any paths\",\"color\":\"yellow\"}]"
+					id: "0233F033434C1714"
+					permission_level: 4
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "013D755D7B25495D"
+				type: "checkmark"
+			}]
+			x: 1.7d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4482EAAC37AA6E5D"]
+			disable_toast: true
+			hide_dependent_lines: true
+			hide_until_deps_complete: true
+			icon: {
+				id: "mobs_of_mythology:gear"
+			}
+			icon_scale: 2.0d
+			id: "611DF0D90B726476"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "execute as @p at @p run ftbquests change_progress @p complete 76C5F9913B24E498"
+					id: "2446B6E4DABFF2A7"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/execute as @p at @p run ftbquests open_book 0155B01A1805346A"
+					id: "1E16763AA3935CE2"
+					permission_level: 4
+					silent: true
+					type: "command"
+				}
+			]
+			shape: "none"
+			tasks: [{
+				disable_toast: true
+				id: "43A6436B70A55CAC"
+				type: "checkmark"
+			}]
+			x: -3.4d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "ftblibrary:icons/bug"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "14E73C0827084F69"
+			rewards: [{
+				auto: "no_toast"
+				command: "/execute as @p at @p run ftbquests change_progress @p complete 3B6C42CAB9960CF9"
+				feedback_message: "Bypassing..."
+				id: "2E6D229B933F5D41"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "00700061CBBECC95"
+				type: "checkmark"
+			}]
+			x: -1.7d
+			y: -1.7d
+		}
+		{
+			can_repeat: true
+			icon: {
+				components: {
+					"ftbquests:icon": "fantasy_mc:textures/newquestimg/shinylock.png"
+				}
+				id: "ftbquests:custom_icon"
+			}
+			id: "539633D96343E837"
+			rewards: [{
+				auto: "invisible"
+				command: "execute as @p at @p run tag @p list"
+				id: "1A5373DEA0E814B1"
+				permission_level: 4
+				type: "command"
+			}]
+			tasks: [{
+				id: "34C045132386FF44"
+				type: "checkmark"
+			}]
+			x: 3.4d
+			y: 0.0d
+		}
+	]
+}

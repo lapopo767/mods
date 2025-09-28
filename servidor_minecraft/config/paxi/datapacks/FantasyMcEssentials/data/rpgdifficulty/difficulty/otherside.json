@@ -1,0 +1,19 @@
+{
+    "dimension": "deeperdarker:otherside",
+    "increasingDistance": 10000,
+    "distanceFactor": 0.175,
+    "increasingTime": 0,
+    "timeFactor": 0,
+    "heightDistance": 30,
+    "heightFactor": 0.1,
+	"maxFactorHealth": 15.0,
+	"maxFactorDamage": 10.0,
+    "maxFactorProtection": 4.4,
+    "maxFactorSpeed": 2.0,
+    "startingFactor": 3,
+    "startingDistance": 20000,
+    "startingTime": 0,
+    "startingHeight": 62,
+    "positiveHeightIncreasion": true,
+    "negativeHeightIncreasion": true
+}

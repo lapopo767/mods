@@ -1,0 +1,27 @@
+{
+  "replace": false,
+  "values": [
+    "totw_modded:aether",
+    "totw_modded:badlands",
+    "totw_modded:derelict",
+    "totw_modded:derelict_grass",
+    "totw_modded:desert",
+    "totw_modded:end",
+    "totw_modded:everbright",
+    "totw_modded:everdawn",
+    "totw_modded:glacio",
+    "totw_modded:ice",
+    "totw_modded:jungle",
+    "totw_modded:mars",
+    "totw_modded:mercury",
+    "totw_modded:moon",
+    "totw_modded:nether",
+    "totw_modded:ocean",
+    "totw_modded:ocean_warm",
+    "totw_modded:ratlantis",
+    "totw_modded:regular",
+    "totw_modded:tw_canopy",
+    "totw_modded:tw_mangrove",
+    "totw_modded:venus"
+  ]
+}

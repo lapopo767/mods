@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:entity_properties",
+  "entity": "this",
+  "predicate": {
+    "slots": {
+      "container.*": {
+        "items": "wizards:wand_novice",
+        "count": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,82 @@
+{
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "village_check"
+	group: "28A9EFC6FC140BCB"
+	id: "2C7579026D050ECD"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			id: "729C1890D6AAF07A"
+			rewards: [{
+				auto: "invisible"
+				command: "/summon villager ~ ~ ~ {VillagerData:{type:plains,profession:armorer,level:99},CustomName:'[{\"text\":\"Lucas\",\"color\":\"dark_red\"}]',Tags:[\"LucasFriend\"]}"
+				id: "24F064245E5F23D5"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				id: "72B88A731C27DF23"
+				type: "checkmark"
+			}]
+			x: 4.25d
+			y: 0.0d
+		}
+		{
+			can_repeat: true
+			id: "48CA2C928638DF7B"
+			rewards: [
+				{
+					auto: "invisible"
+					command: "/closeguiscreen @p"
+					id: "300E42FE29D09F2D"
+					type: "command"
+				}
+				{
+					auto: "invisible"
+					command: "/ftbquests open_book 48CA2C928638DF7B"
+					id: "38B5C7B4AA9BE16F"
+					type: "command"
+				}
+			]
+			tasks: [{
+				id: "3779350289E09AF4"
+				type: "checkmark"
+			}]
+			x: 2.55d
+			y: 0.0d
+		}
+		{
+			id: "0BBBC078D964BDA9"
+			rewards: [{
+				auto: "invisible"
+				command: "/execute as @p at @p run ftbquests change_progress @p complete 259AAC4D4007B0E3"
+				id: "499BA9486BF94F44"
+				permission_level: 4
+				silent: true
+				type: "command"
+			}]
+			tasks: [{
+				advancement: "mobs_of_mythology:mobs_of_mythology"
+				criterion: ""
+				id: "752D6EB82912B134"
+				type: "advancement"
+			}]
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0BBBC078D964BDA9"]
+			id: "259AAC4D4007B0E3"
+			tasks: [{
+				id: "62C724F008FAFF75"
+				type: "checkmark"
+			}]
+			x: 0.0d
+			y: 1.7000000000000002d
+		}
+	]
+}

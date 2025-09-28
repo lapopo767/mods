@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "pools": [
+    "kevs:testpool",
+    {
+      "id": "mod_id:atk_dmg_rare",
+      "rarity": "rare",
+      "entry": {
+        "type": "lootables:attribute",
+        "attribute": "minecraft:generic.attack_damage",
+        "value": 0.5,
+        "operation": "add_value",
+        "persistent": false
+      }
+    }
+  ],
+  "weights": {
+    "common": 8,
+    "uncommon": 4
+  }
+}

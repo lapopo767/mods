@@ -1,0 +1,7 @@
+{
+  "ignore_items_required_mods": false,
+  "knuckle_knock_up_chance_on_attack": 0.15,
+  "knuckle_knock_up_height": 0.5,
+  "stonehand_stun_effect_on_attack": 0.25,
+  "stonehand_stun_duration_seconds": 3
+}

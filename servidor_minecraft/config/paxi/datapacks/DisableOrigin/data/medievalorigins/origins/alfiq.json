@@ -1,0 +1,21 @@
+{
+	"powers": [
+		"medievalorigins:alfiq/clawed",
+		"medievalorigins:alfiq/poor_grip",
+		"medievalorigins:alfiq/on_your_feet",
+		"medievalorigins:alfiq/crepuscular",
+		"medievalorigins:alfiq/pickpocket",
+		"medievalorigins:alfiq/pickpocket_player",
+		"medievalorigins:alfiq/pounce",
+		"origins:velvet_paws",
+		"origins:scare_creepers",
+		"medievalorigins:alfiq/meow",
+		"thermoo-patches:extra_heat_resistance"
+	],
+	"icon": {
+		"id": "medievalorigins:alfiq"
+	},
+	"impact": 1,
+	"order": 1,
+	"loading_priority": 1
+}

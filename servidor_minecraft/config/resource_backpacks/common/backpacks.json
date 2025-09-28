@@ -1,0 +1,30 @@
+{
+  "Gold Backpack": {
+    "goldRows": 4,
+    "goldColumns": 11
+  },
+  "Diamond Backpack": {
+    "diamondRows": 6,
+    "diamondColumns": 14
+  },
+  "Leather Backpack": {
+    "leatherRows": 2,
+    "leatherColumns": 9
+  },
+  "General": {
+    "allowBackpacksInsideBackpacks": false,
+    "openFromInventory": true
+  },
+  "Copper Backpack": {
+    "copperColumns": 9,
+    "copperRows": 3
+  },
+  "Iron Backpack": {
+    "ironColumns": 12,
+    "ironRows": 4
+  },
+  "Netherite Backpack": {
+    "netheriteColumns": 16,
+    "netheriteRows": 8
+  }
+}

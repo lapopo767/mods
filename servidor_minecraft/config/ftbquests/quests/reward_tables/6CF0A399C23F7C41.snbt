@@ -1,0 +1,68 @@
+{
+	icon: {
+		components: {
+			"ftbquests:icon": "fzzy_config:textures/gui/sprites/widget/decoration/question.png"
+		}
+		id: "ftbquests:custom_icon"
+	}
+	id: "6CF0A399C23F7C41"
+	loot_size: 1
+	order_index: 1
+	rewards: [
+		{
+			auto: "invisible"
+			command: "/execute as @p at @p run ftbquests change_progress @p complete 69B6821EC6AE1CA8"
+			icon: {
+				components: {
+					"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"italic\":false,\"text\":\"Medal of Valor\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+					"minecraft:lore": ["\"Once bestowed upon the bravest warriors, this medal should have been proof of loyalty. Instead, it became a token of disgrace.\""]
+					"minecraft:rarity": "epic"
+				}
+				id: "relics_rpgs:lesser_use_dex"
+			}
+			id: "1182CA25F0E483BA"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			command: "/execute as @p at @p run ftbquests change_progress @p complete 255D8ABC2A6C5B57"
+			icon: {
+				components: {
+					"minecraft:custom_name": "{\"extra\":[{\"bold\":true,\"color\":\"dark_red\",\"italic\":false,\"text\":\"Ruby Serpent Figurine\",\"type\":\"text\"}],\"text\":\"\",\"type\":\"text\"}"
+					"minecraft:enchantment_glint_override": 1b
+					"minecraft:lore": ["\"A symbol of rank. A sign of trust. A death sentence disguised as a gift.\""]
+					"minecraft:rarity": "epic"
+				}
+				id: "relics_rpgs:jewel_figurine_ruby"
+			}
+			id: "2740BBD106F6FFA8"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "invisible"
+			command: "/execute as @p at @p run ftbquests change_progress @p complete 3BA4C84F0A6BAF62"
+			icon: {
+				id: "jewelry:netherite_tanzanite_necklace"
+			}
+			id: "334D951B1C6774A5"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+		{
+			auto: "invisible"
+			command: "/execute as @p at @p run ftbquests change_progress @p complete 157804E925A14BA7"
+			icon: {
+				id: "elemental_wizards_rpg:elemental_essence"
+			}
+			id: "5C72BDD8E86E11D0"
+			permission_level: 4
+			silent: true
+			type: "command"
+		}
+	]
+	use_title: true
+}

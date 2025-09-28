@@ -1,0 +1,265 @@
+{
+  "replace": true,
+  "values": [
+    {
+      "id": "minecraft:abandoned_mineshaft",
+      "required": false
+    },
+    {
+      "id": "minecraft:simple_dungeon",
+      "required": false
+    },
+    {
+      "id": "minecraft:pillager_outpost",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_beach",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_dark_forest",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_desert",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_jungle",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_badlands",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_mountain",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_plains",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_savanna",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_snowy",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_swamp",
+      "required": false
+    },
+    {
+      "id": "ctov:pillager_outpost_taiga",
+      "required": false
+    },
+    {
+      "id": "dungeons_arise_seven_seas:small_yacht",
+      "required": false
+    },
+    {
+      "id": "enderscape:mirestone_ruins",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illager_fort",
+      "required": false
+    },
+    {
+      "id": "illagerinvasion:illusioner_tower",
+      "required": false
+    },
+    {
+      "id": "hopo:underwater/underwater_city",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/acacia_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/bamboo_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/birch_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/cherry_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/dark_oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/deepslate_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/jungle_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mangrove_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/mud_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/oak_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/spruce_mineshaft",
+      "required": false
+    },
+    {
+      "id": "hopo:mineshaft/stone_mineshaft",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_basalt",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_crimson",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_dark_forest",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_icy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_nether",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_ocean",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_savanna",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_soul",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_stone",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_swamp",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_taiga",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:mineshaft_warped",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_badlands",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_basalt",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_birch",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_crimson",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_desert",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_end",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_giant_tree_taiga",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_icy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_jungle",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_mangrove",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_nether_brick",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_oak",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_ocean",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_savanna",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_soul",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_snowy",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_taiga",
+      "required": false
+    },
+    {
+      "id": "repurposed_structures:outpost_warped",
+      "required": false
+    }
+  ]
+}
